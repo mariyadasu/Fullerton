@@ -1,0 +1,9 @@
+E:\Projects\maya\Fullerton\Fullerton\bin\Fullerton.dll
+E:\Projects\maya\Fullerton\Fullerton\bin\Fullerton.pdb
+E:\Projects\maya\Fullerton\Fullerton\obj\Debug\Fullerton.csprojResolveAssemblyReference.cache
+E:\Projects\maya\Fullerton\Fullerton\obj\Debug\Fullerton.dll
+E:\Projects\maya\Fullerton\Fullerton\obj\Debug\Fullerton.pdb
+E:\Projects\maya\Fullerton\Fullerton\bin\FullertonDAL.dll
+E:\Projects\maya\Fullerton\Fullerton\bin\FullertonDAL.pdb
+E:\Projects\maya\Fullerton\Fullerton\bin\FullertonBO.dll
+E:\Projects\maya\Fullerton\Fullerton\bin\FullertonBO.pdb
