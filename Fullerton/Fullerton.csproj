@@ -798,7 +798,9 @@
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="Scripts\popcalendarrep.js" />
     <Content Include="skins\yellow\style.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DashBoard\Pages\Admin\AdminDashBoard.aspx.cs">

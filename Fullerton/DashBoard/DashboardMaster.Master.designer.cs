@@ -49,6 +49,24 @@ namespace Fullerton.DashBoard {
         protected global::System.Web.UI.WebControls.Panel pnlInstituteCoordinator;
         
         /// <summary>
+        /// pnlTeamCoordinator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlTeamCoordinator;
+        
+        /// <summary>
+        /// pnlTeamMember control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlTeamMember;
+        
+        /// <summary>
         /// ContentPlaceHolder1 control.
         /// </summary>
         /// <remarks>

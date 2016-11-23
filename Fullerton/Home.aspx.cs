@@ -46,7 +46,7 @@ namespace Fullerton
             {
                 DataSet dslogins = objreg.BidLoginTypes();
                 ddlLoginType.DataSource = dslogins.Tables[0];
-                ddlLoginType.DataValueField = "LoginTypeID";
+                ddlLoginType.DataValueField = "RoleId";
                 ddlLoginType.DataTextField = "NAME";
                 ddlLoginType.DataBind();
                 ddlLoginType.Items.Insert(0, new ListItem("Select Login", "0"));

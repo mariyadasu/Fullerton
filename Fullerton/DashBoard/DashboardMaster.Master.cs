@@ -27,6 +27,12 @@ namespace Fullerton.DashBoard
                         case UserBo.RoleName.IC:
                             pnlInstituteCoordinator.Visible = true;
                             break;
+                        case UserBo.RoleName.TC:
+                            pnlTeamCoordinator.Visible = true;
+                            break;
+                        case UserBo.RoleName.TM:
+                            pnlTeamMember.Visible = true;
+                            break;
                     }
                 }
                 //else

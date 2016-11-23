@@ -49,8 +49,6 @@
 <body>
     <!-- container section start -->
     <section id="container" class="">
-
-
         <header class="header dark-bg">
             <div class="toggle-nav">
                 <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
@@ -97,7 +95,7 @@
         <aside>
             <div id="sidebar" class="nav-collapse ">
                 <!-- sidebar menu start-->
-                <asp:Panel ID="pnlAdmin" runat="server"   >
+                <asp:Panel ID="pnlAdmin" runat="server"   Visible="false" >
                     <ul class="sidebar-menu">
                         <li class="active">
                             <a class="" href="AdminDashBoard.aspx">
@@ -165,13 +163,7 @@
                                 <span>Dashboard</span>
                             </a>
                         </li>
-                        <li class="sub-menu">
-                            <a class="" href="#">
-                                <i class="icon_document_alt"></i>
-                                <span>Upload Your Photo</span>
-                            </a>
-
-                        </li>
+                       
                         <li class="sub-menu">
                             <a class="" href="#">
                                 <i class="icon_desktop"></i>
@@ -180,6 +172,86 @@
 
                         </li>
                         
+                         
+                    </ul>
+                    <!-- sidebar menu end-->
+                </asp:Panel>
+                <asp:Panel ID="pnlTeamCoordinator" runat="server" Visible="false">
+                    <ul class="sidebar-menu">
+                        <li class="active">
+                            <a class="" href="#">
+                                <i class="icon_house_alt"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sub-menu">
+                            <a class="" href="#">
+                                <i class="icon_document_alt"></i>
+                                <span>Change Team Coordinator</span>
+                            </a>
+
+                        </li>
+                        <li class="sub-menu">
+                            <a class="" href="#">
+                                <i class="icon_desktop"></i>
+                                <span>Event Calendar </span>
+                            </a>
+
+                        </li>
+                         <li class="sub-menu">
+                            <a class="" href="#">
+                                <i class="icon_desktop"></i>
+                                <span>Upload Concept Note</span>
+                            </a>
+
+                        </li>
+                         <li class="sub-menu">
+                            <a class="" href="#">
+                                <i class="icon_desktop"></i>
+                                <span>Upload Presentation  </span>
+                            </a>
+
+                        </li>
+                         
+                    </ul>
+                    <!-- sidebar menu end-->
+                </asp:Panel>
+                 <asp:Panel ID="pnlTeamMember" runat="server" Visible="false">
+                    <ul class="sidebar-menu">
+                        <li class="active">
+                            <a class="" href="#">
+                                <i class="icon_house_alt"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="sub-menu">
+                            <a class="" href="#">
+                                <i class="icon_document_alt"></i>
+                                <span>Withdraw from Team</span>
+                            </a>
+
+                        </li>
+                        <li class="sub-menu">
+                            <a class="" href="#">
+                                <i class="icon_desktop"></i>
+                                <span>Events</span>
+                            </a>
+
+                        </li>
+                         <li class="sub-menu">
+                            <a class="" href="#">
+                                <i class="icon_desktop"></i>
+                                <span>View Concept Note </span>
+                            </a>
+
+                        </li>
+                         <li class="sub-menu">
+                            <a class="" href="#">
+                                <i class="icon_desktop"></i>
+                                <span>View Presentation  </span>
+                            </a>
+
+                        </li>
                          
                     </ul>
                     <!-- sidebar menu end-->
