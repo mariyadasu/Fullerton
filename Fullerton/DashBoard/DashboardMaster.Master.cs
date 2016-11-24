@@ -18,6 +18,7 @@ namespace Fullerton.DashBoard
                 if (Session["RoleName"] != null)
                 {
                     rolename = Session["RoleName"].ToString();
+                    lblLoginName.Text = Session["Name"].ToString();
                     UserBo.RoleName role = (UserBo.RoleName)Enum.Parse(typeof(UserBo.RoleName), rolename);
                     switch (role)
                     {
@@ -38,6 +39,13 @@ namespace Fullerton.DashBoard
                 //else
                 //    Response.Redirect("~/Home.aspx");
             }
+        }
+
+        protected void lnkbtnlogout_Click(object sender, EventArgs e)
+        {
+            Session.Abandon();
+            Session.Clear();
+            Response.Redirect("~/Home.aspx");
         }
     }
 }

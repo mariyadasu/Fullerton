@@ -38,6 +38,7 @@
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/style-responsive.css")%>" rel="stylesheet" />
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/xcharts.min.css")%>" rel=" stylesheet">
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/jquery-ui-1.10.4.min.css")%>" rel="stylesheet">
+    <link href="<%= Page.ResolveUrl("~/DashBoard/css/CustomStyles.css")%>" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -56,7 +57,7 @@
 
             <!--logo start-->
              
-                <asp:Image ID="imglogo" runat="server" ImageUrl="~/DashBoard/img/fullerton-india-logo.png" width="170" height="50" CssClass="for_default" />
+                <asp:Image ID="imglogo" runat="server" ImageUrl="~/DashBoard/img/fullerton-india-logo.png" width="170" height="50" CssClass="logoStyle" />
             <!--logo end-->
 
 
@@ -68,7 +69,9 @@
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             
-                            <span class="username">Admin</span>
+                            <span class="username">
+                                <asp:Label ID="lblLoginName" runat="server" ></asp:Label>
+                            </span>
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu extended logout">
@@ -78,7 +81,8 @@
                             </li>
 
                             <li>
-                                <a href="login.html"><i class="icon_key_alt"></i>Log Out</a>
+                                <a href="<%= Page.ResolveUrl("~/Home.aspx") %>"><i class="icon_key_alt"></i>Log Out</a>
+                                
                             </li>
 
                         </ul>
@@ -111,7 +115,7 @@
 
                         </li>
                         <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="TeamDetails.aspx">
                                 <i class="icon_desktop"></i>
                                 <span>Team Details</span>
                             </a>
@@ -127,7 +131,7 @@
 
                         </li>
                         <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="InstituteCoordinatorDetails.aspx">
                                 <i class="icon_piechart"></i>
                                 <span>Add/Modify
                                     <br />
@@ -136,7 +140,7 @@
 
                         </li>
                         <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="Events.aspx">
                                 <i class="icon_documents_alt"></i>
                                 <span>Event Caleder</span>
                             </a>
@@ -144,7 +148,7 @@
                         </li>
 
                         <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="UpdateTeam.aspx">
                                 <i class="icon_table"></i>
                                 <span>Modify/Delete
                                     <br />
@@ -165,14 +169,12 @@
                         </li>
                        
                         <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="StudentDetailsIC.aspx">
                                 <i class="icon_desktop"></i>
                                 <span>Student Details</span>
                             </a>
 
                         </li>
-                        
-                         
                     </ul>
                     <!-- sidebar menu end-->
                 </asp:Panel>

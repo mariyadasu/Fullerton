@@ -20,6 +20,8 @@ namespace Fullerton
             {
                 BindLoginTypes();
                 BindInstitute();
+                Session.Abandon();
+                Session.Clear();
             }
         }
         private void BindInstitute()
@@ -97,7 +99,23 @@ namespace Fullerton
             {
                 Session["UserId"] = txtuserid.Text.Trim();
                 Session["RoleName"] = dsLogin.Tables[0].Rows[0]["RoleName"].ToString();
-                Response.Redirect("~/DashBoard/Pages/Admin/AdminDashBoard.aspx");
+                Session["Name"] = dsLogin.Tables[0].Rows[0]["Name"].ToString();
+                UserBo.RoleName role = (UserBo.RoleName)Enum.Parse(typeof(UserBo.RoleName), dsLogin.Tables[0].Rows[0]["RoleName"].ToString());
+                switch (role)
+                {
+                    case UserBo.RoleName.Admin:
+                        Response.Redirect("~/DashBoard/Pages/Admin/AdminDashBoard.aspx");
+                        break;
+                    case UserBo.RoleName.IC:
+                        Response.Redirect("~/DashBoard/Pages/IC/ICDashBoard.aspx");
+                        break;
+                    case UserBo.RoleName.TC:
+                        Response.Redirect("~/DashBoard/Pages/TC/TCDashBoard.aspx");
+                        break;
+                    case UserBo.RoleName.TM:
+                        Response.Redirect("~/DashBoard/Pages/TM/TMDashBoard.aspx");
+                        break;
+                }
             }
             else
             {

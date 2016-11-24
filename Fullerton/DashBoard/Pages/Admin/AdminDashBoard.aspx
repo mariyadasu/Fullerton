@@ -35,14 +35,7 @@
 					</div><!--/.info-box-->			
 				</div><!--/.col-->	
 				
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="info-box dark-bg">
-						<i class="fa fa-thumbs-o-up"></i>
-						<div class="count">362</div>
-						<div class="title">Total Institute Coordinator</div>						
-					</div><!--/.info-box-->			
-				</div><!--/.col-->
-				
+			 
 				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="info-box green-bg">
 						<i class="fa fa-cubes"></i>
