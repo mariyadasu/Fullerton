@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -60,7 +61,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controls\Registration.ascx" />
     <Content Include="css\animations.css" />
+    <Content Include="css\bootstrap.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\isotope.css" />
     <Content Include="css\jquery_popup.css" />
@@ -71,6 +74,7 @@
     <Content Include="css\reset.css" />
     <Content Include="css\responsive.css" />
     <Content Include="css\shortcodes.css" />
+    <Content Include="css\style.css" />
     <Content Include="DashBoard\assets\chart-master\Chart.js" />
     <Content Include="DashBoard\assets\chart-master\Chart.min.js" />
     <Content Include="DashBoard\assets\chart-master\docs\Chart.js" />
@@ -565,7 +569,12 @@
     <Content Include="DashBoard\Pages\IC\ICDashBoard.aspx" />
     <Content Include="DashBoard\Pages\IC\StudentDetailsIC.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
+    <Content Include="FullertonService.asmx" />
     <Content Include="images\1473231473-7827.jpg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\jquery-1.11.1.js" />
+    <Content Include="Scripts\jquery.backstretch.js" />
+    <Content Include="Scripts\scripts.js" />
     <Content Include="style.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Home.aspx" />
@@ -806,11 +815,20 @@
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="Scripts\popcalendarrep.js" />
     <Content Include="skins\yellow\style.css" />
+    <Content Include="TC\StudentRegistration.aspx" />
+    <Content Include="Test.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\Registration.ascx.cs">
+      <DependentUpon>Registration.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Registration.ascx.designer.cs">
+      <DependentUpon>Registration.ascx</DependentUpon>
+    </Compile>
     <Compile Include="DashBoard\Pages\Admin\AdminDashBoard.aspx.cs">
       <DependentUpon>AdminDashBoard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -888,6 +906,10 @@
     <Compile Include="DashBoard\TeamCoordinatorDashBoard.aspx.designer.cs">
       <DependentUpon>TeamCoordinatorDashBoard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FullertonService.asmx.cs">
+      <DependentUpon>FullertonService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -909,6 +931,20 @@
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TC\StudentRegistration.aspx.cs">
+      <DependentUpon>StudentRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TC\StudentRegistration.aspx.designer.cs">
+      <DependentUpon>StudentRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

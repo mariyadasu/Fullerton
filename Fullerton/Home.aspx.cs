@@ -67,7 +67,7 @@ namespace Fullerton
                 UserBo objBo = new UserBo();
                 objBo.UserId = txtSignupUserId.Text.Trim();
                 objBo.Password = txtSignupPwd.Text.Trim();
-                objBo.CnfPassword = txtConfirmPassword.Text.Trim();
+                //objBo.CnfPassword = txtConfirmPassword.Text.Trim();
                 objBo.FirstName = txtfname.Text.Trim();
                 objBo.LastName = txtlname.Text.Trim();
                 objBo.DOB = txtdob.Text.Trim();
