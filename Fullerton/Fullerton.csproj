@@ -447,6 +447,7 @@
     <Content Include="DashBoard\assets\morris.js-0.4.3\spec\vendor\sinon-chai-2.1.2.js" />
     <Content Include="DashBoard\css\bootstrap-theme.css" />
     <Content Include="DashBoard\css\bootstrap.min.css" />
+    <Content Include="DashBoard\css\CustomStyles.css" />
     <Content Include="DashBoard\css\elegant-icons-style.css" />
     <Content Include="DashBoard\css\font-awesome.css" />
     <Content Include="DashBoard\css\font-awesome.min.css" />
@@ -555,7 +556,14 @@
     <Content Include="DashBoard\js\sparkline-chart.js" />
     <Content Include="DashBoard\js\sparklines.js" />
     <Content Include="DashBoard\js\xcharts.min.js" />
+    <Content Include="DashBoard\Pages\Admin\ConceptNoteDetails.aspx" />
+    <Content Include="DashBoard\Pages\Admin\Events.aspx" />
+    <Content Include="DashBoard\Pages\Admin\InstituteCoordinatorDetails.aspx" />
     <Content Include="DashBoard\Pages\Admin\StudentDetails.aspx" />
+    <Content Include="DashBoard\Pages\Admin\TeamDetails.aspx" />
+    <Content Include="DashBoard\Pages\Admin\UpdateTeam.aspx" />
+    <Content Include="DashBoard\Pages\IC\ICDashBoard.aspx" />
+    <Content Include="DashBoard\Pages\IC\StudentDetailsIC.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
     <Content Include="images\1473231473-7827.jpg" />
     <Content Include="style.css" />
@@ -817,12 +825,61 @@
     <Compile Include="DashBoard\DashboardMaster.Master.designer.cs">
       <DependentUpon>DashboardMaster.Master</DependentUpon>
     </Compile>
+    <Compile Include="DashBoard\Pages\Admin\ConceptNoteDetails.aspx.cs">
+      <DependentUpon>ConceptNoteDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\ConceptNoteDetails.aspx.designer.cs">
+      <DependentUpon>ConceptNoteDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\Events.aspx.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\Events.aspx.designer.cs">
+      <DependentUpon>Events.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\InstituteCoordinatorDetails.aspx.cs">
+      <DependentUpon>InstituteCoordinatorDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\InstituteCoordinatorDetails.aspx.designer.cs">
+      <DependentUpon>InstituteCoordinatorDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DashBoard\Pages\Admin\StudentDetails.aspx.cs">
       <DependentUpon>StudentDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DashBoard\Pages\Admin\StudentDetails.aspx.designer.cs">
       <DependentUpon>StudentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\TeamDetails.aspx.cs">
+      <DependentUpon>TeamDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\TeamDetails.aspx.designer.cs">
+      <DependentUpon>TeamDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\UpdateTeam.aspx.cs">
+      <DependentUpon>UpdateTeam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\UpdateTeam.aspx.designer.cs">
+      <DependentUpon>UpdateTeam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\IC\ICDashBoard.aspx.cs">
+      <DependentUpon>ICDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\IC\ICDashBoard.aspx.designer.cs">
+      <DependentUpon>ICDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\IC\StudentDetailsIC.aspx.cs">
+      <DependentUpon>StudentDetailsIC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\IC\StudentDetailsIC.aspx.designer.cs">
+      <DependentUpon>StudentDetailsIC.aspx</DependentUpon>
     </Compile>
     <Compile Include="DashBoard\TeamCoordinatorDashBoard.aspx.cs">
       <DependentUpon>TeamCoordinatorDashBoard.aspx</DependentUpon>
@@ -870,7 +927,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DashBoard\assets\jquery-file-upload\server\php\files\thumbnail\" />
-    <Folder Include="DashBoard\Pages\IC\" />
     <Folder Include="DashBoard\Pages\TC\" />
     <Folder Include="DashBoard\Pages\TM\" />
   </ItemGroup>

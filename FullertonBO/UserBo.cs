@@ -27,6 +27,5 @@ namespace FullertonBO
             Admin = 4
         }
     }
-
-   
+  
 }

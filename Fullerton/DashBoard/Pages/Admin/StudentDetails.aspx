@@ -2,60 +2,7 @@
     MasterPageFile="~/DashBoard/DashboardMaster.Master" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-        .Grid {
-            background-color: #fff;
-            margin: 5px 0 10px 0;
-            border: solid 1px #525252;
-            border-collapse: collapse;
-            font-family: Calibri;
-            color: #474747;
-        }
-
-            .Grid td {
-                padding: 2px;
-                border: solid 1px #c1c1c1;
-            }
-
-            .Grid th {
-                padding: 4px 2px;
-                color: #fff;
-                background: #363670 url(Images/grid-header.png) repeat-x top;
-                border-left: solid 1px #525252;
-                font-size: 0.9em;
-            }
-
-            .Grid .alt {
-                background: #fcfcfc url(Images/grid-alt.png) repeat-x top;
-            }
-
-            .Grid .pgr {
-                background: #363670 url(Images/grid-pgr.png) repeat-x top;
-            }
-
-                .Grid .pgr table {
-                    margin: 3px 0;
-                }
-
-                .Grid .pgr td {
-                    border-width: 0;
-                    padding: 0 6px;
-                    border-left: solid 1px #666;
-                    font-weight: bold;
-                    color: #fff;
-                    line-height: 12px;
-                }
-
-                .Grid .pgr a {
-                    color: Gray;
-                    text-decoration: none;
-                }
-
-                    .Grid .pgr a:hover {
-                        color: #000;
-                        text-decoration: none;
-                    }
-    </style>
+     
 </asp:Content>
 <asp:Content ID="Body" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    <form id="form1" runat="server">
