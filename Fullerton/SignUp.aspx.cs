@@ -15,52 +15,52 @@ namespace Fullerton
         RegisterDAL objreg = new RegisterDAL();
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
-                BindInstitute();
+            //if (!IsPostBack)
+                //BindInstitute();
         }
-        private void BindInstitute()
-        {
-            try
-            {
-                DataSet dsinstitute = objreg.BidInstitute();
-                ddlinstitute.DataSource = dsinstitute.Tables[0];
-                ddlinstitute.DataValueField = "InstituteID";
-                ddlinstitute.DataTextField = "InstituteName";
-                ddlinstitute.DataBind();
-                ddlinstitute.Items.Insert(0, new ListItem("Select", ""));        
+        //private void BindInstitute()
+        //{
+        //    try
+        //    {
+        //        DataSet dsinstitute = objreg.BidInstitute();
+        //        ddlinstitute.DataSource = dsinstitute.Tables[0];
+        //        ddlinstitute.DataValueField = "InstituteID";
+        //        ddlinstitute.DataTextField = "InstituteName";
+        //        ddlinstitute.DataBind();
+        //        ddlinstitute.Items.Insert(0, new ListItem("Select", ""));        
                     
-            }
-            catch (Exception)
-            {
+        //    }
+        //    catch (Exception)
+        //    {
                 
-                throw;
-            }
-        }
+        //        throw;
+        //    }
+        //}
 
-        protected void btnRegister_Click(object sender, EventArgs e)
-        {
-            //try
-            //{
-            //    UserBo objBo = new UserBo();
-            //    objBo.UserId = txtUserID.Text.Trim();
-            //    objBo.Password = txtPassword.Text.Trim();
-            //    objBo.CnfPassword = txtConfirmPassword.Text.Trim();
-            //    objBo.FirstName = txtfname.Text.Trim();
-            //    objBo.LastName = txtlname.Text.Trim();
-            //    objBo.DOB = txtdob.Text.Trim();
-            //    objBo.Institute = ddlinstitute.SelectedValue;
-            //    objBo.EmailId = txtEmailID.Text;
-            //    int Result = objreg.InsertStudentDet(objBo);
-            //    if (Result > 0)
-            //        msgdiv.InnerText = "Registration Successfully Completed";
-            //    else
-            //        Response.Redirect("Registration.aspx?", false);
-            //}
-            //catch (Exception)
-            //{
+        //protected void btnRegister_Click(object sender, EventArgs e)
+        //{
+        //    //try
+        //    //{
+        //    //    UserBo objBo = new UserBo();
+        //    //    objBo.UserId = txtUserID.Text.Trim();
+        //    //    objBo.Password = txtPassword.Text.Trim();
+        //    //    objBo.CnfPassword = txtConfirmPassword.Text.Trim();
+        //    //    objBo.FirstName = txtfname.Text.Trim();
+        //    //    objBo.LastName = txtlname.Text.Trim();
+        //    //    objBo.DOB = txtdob.Text.Trim();
+        //    //    objBo.Institute = ddlinstitute.SelectedValue;
+        //    //    objBo.EmailId = txtEmailID.Text;
+        //    //    int Result = objreg.InsertStudentDet(objBo);
+        //    //    if (Result > 0)
+        //    //        msgdiv.InnerText = "Registration Successfully Completed";
+        //    //    else
+        //    //        Response.Redirect("Registration.aspx?", false);
+        //    //}
+        //    //catch (Exception)
+        //    //{
                 
-            //    throw;
-            //}
-        }
+        //    //    throw;
+        //    //}
+        //}
     }
 }

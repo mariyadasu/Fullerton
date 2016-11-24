@@ -32,25 +32,36 @@ namespace FullertonDAL
             {
                 if (dbcon != null) dbcon.closeDBConnection();
             }
-            
+
         }
-        public int InsertStudentDet(UserBo objbo)
+
+        public List<Team> GetTeamsByInstitute(int instituteId)
         {
             DBConnection dbcon = new DBConnection();
+            List<Team> teams = new List<Team>();
             try
             {
-                string strQuery = "InsertStudentDetails";
+                string strQuery = "Proc_GetTeams";
                 SqlCommand cmd = dbcon.setCommandProperties(strQuery);
-                cmd.Parameters.Add("@UserID", SqlDbType.VarChar).Value = objbo.UserId;
-                cmd.Parameters.Add("@Password", SqlDbType.VarChar).Value = objbo.Password;
-                cmd.Parameters.Add("@ConPassword", SqlDbType.VarChar).Value = objbo.CnfPassword;
-                cmd.Parameters.Add("@FName", SqlDbType.VarChar).Value = objbo.FirstName;
-                cmd.Parameters.Add("@LName", SqlDbType.VarChar).Value = objbo.LastName;
-                cmd.Parameters.Add("@DOB", SqlDbType.DateTime).Value = objbo.DOB;
-                cmd.Parameters.Add("@Institute", SqlDbType.VarChar).Value = objbo.Institute;
-                cmd.Parameters.Add("@EmailID", SqlDbType.VarChar).Value = objbo.EmailId;
-                int Result = cmd.ExecuteNonQuery();
-                return Result;
+                cmd.Parameters.AddWithValue("@InstituteId", instituteId);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                sda.Fill(ds);
+                cmd.Dispose();
+
+                if (ds.Tables[0].Rows.Count < 0)
+                    return teams;
+
+                foreach (DataRow item in ds.Tables[0].Rows)
+                {
+                    Team team = new Team()
+                    {
+                        Id = Convert.ToInt32(item["TeamId"]),
+                        Name = Convert.ToString(item["TeamName"])
+                    };
+
+                    teams.Add(team);
+                }
             }
             catch (Exception ex)
             {
@@ -60,8 +71,49 @@ namespace FullertonDAL
             {
                 if (dbcon != null) dbcon.closeDBConnection();
             }
-             
-             
+            return teams;
+
+        }
+        public int InsertStudentDet(UserBo user)
+        {
+            DBConnection dbcon = new DBConnection();
+            int Result=0;
+            try
+            {
+                string strQuery = "PROC_UserRegistration";
+                SqlCommand cmd = dbcon.setCommandProperties(strQuery);
+                cmd.Parameters.AddWithValue("@USERNAME", user.UserName);
+                cmd.Parameters.AddWithValue("@PASSWORD", user.Password);
+                cmd.Parameters.AddWithValue("@FIRSTNAME", user.FirstName);
+                cmd.Parameters.AddWithValue("@LASTNAME", user.LastName);
+                cmd.Parameters.AddWithValue("@DOB", user.DOB);
+                cmd.Parameters.AddWithValue("@INSTITUTEID", user.InstituteID);
+                cmd.Parameters.AddWithValue("@EMAILID", user.EmailId);
+                cmd.Parameters.AddWithValue("@MOBILE", user.MobileNo);
+                cmd.Parameters.AddWithValue("@COURSEID", user.CourseId);
+                cmd.Parameters.AddWithValue("@COURSETYPE", user.CourserType);
+                cmd.Parameters.AddWithValue("@HOMETOWN", user.Hometown);
+                cmd.Parameters.AddWithValue("@ADDRESS", user.Address);
+                cmd.Parameters.AddWithValue("@SEMISTERID", user.SemisterId);
+                cmd.Parameters.AddWithValue("@ROLLNO", user.RollNo);
+                cmd.Parameters.AddWithValue("@TEAMNAME", user.TeamName);
+                cmd.Parameters.AddWithValue("@TEAMID", user.TeamId);
+                cmd.Parameters.AddWithValue("@RoleId", 1);
+                cmd.Parameters.AddWithValue("@IMAGE", user.Image);
+                cmd.Parameters.AddWithValue("@CourseName", user.OtherCourse);
+
+                Result = cmd.ExecuteNonQuery();
+                return Result;
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                if (dbcon != null) dbcon.closeDBConnection();
+            }
+            return Result;
         }
         public DataSet CheckLogin(UserBo objbo)
         {
@@ -111,7 +163,7 @@ namespace FullertonDAL
             {
                 if (dbcon != null) dbcon.closeDBConnection();
             }
-             
+
         }
         public DataSet BidLoginTypes()
         {
@@ -134,7 +186,7 @@ namespace FullertonDAL
             {
                 if (dbcon != null) dbcon.closeDBConnection();
             }
-            
+
         }
     }
 }

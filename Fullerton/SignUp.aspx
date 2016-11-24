@@ -1,18 +1,18 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="Fullerton.Registration" %>
-
+﻿<%@ Page Language="C#" enableEventValidation="true" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="Fullerton.Registration" %>
+<%@ Register TagPrefix="uc" TagName="Registration" Src="~/Controls/Registration.ascx" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <script src="Scripts/DateFormat.js"></script>
+    <%--<script src="Scripts/DateFormat.js"></script>
     <script src="Scripts/popcalendarrep.js"></script>
     <script src="Scripts/jquery-1.4.1-vsdoc.js"></script>
     <script src="Scripts/jquery-1.4.1.js"></script>
-    <script src="Scripts/jquery-1.4.1.min.js"></script>
+    <script src="Scripts/jquery-1.4.1.min.js"></script>--%>
     <link href="css/LoginStyle.css" rel="stylesheet" />
     <script type="text/javascript">
 
-        function Validateall(btnRegister) {
+<%--        function Validateall(btnRegister) {
             debugger;
             var txtfname = document.getElementById("<%=txtfname.ClientID%>");
             var txtlname = document.getElementById("<%=txtlname.ClientID%>");
@@ -177,8 +177,19 @@
             var Couseli = document.getElementById("<%=Couseli.ClientID%>");
             Couseli.style.display = ddlcourse.value == "Others" ? "block" : "none";
         }
-        
+        --%>
     </script>
+
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="Scripts/scripts.js"></script>
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
 </head>
 <body>
 
@@ -186,8 +197,8 @@
 
         <div class="SignUp">
             <h1>Student SignUp</h1>
-            <form id="Form2" method="post" runat="server">
-                <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+            <form id="Form2" method="post" runat="server" class="registration-form">
+                <%--<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                 <div class="form_sub">
                     <ul>
                         <li>
@@ -323,7 +334,9 @@
                             <p><a href="Home.aspx" style="font-weight: bold">Go To Home</a>.</p>
                         </li>
                     </ul>
-                </div>
+                </div>--%>
+
+                <uc:Registration ID="ucRegistration" runat="server" MinValue="1" MaxValue="10" />
             </form>
         </div>
     </section>
