@@ -74,22 +74,10 @@ namespace Fullerton.Controls
             };
 
             _regDal.InsertStudentDet(user);
-
-<<<<<<< .mine
-
-
-
-
-
-
-=======
-            //Response.Redirect("~/TEST.ASPX");
-
             if (Session["UserId"] != null)
                 Response.Redirect("~/TC/TcDashBoard.aspx");
 
             Response.Redirect("~/signup.aspx");
->>>>>>> .theirs
         }
         
     }
