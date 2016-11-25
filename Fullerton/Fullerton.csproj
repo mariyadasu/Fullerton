@@ -64,6 +64,7 @@
     <Content Include="Controls\Registration.ascx" />
     <Content Include="css\animations.css" />
     <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\isotope.css" />
     <Content Include="css\jquery_popup.css" />

@@ -188,7 +188,7 @@
 
     <link href="css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     
 </head>
 <body>
@@ -336,7 +336,9 @@
                     </ul>
                 </div>--%>
 
+              <div style="margin-left:110px">
                 <uc:Registration ID="ucRegistration" runat="server" MinValue="1" MaxValue="10" />
+                    </div>
             </form>
         </div>
     </section>
