@@ -570,7 +570,6 @@
     <Content Include="DashBoard\Pages\IC\ICDashBoard.aspx" />
     <Content Include="DashBoard\Pages\IC\StudentDetailsIC.aspx" />
     <Content Include="DashBoard\Pages\TC\ManageTc.aspx" />
-    <Content Include="DashBoard\Pages\TC\ManageTcNew.aspx" />
     <Content Include="DashBoard\Pages\TC\StudentRegistration.aspx" />
     <Content Include="DashBoard\Pages\TC\TcDashBoard.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
@@ -910,13 +909,6 @@
     <Compile Include="DashBoard\Pages\TC\ManageTc.aspx.designer.cs">
       <DependentUpon>ManageTc.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DashBoard\Pages\TC\ManageTcNew.aspx.cs">
-      <DependentUpon>ManageTcNew.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TC\ManageTcNew.aspx.designer.cs">
-      <DependentUpon>ManageTcNew.aspx</DependentUpon>
-    </Compile>
     <Compile Include="DashBoard\Pages\TC\StudentRegistration.aspx.cs">
       <DependentUpon>StudentRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -964,13 +956,6 @@
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TC\TCMaster.Master.cs">
-      <DependentUpon>TCMaster.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TC\TCMaster.Master.designer.cs">
-      <DependentUpon>TCMaster.Master</DependentUpon>
-    </Compile>
     <Compile Include="Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -980,7 +965,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TC\TCMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
