@@ -13,6 +13,7 @@ namespace Fullerton.Controls
     public partial class Registration : System.Web.UI.UserControl
     {
         private readonly RegisterDAL _regDal = new RegisterDAL();
+        private readonly TCdal _tcDal = new TCdal();
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -27,7 +28,15 @@ namespace Fullerton.Controls
 
         private void BindInstitutes()
         {
-            var Institutes = _regDal.BidInstitute();
+            var Institutes = _regDal.GetInstitutes();
+
+            if(Session["TeamID"]!=null)
+            {
+                int userId = Convert.ToInt32(Session["UserId"]);
+                UserBo user = _tcDal.GetUserDetailsByUserId(userId);
+                Institutes = Institutes.Where(ins => ins.InstituteId == user.InstituteID).ToList();
+                
+            }
 
             if (Institutes != null)
             {
@@ -58,7 +67,7 @@ namespace Fullerton.Controls
                 Password = txtPassword.Text,
                 RollNo = txtRollNo.Text,
                 SemisterId = Convert.ToInt32(ddlSemisters.SelectedValue),
-                TeamId = Convert.ToInt32(ddlTeamNames.SelectedValue),
+                TeamId = Convert.ToInt32(hdnTeamdID.Value),
                 TeamName = txtTeamName.Text,
                 UserName = txtUserName.Text,
                 OtherCourse = txtCourseOther.Text
@@ -66,6 +75,21 @@ namespace Fullerton.Controls
 
             _regDal.InsertStudentDet(user);
 
+<<<<<<< .mine
+
+
+
+
+
+
+=======
+            //Response.Redirect("~/TEST.ASPX");
+
+            if (Session["UserId"] != null)
+                Response.Redirect("~/TC/TcDashBoard.aspx");
+
+            Response.Redirect("~/signup.aspx");
+>>>>>>> .theirs
         }
         
     }

@@ -148,6 +148,7 @@
         <label for="ddlTeamNames">Team Name <span class="red-text">*</span> :</label>
         <asp:DropDownList class="form-control dropdown-width-18" ID="ddlTeamNames" runat="server" ClientIDMode="Static">
         </asp:DropDownList>
+        <asp:HiddenField ID="hdnTeamdID" runat="server" Value="0" />
         <asp:TextBox runat="server" class="form-control" MaxLength="100" ID="txtTeamName" ClientIDMode="Static"></asp:TextBox>
         <label id="ddlTeamNamesError" class="red-text"></label>
     </div>
@@ -163,19 +164,25 @@
 
 
 <script type="text/javascript">
-
+   
         $(document).ready(function () {
             $("#txtDOB").datepicker();
 
             $("#ddlTeamNames").change(function () {
+
                 var ddlTeamNames = $("#ddlTeamNames").val();
+
+                $("#hdnTeamdID").val(ddlTeamNames);
+
                 $("#txtTeamName").attr("style", "display:none");
                 $("#txtTeamName").val("");
                 if(ddlTeamNames=="1000")
                 {
+                    $("#hdnTeamdID").val("0");
                     $("#txtTeamName").attr("style", "display:block");
                 }
             });
+
 
             $("#ddlCourse").change(function () {
                 var ddlCourse = $("#ddlCourse").val();

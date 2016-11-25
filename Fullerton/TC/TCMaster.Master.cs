@@ -7,12 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace Fullerton.TC
 {
-    public partial class StudentRegistration : System.Web.UI.Page
+    public partial class TCMaster : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Session["UserId"] = "1";
-            Session["TeamID"] = "1";
+            if (!IsPostBack)
+            {
+                
+            }
+                
         }
     }
 }
