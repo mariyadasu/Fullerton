@@ -98,7 +98,6 @@ namespace FullertonDAL
                 cmd.Parameters.AddWithValue("@ROLLNO", user.RollNo);
                 cmd.Parameters.AddWithValue("@TEAMNAME", user.TeamName);
                 cmd.Parameters.AddWithValue("@TEAMID", user.TeamId);
-                cmd.Parameters.AddWithValue("@RoleId", 1);
                 cmd.Parameters.AddWithValue("@IMAGE", user.Image);
                 cmd.Parameters.AddWithValue("@CourseName", user.OtherCourse);
 

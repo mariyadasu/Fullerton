@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -38,7 +39,7 @@ namespace Fullerton.Controls
 
             ddlInstitute.Items.Insert(0, new ListItem("SELECT", "0"));
         }
-
+         
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             var user = new UserBo()
@@ -65,7 +66,7 @@ namespace Fullerton.Controls
 
             _regDal.InsertStudentDet(user);
 
-            Response.Redirect("~/TEST.ASPX");
         }
+        
     }
 }

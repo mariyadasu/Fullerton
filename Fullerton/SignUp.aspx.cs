@@ -15,9 +15,9 @@ namespace Fullerton
         RegisterDAL objreg = new RegisterDAL();
         protected void Page_Load(object sender, EventArgs e)
         {
-            //if (!IsPostBack)
-                //BindInstitute();
+             
         }
+        
         //private void BindInstitute()
         //{
         //    try
@@ -27,12 +27,12 @@ namespace Fullerton
         //        ddlinstitute.DataValueField = "InstituteID";
         //        ddlinstitute.DataTextField = "InstituteName";
         //        ddlinstitute.DataBind();
-        //        ddlinstitute.Items.Insert(0, new ListItem("Select", ""));        
-                    
+        //        ddlinstitute.Items.Insert(0, new ListItem("Select", ""));
+
         //    }
         //    catch (Exception)
         //    {
-                
+
         //        throw;
         //    }
         //}

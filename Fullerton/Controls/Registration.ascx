@@ -1,6 +1,6 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Registration.ascx.cs" Inherits="Fullerton.Controls.Registration" %>
-<div class="container">
-
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="Registration.ascx.cs" Inherits="Fullerton.Controls.Registration"  %>
+<div class="bodycontainer">
+     
 <fieldset>
     <div class="form-group text-aline-left">
         <label for="txtUserName">User Name <span class="red-text">*</span></label>
@@ -45,13 +45,14 @@
 </fieldset>
 
 <fieldset>
-
+   
     <div class="form-group text-aline-left">
         <label for="ddlInstitute">Institute <span class="red-text">*</span></label>
-        <asp:DropDownList class="form-control dropdown-width-18" ID="ddlInstitute" runat="server" ClientIDMode="Static"></asp:DropDownList>
+        <asp:DropDownList class="form-control dropdown-width-18" ID="ddlInstitute" runat="server" ClientIDMode="Static"
+             ></asp:DropDownList>
         <label id="ddlInstituteError" class="red-text"></label>
     </div>
-
+ 
     <div class="form-group text-aline-left">
         <label for="txtEmailId">Email Id <span class="red-text">*</span></label>
         <asp:TextBox class="form-control" MaxLength="50" runat="server" ID="txtEmailId" ClientIDMode="Static"></asp:TextBox>
@@ -146,7 +147,6 @@
     <div class="form-group text-aline-left">
         <label for="ddlTeamNames">Team Name <span class="red-text">*</span> :</label>
         <asp:DropDownList class="form-control dropdown-width-18" ID="ddlTeamNames" runat="server" ClientIDMode="Static">
-            <asp:ListItem Value="0" Text="SELECT"></asp:ListItem>
         </asp:DropDownList>
         <asp:TextBox runat="server" class="form-control" MaxLength="100" ID="txtTeamName" ClientIDMode="Static"></asp:TextBox>
         <label id="ddlTeamNamesError" class="red-text"></label>
@@ -188,6 +188,7 @@
 
             $("#ddlInstitute").change(function () {
                 debugger;
+                
                 var institute = $("#ddlInstitute").val();
 
                 $.ajax({
