@@ -10,6 +10,7 @@
     <script src="Scripts/jquery-1.4.1.js"></script>
     <script src="Scripts/jquery-1.4.1.min.js"></script>--%>
     <link href="css/LoginStyle.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script type="text/javascript">
 
 <%--        function Validateall(btnRegister) {
@@ -188,8 +189,7 @@
 
     <link href="css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
+   
 </head>
 <body>
 
@@ -335,9 +335,10 @@
                         </li>
                     </ul>
                 </div>--%>
-
+                <div style="margin-left:110px">
                 <uc:Registration ID="ucRegistration" runat="server" MinValue="1" MaxValue="10" />
-            </form>
+            </div>
+                    </form>
         </div>
     </section>
 

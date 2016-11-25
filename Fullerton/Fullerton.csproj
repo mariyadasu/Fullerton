@@ -64,6 +64,7 @@
     <Content Include="Controls\Registration.ascx" />
     <Content Include="css\animations.css" />
     <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\isotope.css" />
     <Content Include="css\jquery_popup.css" />
@@ -568,6 +569,10 @@
     <Content Include="DashBoard\Pages\Admin\UpdateTeam.aspx" />
     <Content Include="DashBoard\Pages\IC\ICDashBoard.aspx" />
     <Content Include="DashBoard\Pages\IC\StudentDetailsIC.aspx" />
+    <Content Include="DashBoard\Pages\TC\ManageTc.aspx" />
+    <Content Include="DashBoard\Pages\TC\ManageTcNew.aspx" />
+    <Content Include="DashBoard\Pages\TC\StudentRegistration.aspx" />
+    <Content Include="DashBoard\Pages\TC\TcDashBoard.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
     <Content Include="FullertonService.asmx" />
     <Content Include="images\1473231473-7827.jpg" />
@@ -815,9 +820,6 @@
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="Scripts\popcalendarrep.js" />
     <Content Include="skins\yellow\style.css" />
-    <Content Include="TC\ManageTc.aspx" />
-    <Content Include="TC\StudentRegistration.aspx" />
-    <Content Include="TC\TcDashBoard.aspx" />
     <Content Include="Test.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -901,6 +903,34 @@
     <Compile Include="DashBoard\Pages\IC\StudentDetailsIC.aspx.designer.cs">
       <DependentUpon>StudentDetailsIC.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DashBoard\Pages\TC\ManageTc.aspx.cs">
+      <DependentUpon>ManageTc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\ManageTc.aspx.designer.cs">
+      <DependentUpon>ManageTc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\ManageTcNew.aspx.cs">
+      <DependentUpon>ManageTcNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\ManageTcNew.aspx.designer.cs">
+      <DependentUpon>ManageTcNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\StudentRegistration.aspx.cs">
+      <DependentUpon>StudentRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\StudentRegistration.aspx.designer.cs">
+      <DependentUpon>StudentRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\TcDashBoard.aspx.cs">
+      <DependentUpon>TcDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\TcDashBoard.aspx.designer.cs">
+      <DependentUpon>TcDashBoard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DashBoard\TeamCoordinatorDashBoard.aspx.cs">
       <DependentUpon>TeamCoordinatorDashBoard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -934,27 +964,6 @@
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TC\ManageTc.aspx.cs">
-      <DependentUpon>ManageTc.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TC\ManageTc.aspx.designer.cs">
-      <DependentUpon>ManageTc.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="TC\StudentRegistration.aspx.cs">
-      <DependentUpon>StudentRegistration.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TC\StudentRegistration.aspx.designer.cs">
-      <DependentUpon>StudentRegistration.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="TC\TcDashBoard.aspx.cs">
-      <DependentUpon>TcDashBoard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="TC\TcDashBoard.aspx.designer.cs">
-      <DependentUpon>TcDashBoard.aspx</DependentUpon>
-    </Compile>
     <Compile Include="TC\TCMaster.Master.cs">
       <DependentUpon>TCMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -987,7 +996,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DashBoard\assets\jquery-file-upload\server\php\files\thumbnail\" />
-    <Folder Include="DashBoard\Pages\TC\" />
     <Folder Include="DashBoard\Pages\TM\" />
   </ItemGroup>
   <PropertyGroup>

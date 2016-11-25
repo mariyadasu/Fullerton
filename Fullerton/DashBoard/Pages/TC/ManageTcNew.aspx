@@ -1,8 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Dashboard/Dashboardmaster.Master" AutoEventWireup="true" CodeBehind="ManageTc.aspx.cs" Inherits="Fullerton.TC.MamageTC" %>
-
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/DashBoard/DashboardMaster.Master" AutoEventWireup="true" CodeBehind="ManageTcNew.aspx.cs" Inherits="Fullerton.DashBoard.Pages.TC.ManageTcNew" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script type="text/javascript">
+<script type="text/javascript">
         $(document).ready(function () {
             $("#btnNewTcUpdate").on("click", function () {
                 debugger;
@@ -36,6 +34,7 @@
             });
         });
     </script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     
