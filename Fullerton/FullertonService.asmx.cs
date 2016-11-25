@@ -31,6 +31,7 @@ namespace Fullerton
             var teams = _regDal.GetTeamsByInstitute(id);
 
             return GenerateOpetions(teams);
+            
         }
 
         private string GenerateOpetions(List<Team> teams)
@@ -47,7 +48,7 @@ namespace Fullerton
             });
 
             if (!string.IsNullOrEmpty(result))
-                result = result+ "<option value='1000'>Other</option>";
+                result = result + "<option value='1000'>Other</option>";
 
             return result;
         }

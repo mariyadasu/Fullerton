@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" enableEventValidation="true" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="Fullerton.Registration" %>
+﻿<%@ Page Language="C#" enableEventValidation="false" AutoEventWireup="true" CodeBehind="SignUp.aspx.cs" Inherits="Fullerton.Registration" %>
 <%@ Register TagPrefix="uc" TagName="Registration" Src="~/Controls/Registration.ascx" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">

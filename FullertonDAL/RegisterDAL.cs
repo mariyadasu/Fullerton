@@ -74,6 +74,45 @@ namespace FullertonDAL
             return teams;
 
         }
+
+        public List<Institute> GetInstitutes()
+        {
+            DBConnection dbcon = new DBConnection();
+            List<Institute> institutes = new List<Institute>();
+            try
+            {
+                string strQuery = "BindInstituteNames";
+                SqlCommand cmd = dbcon.setCommandProperties(strQuery);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                sda.Fill(ds);
+                cmd.Dispose();
+
+                if (ds.Tables[0].Rows.Count < 0)
+                    return institutes;
+
+                foreach (DataRow item in ds.Tables[0].Rows)
+                {
+                    Institute ins = new Institute()
+                    {
+                        InstituteId = Convert.ToInt32(item["InstituteId"]),
+                        InstituteName = Convert.ToString(item["InstituteName"])
+                    };
+
+                    institutes.Add(ins);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (dbcon != null) dbcon.closeDBConnection();
+            }
+            return institutes;
+
+        }
         public int InsertStudentDet(UserBo user)
         {
             DBConnection dbcon = new DBConnection();
