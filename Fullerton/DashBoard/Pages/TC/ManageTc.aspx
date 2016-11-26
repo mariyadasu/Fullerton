@@ -1,7 +1,6 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Dashboard/Dashboardmaster.Master" AutoEventWireup="true" CodeBehind="ManageTc.aspx.cs" Inherits="Fullerton.TC.MamageTC" %>
-
-
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/DashBoard/DashboardMaster.Master" AutoEventWireup="true" 
+    CodeBehind="ManageTc.aspx.cs" Inherits="Fullerton.DashBoard.Pages.TC.MamageTC" %>
+<asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
     <script type="text/javascript">
         $(document).ready(function () {
             $("#btnNewTcUpdate").on("click", function () {
@@ -37,12 +36,27 @@
         });
     </script>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <form runat="server">
-    <div class="form-horizontal">
-
-        
-        <div class="panel panel-success">
+<asp:Content ID="Body" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <form id="form1" runat="server">
+        <section id="main-content">
+            <section class="wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3 class="page-header"></h3>
+                        <ol class="breadcrumb">
+                            <li><i class="fa fa-home"></i><a href="AdminDashBoard.aspx">Home</a></li>
+                            <li><i class="fa fa-th-list"></i>Manage TC</li>
+                        </ol>
+                    </div>
+                </div>
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6">
+                        <section class="panel">
+                            <header class="panel-heading">
+                                Add/Modify Event
+                            </header>
+                            <div class="panel-body">
+                                <div class="panel panel-success">
             <div class="panel-heading">Team Coordinator privileges</div>
             <div class="panel-body">
                 <div class="form-group">
@@ -52,7 +66,6 @@
                         </div>
                         <div class="col-md-3">
                             <asp:DropDownList class="form-control" ID="ddlStatus" runat="server" ClientIDMode="Static">
-
                                 <asp:ListItem Value="1" Text="TC"></asp:ListItem>
                                 <asp:ListItem Value="0" Text="Partial TC"></asp:ListItem>
                             </asp:DropDownList>
@@ -66,8 +79,6 @@
 
             </div>
         </div>
-
-
         <div class="panel panel-success">
             <div class="panel-heading">Activate New Team Coordinator</div>
             <div class="panel-body">
@@ -90,8 +101,15 @@
                 </div>
 
             </div>
-        </div>
+        </div>     
+                              
+                            </div>
+                        </section>
 
-    </div>
-        </form>
+                    </div>
+             
+            </section>
+        </section>
+ 
+    </form>
 </asp:Content>

@@ -1,11 +1,3 @@
-E:\Projects\maya\Fullerton\FullertonDAL\bin\Debug\FullertonDAL.dll
-E:\Projects\maya\Fullerton\FullertonDAL\bin\Debug\FullertonDAL.pdb
-E:\Projects\maya\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.dll
-E:\Projects\maya\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.pdb
-E:\Projects\maya\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.csprojResolveAssemblyReference.cache
-E:\Projects\maya\Fullerton\FullertonDAL\bin\Debug\FullertonBO.dll
-E:\Projects\maya\Fullerton\FullertonDAL\bin\Debug\FullertonBO.pdb
-<<<<<<< HEAD
 C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\bin\Debug\FullertonDAL.dll
 C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\bin\Debug\FullertonDAL.pdb
 C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\bin\Debug\FullertonBO.dll
@@ -13,13 +5,3 @@ C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\bin\Debug\FullertonBO.pdb
 C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.csprojResolveAssemblyReference.cache
 C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.dll
 C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.pdb
-=======
->>>>>>> 6ff84aa16e92e2d984efcb3506e7b478fd2218ca
-H:\Ganapathi\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.csprojResolveAssemblyReference.cache
-H:\Ganapathi\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.dll
-H:\Ganapathi\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.pdb
-H:\Ganapathi\Fullerton\FullertonDAL\bin\Debug\FullertonDAL.dll
-H:\Ganapathi\Fullerton\FullertonDAL\bin\Debug\FullertonDAL.pdb
-H:\Ganapathi\Fullerton\FullertonDAL\bin\Debug\FullertonBO.dll
-H:\Ganapathi\Fullerton\FullertonDAL\bin\Debug\FullertonBO.pdb
->>>>>>> c3ef66a28a89934e462e33ced3c495d203c0a8dc

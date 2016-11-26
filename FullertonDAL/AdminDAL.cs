@@ -168,5 +168,71 @@ namespace FullertonDAL
                 throw ex;
             }
         }
+
+        public bool EnableDisableUploads(string EnableTeamids, string DisableTeamIds)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+			   new SqlParameter("@EnableTeamIds", EnableTeamids),
+                new SqlParameter("@DisableTeamIds", DisableTeamIds)
+		     };
+                return SqlDbHelper.ExecuteNonQuery("EnableDisablePresentationUploads", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public DataSet GetMemberDetailsByTeamId(int teamid)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+			   new SqlParameter("@TEAMID", teamid)
+		     };
+                return SqlDbHelper.ExecuteParamerizedSelectCommand("PROC_GET_MEMBERSBYTEAMID", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public bool UpdateMemberDetails(UserBo userbo)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+		     new SqlParameter("@FirstName", userbo.FirstName),
+			new SqlParameter("@LastName", userbo.LastName),
+		    new SqlParameter("@RoleId", userbo.RollNo),
+            new SqlParameter("@UserId", userbo.UserId)
+		     };
+                return SqlDbHelper.ExecuteNonQuery("PROC_UPDATE_MEBERBYADMIN", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public bool DeleteMember(int UserId)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		       {                
+		       new SqlParameter("@UserId", UserId),
+		       };
+                return SqlDbHelper.ExecuteNonQuery("PROC_DELETEMEMBER_BYADMIN", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

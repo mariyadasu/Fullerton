@@ -13,172 +13,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <script type="text/javascript">
 
-<%--        function Validateall(btnRegister) {
-            debugger;
-            var txtfname = document.getElementById("<%=txtfname.ClientID%>");
-            var txtlname = document.getElementById("<%=txtlname.ClientID%>");
-            var txtdob = document.getElementById("<%=txtdob.ClientID%>");
-            var ddlinstitute = document.getElementById("<%=ddlinstitute.ClientID%>");
-            var txtEmailID = document.getElementById("<%=txtEmailID.ClientID%>");
-            var txtpwd = document.getElementById("<%=txtPassword.ClientID%>");
-            var txtcpwd = document.getElementById("<%=txtConfirmPwd.ClientID%>");
-            var txtMobileNo = document.getElementById("<%=txtMobileNo.ClientID%>");
-            var ddlCourse = document.getElementById("<%=ddlCourse.ClientID%>");
-            var ddlCourseType = document.getElementById("<%=ddlCourseType.ClientID%>");
-            var txtHomeTown = document.getElementById("<%=txtHomeTown.ClientID%>");
-            var txtPermanetAddress = document.getElementById("<%=txtPermanetAddress.ClientID%>");
-            var ddlyear = document.getElementById("<%=ddlyear.ClientID%>");
-            var txtRollNo = document.getElementById("<%=txtRollNo.ClientID%>");
-            var txtTeamName = document.getElementById("<%=txtTeamName.ClientID%>");
-            var checkConfirm = document.getElementById("<%=checkConfirm.ClientID%>");
-            if (txtEmailID.value == "") {
-                alert("Please enter email id.");
-                txtEmailID.focus();
-                return false;
-            }
-            else {
-                var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
-                if (!filter.test(txtEmailID.value)) {
-                    alert("Please enter valid Email ID");
-                    txtEmailID.focus();
-                    return false;
-                }
-            }
-            if (txtpwd.value == "") {
-                alert("Please enter password.");
-                txtpwd.focus();
-                return false;
-            }
-            else {
-                var x = txtpwd.value;
-                var filter = /(?!^[0-9]*$)(?!^[a-zA-Z~|!@#$%^&*()+=_-]*$)^([a-zA-Z0-9~!|@#$%^&*()+=_-]{8,})$/
-                if (!filter.test(x)) {
-                    alert("Password should be at least 8 characters long, include at least 1 number and at least 1 alphabet or special character.");
-                    txtpwd.value = '';
-                    txtpwd.focus();
-                    return false;
-                }
-            }
-            if (txtcpwd.value == "") {
-                alert("Please enter confirm password.");
-                txtcpwd.focus();
-                return false;
-            }
-            else {
-                var x = txtcpwd.value;
-                var filter = /(?!^[0-9]*$)(?!^[a-zA-Z~|!@#$%^&*()+=_-]*$)^([a-zA-Z0-9~!|@#$%^&*()+=_-]{8,})$/
-                if (!filter.test(x)) {
-                    alert("Password should be at least 8 characters long, include at least 1 number and at least 1 alphabet or special character.");
-                    txtcpwd.focus();
-                    txtcpwd.value = '';
-                    return false;
-                }
-            }
-            if (txtpwd.value != txtcpwd.value) {
-                alert("Confirm password does not match password.");
-                txtcpwd.value = '';
-                txtcpwd.focus();
-                return false;
-            }
-            if (txtfname.value == "") {
-                alert("Please enter first name.");
-                txtfname.focus();
-                return false;
-            }
-            if (txtlname.value == "") {
-                alert("Please enter last name.");
-                txtlname.focus();
-                return false;
-            }
-            if (txtdob.value == "") {
-                alert("Please enter date of birth.");
-                txtdob.focus();
-                return false;
-            }
-            else {
-                if (!DateFieldsValidation(txtdob, txtdob.value, "Join Date")) {
-                    txtdob.focus();
-                    txtdob.value = '';
-                    return false;
-                }
-            }
-            if (ddlinstitute.value == "0") {
-                alert("Please select institute name.");
-                ddlinstitute.focus();
-                return false;
-            }
-            if (txtMobileNo.value == "") {
-                alert("Please enter Mobile NO.");
-                txtMobileNo.focus();
-                return false;
-            }
-            else {
-                var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
-                if (!txtMobileNo.value.match(phoneno)) {
-                    alert("Not a valid Phone Number");
-                    return false;
-                }
-
-            }
-            if (ddlCourse.value == "0") {
-                alert("Please select Course.");
-                ddlCourse.focus();
-                return false;
-            }
-            if (ddlCourseType.value == "0") {
-                alert("Please select Course type.");
-                ddlCourseType.focus();
-                return false;
-            }
-            if (txtHomeTown.value == "") {
-                alert("Please enter Home town.");
-                txtHomeTown.focus();
-                return false;
-            }
-            if (txtPermanetAddress.value == "") {
-                alert("Please enter text permanet Address.");
-                txtPermanetAddress.focus();
-                return false;
-            }
-            if (ddlyear.value == "-1") {
-                alert("Please select Year/Semester.");
-                ddlyear.focus();
-                return false;
-            }
-            if (txtRollNo.value == "") {
-                alert("Please enter role no.");
-                txtRollNo.focus();
-                return false;
-            }
-            if (txtTeamName.value == "") {
-                alert("Please enter team Name.");
-                txtTeamName.focus();
-                return false;
-            }
-             
-            if (checkConfirm.checked == false) {
-                alert("Please select terms and conditions.");
-                checkConfirm.focus();
-                return false;
-            }
-            return true;
-        }
-        function DateFieldsValidation(obj, objvalue, objName) {
-            if (objvalue != '') {
-                if (!DateFormat(obj, objvalue, event, true, '1')) {
-                    return false;
-                }
-                else
-                    return true;
-            }
-            return true;
-        }
-        function ShowCourseTextBox() {
-            var ddlcourse = document.getElementById("<%=ddlCourse.ClientID%>");
-            var Couseli = document.getElementById("<%=Couseli.ClientID%>");
-            Couseli.style.display = ddlcourse.value == "Others" ? "block" : "none";
-        }
-        --%>
     </script>
 
     
@@ -189,13 +23,10 @@
 
     <link href="css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-<<<<<<< .mine
+ 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     
-=======
-   
-
->>>>>>> .theirs
+ 
 </head>
 <body>
 
@@ -344,13 +175,10 @@
                 <div style="margin-left:110px">
               <div style="margin-left:110px">
                 <uc:Registration ID="ucRegistration" runat="server" MinValue="1" MaxValue="10" />
-<<<<<<< .mine
+ 
                     </div>
             </form>
-=======
-            </div>
-                    </form>
->>>>>>> .theirs
+ 
         </div>
     </section>
 

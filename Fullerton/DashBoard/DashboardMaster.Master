@@ -24,19 +24,19 @@
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/elegant-icons-style.css")%>" rel="stylesheet" />
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/font-awesome.min.css")%>" rel="stylesheet" />
     <!-- full calendar css-->
-    <link href="<%= Page.ResolveUrl("~/DashBoard/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css")%>" rel="stylesheet" />
-    <link href="<%= Page.ResolveUrl("~/DashBoard/assets/fullcalendar/fullcalendar/fullcalendar.css")%>" rel="stylesheet" />
+   <%-- <link href="<%= Page.ResolveUrl("~/DashBoard/assets/fullcalendar/fullcalendar/bootstrap-fullcalendar.css")%>" rel="stylesheet" />
+    <link href="<%= Page.ResolveUrl("~/DashBoard/assets/fullcalendar/fullcalendar/fullcalendar.css")%>" rel="stylesheet" />--%>
     <!-- easy pie chart-->
-    <link href="<%= Page.ResolveUrl("~/DashBoard/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css")%>" rel="stylesheet" type="text/css" media="screen" />
+   <%-- <link href="<%= Page.ResolveUrl("~/DashBoard/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.css")%>" rel="stylesheet" type="text/css" media="screen" />--%>
     <!-- owl carousel -->
     <link rel="stylesheet" href="<%= Page.ResolveUrl("~/DashBoard/css/owl.carousel.css")%>" type="text/css">
-    <link href="<%= Page.ResolveUrl("~/DashBoard/css/jquery-jvectormap-1.2.2.css")%>" rel="stylesheet">
+  <%--  <link href="<%= Page.ResolveUrl("~/DashBoard/css/jquery-jvectormap-1.2.2.css")%>" rel="stylesheet">--%>
     <!-- Custom styles -->
-    <link rel="stylesheet" href="<%= Page.ResolveUrl("~/DashBoard/css/fullcalendar.css")%>">
+    <%--<link rel="stylesheet" href="<%= Page.ResolveUrl("~/DashBoard/css/fullcalendar.css")%>">--%>
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/widgets.css")%>" rel="stylesheet">
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/style.css")%>" rel="stylesheet">
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/style-responsive.css")%>" rel="stylesheet" />
-    <link href="<%= Page.ResolveUrl("~/DashBoard/css/xcharts.min.css")%>" rel=" stylesheet">
+    <%--<link href="<%= Page.ResolveUrl("~/DashBoard/css/xcharts.min.css")%>" rel=" stylesheet">--%>
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/jquery-ui-1.10.4.min.css")%>" rel="stylesheet">
     <link href="<%= Page.ResolveUrl("~/DashBoard/css/CustomStyles.css")%>" rel="stylesheet">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
@@ -82,7 +82,7 @@
                             </li>
 
                             <li>
-                               <%-- <a href="<%= Page.ResolveUrl("~/Home.aspx") %>"><i class="icon_key_alt"></i>Log Out</a>--%>
+                                <a href="<%= Page.ResolveUrl("~/Home.aspx") %>"><i class="icon_key_alt"></i>Log Out</a>
                                 
                             </li>
 
@@ -188,7 +188,7 @@
                             </a>
                         </li>
                         <li class="sub-menu">
-                            <a class="" href="ManageTc.aspx">
+                            <a class="" href="ManageTeamCoordinator.aspx">
                                 <i class="icon_document_alt"></i>
                                 <span>Change Team Coordinator</span>
                             </a>
@@ -275,35 +275,41 @@
     <!-- container section start -->
 
     <!-- javascripts -->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.js")%>"></script>
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery-ui-1.10.4.min.js")%>"></script>
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery-1.8.3.min.js")%>"></script>
-    <script type="text/javascript" src="<%= Page.ResolveUrl("~/DashBoard/js/jquery-ui-1.9.2.custom.min.js")%>"></script>
+
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <%--<script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.js")%>"></script>
+    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery-ui-1.10.4.min.js")%>"></script>--%>
+   <%-- <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery-1.8.3.min.js")%>"></script>--%>
+   <%-- <script type="text/javascript" src="<%= Page.ResolveUrl("~/DashBoard/js/jquery-ui-1.9.2.custom.min.js")%>"></script>--%>
     <!-- bootstrap -->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/bootstrap.min.js")%>"></script>
+    <%--<script src="<%= Page.ResolveUrl("~/DashBoard/js/bootstrap.min.js")%>"></script>--%>
     <!-- nice scroll -->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.scrollTo.min.js")%>"></script>
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.nicescroll.js")%>" type="text/javascript"></script>
+  <%--  <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.scrollTo.min.js")%>"></script>--%>
+    <%--<script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.nicescroll.js")%>" type="text/javascript"></script>--%>
     <!-- charts scripts -->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/assets/jquery-knob/js/jquery.knob.js")%>"></script>
+   <%-- <script src="<%= Page.ResolveUrl("~/DashBoard/assets/jquery-knob/js/jquery.knob.js")%>"></script>
     <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.sparkline.js")%>" type="text/javascript"></script>
     <script src="<%= Page.ResolveUrl("~/DashBoard/assets/jquery-easy-pie-chart/jquery.easy-pie-chart.js")%>"></script>
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/owl.carousel.js")%>"></script>
+    <script src="<%= Page.ResolveUrl("~/DashBoard/js/owl.carousel.js")%>"></script>--%>
     <!-- jQuery full calendar -->
-    <<script src="<%= Page.ResolveUrl("~/DashBoard/js/fullcalendar.min.js")%>"></script>
+    <%--<<script src="<%= Page.ResolveUrl("~/DashBoard/js/fullcalendar.min.js")%>"></script>--%>
     <!-- Full Google Calendar - Calendar -->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/assets/fullcalendar/fullcalendar/fullcalendar.js")%>"></script>
+   <%-- <script src="<%= Page.ResolveUrl("~/DashBoard/assets/fullcalendar/fullcalendar/fullcalendar.js")%>"></script>--%>
     <!--script for this page only-->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/calendar-custom.js")%>"></script>
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.rateit.min.js")%>"></script>
+    <%--<script src="<%= Page.ResolveUrl("~/DashBoard/js/calendar-custom.js")%>"></script>
+    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.rateit.min.js")%>"></script>--%>
     <!-- custom select -->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.customSelect.min.js")%>"></script>
-    <script src="<%= Page.ResolveUrl("~/DashBoard/assets/chart-master/Chart.js")%>"></script>
+    <%--<script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.customSelect.min.js")%>"></script>
+    <script src="<%= Page.ResolveUrl("~/DashBoard/assets/chart-master/Chart.js")%>"></script>--%>
 
     <!--custome script for all page-->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/scripts.js")%>"></script>
+   <%-- <script src="<%= Page.ResolveUrl("~/DashBoard/js/scripts.js")%>"></script>--%>
     <!-- custom script for this page-->
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/sparkline-chart.js")%>"></script>
+   <%-- <script src="<%= Page.ResolveUrl("~/DashBoard/js/sparkline-chart.js")%>"></script>
     <script src="<%= Page.ResolveUrl("~/DashBoard/js/easy-pie-chart.js")%>"></script>
     <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery-jvectormap-1.2.2.min.js")%>"></script>
     <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery-jvectormap-world-mill-en.js")%>"></script>
@@ -314,7 +320,7 @@
     <script src="<%= Page.ResolveUrl("~/DashBoard/js/morris.min.js")%>"></script>
     <script src="<%= Page.ResolveUrl("~/DashBoard/js/sparklines.js")%>"></script>
     <script src="<%= Page.ResolveUrl("~/DashBoard/js/charts.js")%>"></script>
-    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.slimscroll.min.js")%>"></script>
+    <script src="<%= Page.ResolveUrl("~/DashBoard/js/jquery.slimscroll.min.js")%>"></script>--%>
     <script>
 
         //knob
