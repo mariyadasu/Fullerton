@@ -576,6 +576,11 @@
     <Content Include="DashBoard\Pages\IC\ICDashBoard.aspx" />
     <Content Include="DashBoard\Pages\IC\StudentDetailsIC.aspx" />
     <Content Include="DashBoard\Pages\TC\ManageTc.aspx" />
+<<<<<<< HEAD
+    <Content Include="DashBoard\Pages\TC\ManageTcNew.aspx" />
+    <Content Include="DashBoard\Pages\TC\ManageTeamCoordinator.aspx" />
+=======
+>>>>>>> 80810e0a1dd4c3b2eab1a7464950fcdf4dedb3f5
     <Content Include="DashBoard\Pages\TC\StudentRegistration.aspx" />
     <Content Include="DashBoard\Pages\TC\TcDashBoard.aspx" />
     <Content Include="DashBoard\Pages\WebForm1.aspx" />
@@ -928,6 +933,23 @@
     <Compile Include="DashBoard\Pages\TC\ManageTc.aspx.designer.cs">
       <DependentUpon>ManageTc.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="DashBoard\Pages\TC\ManageTcNew.aspx.cs">
+      <DependentUpon>ManageTcNew.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\ManageTcNew.aspx.designer.cs">
+      <DependentUpon>ManageTcNew.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\ManageTeamCoordinator.aspx.cs">
+      <DependentUpon>ManageTeamCoordinator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\ManageTeamCoordinator.aspx.designer.cs">
+      <DependentUpon>ManageTeamCoordinator.aspx</DependentUpon>
+    </Compile>
+=======
+>>>>>>> 80810e0a1dd4c3b2eab1a7464950fcdf4dedb3f5
     <Compile Include="DashBoard\Pages\TC\StudentRegistration.aspx.cs">
       <DependentUpon>StudentRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

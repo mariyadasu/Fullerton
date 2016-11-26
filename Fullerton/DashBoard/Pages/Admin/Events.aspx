@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Events.aspx.cs" Inherits="Fullerton.DashBoard.Pages.Admin.Events" MasterPageFile="~/DashBoard/DashboardMaster.Master" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Events.aspx.cs" Inherits="Fullerton.DashBoard.Pages.Admin.Events"
+     MasterPageFile="~/DashBoard/DashboardMaster.Master" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
    
@@ -6,6 +7,24 @@
         $(function () {
             $("#txtEventDate").datepicker();
         });
+        function Validateall() {
+            var txtEventName = document.getElementById("<%=txtEventName.ClientID%>");
+            var txtEventDate = document.getElementById("<%=txtEventDate.ClientID%>");
+
+             var lblMessage = document.getElementById("<%=lblMessage.ClientID%>");
+             lblMessage.innerText = "";
+             if (txtEventName.value == "") {
+                 lblMessage.innerText = "Please Enter Event Name";
+                 txtEventName.focus();
+                 return false;
+             }
+             if (txtEventDate.value == "") {
+                 lblMessage.innerText = "Please select Event Date.";
+                 txtEventDate.focus();
+                 return false;
+             }
+
+         }
 </script>
     
 </asp:Content>
@@ -50,8 +69,9 @@
 
                                     <asp:TemplateField HeaderText="Action">
                                         <ItemTemplate>
-                                            <asp:Button ID="btnEdit" runat="server" Text="Edit" OnClick="btnEdit_Click" />
-                                            <asp:Button ID="btnDelete" runat="server" Text="Delete" OnClientClick="return confirm('Are you sure? want to delete the Event.');" OnClick="btnDelete_Click" />
+                                            <asp:Button ID="btnEdit" runat="server" Text="Edit" OnClick="btnEdit_Click"  />
+                                            <asp:Button ID="btnDelete" runat="server" Text="Delete" OnClientClick="return confirm('Are you sure? want to delete the Event.');"
+                                                 OnClick="btnDelete_Click" />
                                             <asp:Label ID="lblEventId" runat="server" Text='<%#Eval("EventId") %>' Visible="false"></asp:Label>
 
                                         </ItemTemplate>
@@ -71,7 +91,10 @@
                                 Add/Modify Event
                             </header>
                             <div class="panel-body">
-                                <table align="center" style="position: relative; top: 20px;">
+                                        <div align="center">
+                                            <asp:Label ID="lblMessage" runat="server" EnableViewState="false" ForeColor="Orange" Font-Bold="true"></asp:Label>
+                                        </div>
+                                <table align="center" style="position: relative; top: 10px;">
                                     <tr>
                                         <td>
                                             <table align="center">
@@ -93,8 +116,8 @@
 
                                                 <tr>
                                                     <td colspan="2" align="center">
-                                                        <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" />
-                                                        <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click"
+                                                        <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" OnClientClick="return Validateall();" />
+                                                        <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" OnClientClick="return Validateall();"
                                                             Visible="false" />
                                                         <asp:Button ID="btnClear" runat="server" Text="Clear" OnClick="btnClear_Click" />
                                                     </td>
@@ -102,12 +125,7 @@
                                             </table>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td align="center">
-                                            <br />
-                                            <asp:Label ID="lblMessage" runat="server" EnableViewState="false" ForeColor="Blue"></asp:Label>
-                                        </td>
-                                    </tr>
+                                    
                                 </table>
 
                             </div>

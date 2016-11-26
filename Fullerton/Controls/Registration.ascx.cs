@@ -74,6 +74,10 @@ namespace Fullerton.Controls
             };
 
             _regDal.InsertStudentDet(user);
+<<<<<<< HEAD
+
+=======
+>>>>>>> 80810e0a1dd4c3b2eab1a7464950fcdf4dedb3f5
             if (Session["UserId"] != null)
                 Response.Redirect("~/TC/TcDashBoard.aspx");
 

@@ -14,7 +14,8 @@ namespace Fullerton.DashBoard
         {
             if (!IsPostBack)
             {
-                string rolename=string.Empty;
+                //pnlAdmin.Visible = true;
+                string rolename = string.Empty;
                 if (Session["RoleName"] != null)
                 {
                     rolename = Session["RoleName"].ToString();

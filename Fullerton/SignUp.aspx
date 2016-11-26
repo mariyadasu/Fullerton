@@ -165,13 +165,10 @@
                 <div style="margin-left:110px">
               <div style="margin-left:110px">
                 <uc:Registration ID="ucRegistration" runat="server" MinValue="1" MaxValue="10" />
-<<<<<<< .mine
+ 
                     </div>
             </form>
-=======
-            </div>
-                    </form>
->>>>>>> .theirs
+ 
         </div>
     </section>
 

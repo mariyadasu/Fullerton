@@ -288,3 +288,21 @@ padding: 5px;
 width: 260px;
 outline: none;
 }
+
+
+
+.red-text
+{
+    color:red;
+}
+
+.padding-top-10{
+    padding-top:10px;
+}
+
+.text-aline-right{
+    text-align:right;
+}
+.text-aline-left{
+    text-align:left;
+}

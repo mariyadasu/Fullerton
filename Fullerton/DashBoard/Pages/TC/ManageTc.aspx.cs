@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Fullerton.TC
+namespace Fullerton.DashBoard.Pages.TC
 {
 
     /*
@@ -32,7 +32,7 @@ namespace Fullerton.TC
                 BindTcStatus();
                 BindTeammembers();
             }
-                
+
         }
 
 
@@ -59,6 +59,10 @@ namespace Fullerton.TC
             if (newTc != null)
                 ddlTeamMembers.SelectedValue = Convert.ToString(newTc.NewTcId);
 
+            string AcStatus = ddlStatus.SelectedValue;
+
+            if (AcStatus != "1")
+                ddlTeamMembers.Enabled = btnNewTcUpdate.Enabled = false;
         }
 
         private void BindTcStatus()
@@ -87,7 +91,7 @@ namespace Fullerton.TC
             bool reult = _tcDal.UpdateNewTcByTeamID(userId, teamId);
 
             if (reult)
-                lblNewTcMsg.Text =string.Format("Your request has been sent to {0}. It will be completed after their approval",ddlTeamMembers.SelectedValue);
+                lblNewTcMsg.Text = string.Format("Your request has been sent to {0}. It will be completed after their approval", ddlTeamMembers.SelectedValue);
         }
     }
 }
