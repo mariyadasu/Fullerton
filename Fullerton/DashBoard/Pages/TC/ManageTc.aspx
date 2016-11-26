@@ -2,40 +2,7 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#btnNewTcUpdate").on("click", function () {
-                debugger;
-                var ddlTeamMembers = $("#ddlTeamMembers").val();
-               
-                if(ddlTeamMembers=="0")
-                {
-                    alert("Please Select Team Member");
-                    return false;
-                }
-
-                if(!confirm("Do you want to assign new team coordinator?"))
-                {
-                    return false;
-                }
-                return true;
-            });
-
-            $("#btnUpdateStatus").on("click",function () {
-                
-                debugger;
-                var status = $("#ddlStatus").val();
-
-                var msg = "Do you want to became teem coordinator";
-                if (status=="0")
-                    msg = "Do you want to became partial teem coordinator"
-                if (!confirm(msg)) {
-                    return false;
-                }
-                return true;
-            });
-        });
-    </script>
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
    <form runat="server">
@@ -94,4 +61,40 @@
 
     </div>
         </form>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnNewTcUpdate").on("click", function () {
+                debugger;
+                var ddlTeamMembers = $("#ddlTeamMembers").val();
+               
+                if(ddlTeamMembers=="0")
+                {
+                    alert("Please Select Team Member");
+                    return false;
+                }
+
+                if(!confirm("Do you want to assign new team coordinator?"))
+                {
+                    return false;
+                }
+                return true;
+            });
+
+            $("#btnUpdateStatus").on("click",function () {
+                
+                debugger;
+                var status = $("#ddlStatus").val();
+
+                var msg = "Do you want to became teem coordinator";
+                if (status=="0")
+                    msg = "Do you want to became partial teem coordinator"
+                if (!confirm(msg)) {
+                    return false;
+                }
+                return true;
+            });
+        });
+    </script>
+
 </asp:Content>

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminDAL.cs" />
+    <Compile Include="CommonDAL.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="RegisterDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

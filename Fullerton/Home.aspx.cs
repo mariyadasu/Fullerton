@@ -100,6 +100,7 @@ namespace Fullerton
                 Session["UserId"] = txtuserid.Text.Trim();
                 Session["RoleName"] = dsLogin.Tables[0].Rows[0]["RoleName"].ToString();
                 Session["Name"] = dsLogin.Tables[0].Rows[0]["Name"].ToString();
+                Session["TeamID"] = dsLogin.Tables[0].Rows[0]["teamId"].ToString();
                 UserBo.RoleName role = (UserBo.RoleName)Enum.Parse(typeof(UserBo.RoleName), dsLogin.Tables[0].Rows[0]["RoleName"].ToString());
                 switch (role)
                 {

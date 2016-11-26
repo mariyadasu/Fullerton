@@ -28,9 +28,7 @@ namespace Fullerton.TC
         {
             if (!IsPostBack)
             {
-                Session["UserId"] = "1";
-                Session["TeamID"] = "1";
-
+               
                 BindTcStatus();
                 BindTeammembers();
             }
@@ -78,7 +76,7 @@ namespace Fullerton.TC
 
             int reult = _tcDal.UpdateTCActivation(userId, status);
 
-            Response.Redirect("~/TC/ManageTc.aspx");
+            Response.Redirect("~/DashBoard/Pages/TC/ManageTc.aspx");
         }
 
         protected void btnNewTcUpdate_Click(object sender, EventArgs e)
