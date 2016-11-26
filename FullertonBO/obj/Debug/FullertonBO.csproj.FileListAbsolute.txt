@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-C:\Users\ganapathi\Desktop\Fullerton\FullertonBO\bin\Debug\FullertonBO.dll
-C:\Users\ganapathi\Desktop\Fullerton\FullertonBO\bin\Debug\FullertonBO.pdb
-C:\Users\ganapathi\Desktop\Fullerton\FullertonBO\obj\Debug\FullertonBO.dll
-C:\Users\ganapathi\Desktop\Fullerton\FullertonBO\obj\Debug\FullertonBO.pdb
-=======
 H:\Ganapathi\Fullerton\FullertonBO\bin\Debug\FullertonBO.dll
 H:\Ganapathi\Fullerton\FullertonBO\bin\Debug\FullertonBO.pdb
 H:\Ganapathi\Fullerton\FullertonBO\obj\Debug\FullertonBO.dll
 H:\Ganapathi\Fullerton\FullertonBO\obj\Debug\FullertonBO.pdb
->>>>>>> 80810e0a1dd4c3b2eab1a7464950fcdf4dedb3f5
