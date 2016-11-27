@@ -5,3 +5,10 @@ H:\Ganapathi\Fullerton\FullertonDAL\bin\Debug\FullertonBO.pdb
 H:\Ganapathi\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.csprojResolveAssemblyReference.cache
 H:\Ganapathi\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.dll
 H:\Ganapathi\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.pdb
+C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\bin\Debug\FullertonDAL.dll
+C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\bin\Debug\FullertonDAL.pdb
+C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\bin\Debug\FullertonBO.dll
+C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\bin\Debug\FullertonBO.pdb
+C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.csprojResolveAssemblyReference.cache
+C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.dll
+C:\Users\ganapathi\Desktop\Fullerton\FullertonDAL\obj\Debug\FullertonDAL.pdb

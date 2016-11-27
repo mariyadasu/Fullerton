@@ -97,7 +97,7 @@ namespace Fullerton
             DataSet dsLogin = objreg.CheckLogin(objbo);
             if (dsLogin.Tables[0].Rows.Count > 0)
             {
-                Session["UserId"] = txtuserid.Text.Trim();
+                Session["UserId"] = dsLogin.Tables[0].Rows[0]["UserId"].ToString();
                 Session["RoleName"] = dsLogin.Tables[0].Rows[0]["RoleName"].ToString();
                 Session["Name"] = dsLogin.Tables[0].Rows[0]["Name"].ToString();
                 Session["TeamID"] = dsLogin.Tables[0].Rows[0]["teamId"].ToString();

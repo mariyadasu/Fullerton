@@ -67,7 +67,7 @@
                                             <asp:Label ID="lblRollNo" runat="server" Text='<%#Eval("RollNo") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                      <asp:TemplateField HeaderText="StatusName">
+                                      <asp:TemplateField HeaderText="Status">
                                         <ItemTemplate>
                                             <asp:Label ID="lblStatusName" runat="server" Text='<%#Eval("Status") %>'></asp:Label>
                                         </ItemTemplate>

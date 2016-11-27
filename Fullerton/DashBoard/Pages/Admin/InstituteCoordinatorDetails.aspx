@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InstituteCoordinatorDetails.aspx.cs" Inherits="Fullerton.DashBoard.Pages.Admin.InstituteCoordinatorDetails"
-    MasterPageFile="~/DashBoard/DashboardMaster.Master" %>
+    MasterPageFile="~/DashBoard/DashboardMaster.Master" EnableEventValidation = "false" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
 
@@ -85,7 +85,8 @@
                     <div class="col-sm-12">
                         <section class="panel">
                             <header class="panel-heading">
-                                <a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>
+                                <%--<a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>--%>
+                                <asp:Button ID="btnExport" runat="server" CssClass="btn btn-success" Text="Export To Excel" OnClick="btnExport_Click" />
                             </header>
 
                             <asp:GridView ID="gvICDetails" runat="server" AutoGenerateColumns="false" Width="100%"
@@ -171,7 +172,8 @@
                                                     <td>Password :
                                                     </td>
                                                     <td>
-                                                        <asp:TextBox ID="txtIPwd" runat="server" TextMode="Password" MaxLength="100" Width="250px"></asp:TextBox>
+                                                       
+                                                        <asp:TextBox ID="txtIPwd" runat="server" TextMode="Password" MaxLength="100" Width="250px" EnableViewState="true"></asp:TextBox>
                                                     </td>
                                                 </tr>
                                                 <tr>

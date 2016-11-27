@@ -9,6 +9,7 @@ using System.Data.SqlClient;
 using FullertonDAL;
 using FullertonBO;
 using System.Text;
+using System.IO;
 namespace Fullerton.DashBoard.Pages.Admin
 {
     public partial class TeamDetails : System.Web.UI.Page
@@ -89,6 +90,42 @@ namespace Fullerton.DashBoard.Pages.Admin
             {
                 lblMessage.Text = "Error occured in backend.";
             }
+        }
+        private void ExportGridToExcel()
+        {
+            Response.Clear();
+            Response.Buffer = true;
+            Response.ClearContent();
+            Response.ClearHeaders();
+            Response.Charset = "";
+            string FileName = "TeamDetails" + DateTime.Now + ".xls";
+            StringWriter strwritter = new StringWriter();
+            HtmlTextWriter htmltextwrtter = new HtmlTextWriter(strwritter);
+            Response.Cache.SetCacheability(HttpCacheability.NoCache);
+            Response.ContentType = "application/vnd.ms-excel";
+            Response.AddHeader("Content-Disposition", "attachment;filename=" + FileName);
+            gvTeam.AllowPaging = false;
+            gvTeam.AllowSorting = false;
+            //Hide column
+            gvTeam.Columns[4].Visible = false;
+            //styles
+            gvTeam.GridLines = GridLines.Both;
+            gvTeam.HeaderStyle.Font.Bold = true;
+            //render
+            gvTeam.RenderControl(htmltextwrtter);
+            Response.Write(strwritter.ToString());
+            Response.End();
+            gvTeam.Dispose();
+        }
+
+        public override void VerifyRenderingInServerForm(Control control)
+        {
+
+        }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            ExportGridToExcel();
         }
     }
 }

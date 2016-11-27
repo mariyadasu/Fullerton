@@ -8,6 +8,7 @@ using System.Data;
 using System.Data.SqlClient;
 using FullertonDAL;
 using FullertonBO;
+using System.IO;
 
 namespace Fullerton.DashBoard.Pages.Admin
 {
@@ -137,6 +138,42 @@ namespace Fullerton.DashBoard.Pages.Admin
             {
                 throw;
             }
+        }
+        private void ExportGridToExcel()
+        {
+            Response.Clear();
+            Response.Buffer = true;
+            Response.ClearContent();
+            Response.ClearHeaders();
+            Response.Charset = "";
+            string FileName = "EventDetails" + DateTime.Now + ".xls";
+            StringWriter strwritter = new StringWriter();
+            HtmlTextWriter htmltextwrtter = new HtmlTextWriter(strwritter);
+            Response.Cache.SetCacheability(HttpCacheability.NoCache);
+            Response.ContentType = "application/vnd.ms-excel";
+            Response.AddHeader("Content-Disposition", "attachment;filename=" + FileName);
+            gvEvents.AllowPaging = false;
+            gvEvents.AllowSorting = false;
+            //Hide column
+            gvEvents.Columns[2].Visible = false;
+            //styles
+            gvEvents.GridLines = GridLines.Both;
+            gvEvents.HeaderStyle.Font.Bold = true;
+            //render
+            gvEvents.RenderControl(htmltextwrtter);
+            Response.Write(strwritter.ToString());
+            Response.End();
+            gvEvents.Dispose();
+        }
+
+        public override void VerifyRenderingInServerForm(Control control)
+        {
+
+        }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            ExportGridToExcel();
         }
     }
 }

@@ -8,3 +8,12 @@ H:\Ganapathi\Fullerton\Fullerton\bin\FullertonDAL.pdb
 H:\Ganapathi\Fullerton\Fullerton\bin\FullertonBO.pdb
 H:\Ganapathi\Fullerton\Fullerton\obj\Debug\Fullerton.dll
 H:\Ganapathi\Fullerton\Fullerton\obj\Debug\Fullerton.pdb
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\bin\Fullerton.dll
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\bin\Fullerton.pdb
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\bin\FullertonBO.dll
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\bin\FullertonDAL.dll
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\bin\FullertonDAL.pdb
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\bin\FullertonBO.pdb
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\obj\Debug\Fullerton.csprojResolveAssemblyReference.cache
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\obj\Debug\Fullerton.dll
+C:\Users\ganapathi\Desktop\Fullerton\Fullerton\obj\Debug\Fullerton.pdb

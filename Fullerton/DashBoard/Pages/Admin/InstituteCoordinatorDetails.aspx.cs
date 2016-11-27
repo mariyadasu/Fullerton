@@ -8,6 +8,8 @@ using System.Data;
 using System.Data.SqlClient;
 using FullertonDAL;
 using FullertonBO;
+using System.IO;
+using System.Drawing;
 
 namespace Fullerton.DashBoard.Pages.Admin
 {
@@ -52,7 +54,7 @@ namespace Fullerton.DashBoard.Pages.Admin
             hidInstituteId.Value = "";
             btnSave.Visible = true;
             btnUpdate.Visible = false;
-
+            txtIPwd.Enabled = true;
         }
         protected void btnSave_Click(object sender, EventArgs e)
         {
@@ -90,6 +92,7 @@ namespace Fullerton.DashBoard.Pages.Admin
                 txtIMobileNo.Text = (grow.FindControl("lblContactNo") as Label).Text;
                 btnSave.Visible = false;
                 btnUpdate.Visible = true;
+                txtIPwd.Enabled = false;
             }
             catch
             {
@@ -148,6 +151,40 @@ namespace Fullerton.DashBoard.Pages.Admin
             {
                 throw;
             }
+        }
+
+        private void ExportGridToExcel()
+        {
+            Response.Clear();
+            Response.Buffer = true;
+            Response.ClearContent();
+            Response.ClearHeaders();
+            Response.Charset = "";
+            string FileName = "ICDetails_" + DateTime.Now + ".xls";
+            StringWriter strwritter = new StringWriter();
+            HtmlTextWriter htmltextwrtter = new HtmlTextWriter(strwritter);
+            Response.Cache.SetCacheability(HttpCacheability.NoCache);
+            Response.ContentType = "application/vnd.ms-excel";
+            Response.AddHeader("Content-Disposition", "attachment;filename=" + FileName);
+            gvICDetails.AllowPaging = false;
+            gvICDetails.AllowSorting = false;
+            gvICDetails.Columns[4].Visible = false;
+            gvICDetails.GridLines = GridLines.Both;
+            gvICDetails.HeaderStyle.Font.Bold = true;  
+            gvICDetails.RenderControl(htmltextwrtter);
+            Response.Write(strwritter.ToString());
+            Response.End();
+            gvICDetails.Dispose();
+        }
+
+        public override void VerifyRenderingInServerForm(Control control)
+        {
+ 
+        }  
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            ExportGridToExcel();
         }
     }
 }
