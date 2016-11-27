@@ -185,7 +185,7 @@
                             </a>
                         </li>
                         <li class="sub-menu">
-                            <a class="" href="ManageTeamCoordinator.aspx">
+                            <a class="" href="ManageTc.aspx">
                                 <i class="icon_document_alt"></i>
                                 <span>Change Team Coordinator</span>
                             </a>
@@ -199,14 +199,14 @@
 
                         </li>
                          <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="UploadConceptNotes.aspx">
                                 <i class="icon_desktop"></i>
                                 <span>Upload Concept Note</span>
                             </a>
 
                         </li>
                          <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="UploadPresentation.aspx">
                                 <i class="icon_desktop"></i>
                                 <span>Upload Presentation  </span>
                             </a>
@@ -239,14 +239,14 @@
 
                         </li>
                          <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="ViewConceptNotes.aspx">
                                 <i class="icon_desktop"></i>
                                 <span>View Concept Note </span>
                             </a>
 
                         </li>
                          <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="ViewPresentation.aspx">
                                 <i class="icon_desktop"></i>
                                 <span>View Presentation  </span>
                             </a>

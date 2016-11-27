@@ -1,31 +1,9 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Events.aspx.cs" Inherits="Fullerton.DashBoard.Pages.Admin.Events"
-     MasterPageFile="~/DashBoard/DashboardMaster.Master" %>
+     MasterPageFile="~/DashBoard/DashboardMaster.Master" EnableEventValidation="false" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
    
-    <script type="text/javascript">
-        $(function () {
-            $("#txtEventDate").datepicker();
-        });
-        function Validateall() {
-            var txtEventName = document.getElementById("<%=txtEventName.ClientID%>");
-            var txtEventDate = document.getElementById("<%=txtEventDate.ClientID%>");
-
-             var lblMessage = document.getElementById("<%=lblMessage.ClientID%>");
-             lblMessage.innerText = "";
-             if (txtEventName.value == "") {
-                 lblMessage.innerText = "Please Enter Event Name";
-                 txtEventName.focus();
-                 return false;
-             }
-             if (txtEventDate.value == "") {
-                 lblMessage.innerText = "Please select Event Date.";
-                 txtEventDate.focus();
-                 return false;
-             }
-
-         }
-</script>
+   
     
 </asp:Content>
 <asp:Content ID="Body" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -47,7 +25,7 @@
                     <div class="col-sm-12">
                         <section class="panel">
                             <header class="panel-heading">
-                                <a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>
+                                <asp:Button ID="btnExport" runat="server" CssClass="btn btn-success" Text="Export To Excel" OnClick="btnExport_Click" />
                             </header>
 
                             <asp:GridView ID="gvEvents" runat="server" AutoGenerateColumns="false" Width="100%"
@@ -110,7 +88,7 @@
                                                     <td>Event Date:
                                                     </td>
                                                     <td>
-                                                        <asp:TextBox ID="txtEventDate" runat="server" MaxLength="10" Width="250px"></asp:TextBox>
+                                                        <asp:TextBox ID="txtEventDate" runat="server" MaxLength="10" Width="250px" ClientIDMode="Static"></asp:TextBox>
                                                     </td>
                                                 </tr>
 
@@ -138,5 +116,30 @@
         </section>
         <input type="hidden" runat="server" id="hidEventId" />
     </form>
+
+     <script type="text/javascript">
+
+         $(document).ready(function () {
+             $("#txtEventDate").datepicker();
+         });
+         function Validateall() {
+             var txtEventName = document.getElementById("<%=txtEventName.ClientID%>");
+            var txtEventDate = document.getElementById("<%=txtEventDate.ClientID%>");
+
+            var lblMessage = document.getElementById("<%=lblMessage.ClientID%>");
+            lblMessage.innerText = "";
+            if (txtEventName.value == "") {
+                lblMessage.innerText = "Please Enter Event Name";
+                txtEventName.focus();
+                return false;
+            }
+            if (txtEventDate.value == "") {
+                lblMessage.innerText = "Please select Event Date.";
+                txtEventDate.focus();
+                return false;
+            }
+
+        }
+</script>
 </asp:Content>
 

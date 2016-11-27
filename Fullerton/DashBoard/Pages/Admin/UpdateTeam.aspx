@@ -45,7 +45,7 @@
                     <div class="col-sm-12">
                         <section class="panel">
                             <header class="panel-heading">
-                                <a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>
+                               <%-- <a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>--%>
                             </header>
 
                             <asp:GridView ID="gvTeamDetails" runat="server" AutoGenerateColumns="false" Width="100%"

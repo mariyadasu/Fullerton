@@ -52,6 +52,142 @@ namespace FullertonDAL
             return Events;
 
         }
+        public bool InsertConceptNote(EventsBo objbo)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+			new SqlParameter("@Name", objbo.ConceptIdea),
+			new SqlParameter("@FileType", objbo.FileType),
+            new SqlParameter("@Data", objbo.FileBytes),
+			new SqlParameter("@Extension", objbo.FileExtenstion),
+            new SqlParameter("@UserId", objbo.TCUserid),
+            new SqlParameter("@ID", objbo.ConceptId)
+		     };
+            return SqlDbHelper.ExecuteNonQuery("UploadConceptNote", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
+        }
+        public bool InsertPresentations(EventsBo objbo)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+			new SqlParameter("@Name", objbo.ConceptIdea),
+			new SqlParameter("@FileType", objbo.FileType),
+            new SqlParameter("@Data", objbo.FileBytes),
+			new SqlParameter("@Extension", objbo.FileExtenstion),
+            new SqlParameter("@UserId", objbo.TCUserid),
+            new SqlParameter("@ID", objbo.ConceptId)
+		     };
+                return SqlDbHelper.ExecuteNonQuery("SaveUpdatePresentations", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+        public DataSet GetConceptNotesbyUserid(int UserId)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+			   new SqlParameter("@UserId", UserId)
+		     };
+                return SqlDbHelper.ExecuteParamerizedSelectCommand("PROC_GET_CONCEPTNOTES", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            
+        }
+        public DataSet GetPresentationbyUserid(int UserId)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+			   new SqlParameter("@UserId", UserId)
+		     };
+                return SqlDbHelper.ExecuteParamerizedSelectCommand("PROC_GET_PresentationUpload", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+        public DataSet GetConceptNotesbyConceptId(int ConceptId)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+			   new SqlParameter("@ConceptId", ConceptId)
+		     };
+                return SqlDbHelper.ExecuteParamerizedSelectCommand("PROC_GET_CONCEPTNOTESBYID", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+        public DataSet GetPresentionbyConceptId(int ConceptId)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		     {                
+			   new SqlParameter("@ConceptId", ConceptId)
+		     };
+                return SqlDbHelper.ExecuteParamerizedSelectCommand("PROC_GET_PRESENTATIONSBYID", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
+        public bool DeleteConceptNote(int ConceptId)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		       {                
+		       new SqlParameter("@ConceptId", ConceptId),
+		       };
+                return SqlDbHelper.ExecuteNonQuery("PROC_DELETE_CONCEPT_NOTE", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public bool DeletePresentation(int ConceptId)
+        {
+            try
+            {
+                SqlParameter[] parameters = new SqlParameter[]
+		       {                
+		       new SqlParameter("@ConceptId", ConceptId),
+		       };
+                return SqlDbHelper.ExecuteNonQuery("PROC_DELETE_PRESENTATION", CommandType.StoredProcedure, parameters);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
 
         public Institute GetInstituteDetails(int id)
         {

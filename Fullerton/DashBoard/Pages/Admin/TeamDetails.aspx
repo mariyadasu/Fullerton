@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TeamDetails.aspx.cs" Inherits="Fullerton.DashBoard.Pages.Admin.TeamDetails"
-    MasterPageFile="~/DashBoard/DashboardMaster.Master" %>
+    MasterPageFile="~/DashBoard/DashboardMaster.Master" EnableEventValidation="false" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
  
@@ -57,7 +57,7 @@
                     <div class="col-sm-12">
                         <section class="panel">
                             <header class="panel-heading">
-                                <a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>
+                                <asp:Button ID="btnExport" runat="server" CssClass="btn btn-success" Text="Export To Excel" OnClick="btnExport_Click" />
                             </header>
                             <asp:GridView ID="gvTeam" runat="server" AutoGenerateColumns="false" Width="100%"
                                 AllowPaging="true" PageSize="8" OnPageIndexChanging="gvTeam_PageIndexChanging"
@@ -68,14 +68,14 @@
                                     <asp:BoundField DataField="TeamName" HeaderText="Team Name" />
                                     <asp:BoundField DataField="InstituteName" HeaderText="Institute Name" />
                                     <asp:BoundField DataField="NAME" HeaderText="Institue Coordinator" />
-                                     
+                                     <asp:BoundField DataField="UploadStatus" HeaderText="Upload Status" />
                                     <asp:TemplateField HeaderText="Presentation Upload">
                                         <ItemTemplate>
                                             <asp:Label ID="lblTeamId" runat="server" Text='<%#Eval("TeamId") %>' Visible="false"></asp:Label>
-                                            <asp:CheckBox ID="chkenable" runat="server"   Text="Disable"
+                                            <asp:CheckBox ID="chkenable" runat="server"   Text=""
                                                  Visible='<%# Eval("PresentationUpload").ToString() == "False" ? true : false %>' 
                                                 onclick="javascript:SelectEnableCheckboxes(this)" />
-                                            <asp:CheckBox ID="chkDisable" runat="server"   Text="Enable" Checked="true"
+                                            <asp:CheckBox ID="chkDisable" runat="server"   Text="" Checked="true"
                                                  Visible='<%# Eval("PresentationUpload").ToString() == "False" ? false : true %>'
                                                  onclick="javascript:SelectDisableCheckboxes(this)" />
                                         </ItemTemplate>
