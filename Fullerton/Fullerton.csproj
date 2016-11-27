@@ -152,12 +152,7 @@
     <Content Include="DashBoard\Pages\TC\ManageTeamCoordinator.aspx" />
     <Content Include="DashBoard\Pages\TC\StudentRegistration.aspx" />
     <Content Include="DashBoard\Pages\TC\TcDashBoard.aspx" />
-    <Content Include="DashBoard\Pages\TC\UploadConceptNotes.aspx" />
-    <Content Include="DashBoard\Pages\TC\UploadPresentation.aspx" />
-    <Content Include="DashBoard\Pages\TM\ViewConceptNotes.aspx" />
-    <Content Include="DashBoard\Pages\TM\ViewPresentation.aspx" />
     <Content Include="DashBoard\Pages\TM\EnentsCallender.aspx" />
-    <Content Include="DashBoard\Pages\WebForm1.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
     <Content Include="FullCallender\fullcalendar.css" />
     <Content Include="FullCallender\fullcalendar.min.js" />
@@ -447,42 +442,12 @@
     <Compile Include="DashBoard\Pages\TC\TcDashBoard.aspx.designer.cs">
       <DependentUpon>TcDashBoard.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DashBoard\Pages\TC\UploadConceptNotes.aspx.cs">
-      <DependentUpon>UploadConceptNotes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TC\UploadConceptNotes.aspx.designer.cs">
-      <DependentUpon>UploadConceptNotes.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TC\UploadPresentation.aspx.cs">
-      <DependentUpon>UploadPresentation.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TC\UploadPresentation.aspx.designer.cs">
-      <DependentUpon>UploadPresentation.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TM\ViewConceptNotes.aspx.cs">
-      <DependentUpon>ViewConceptNotes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TM\ViewConceptNotes.aspx.designer.cs">
-      <DependentUpon>ViewConceptNotes.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TM\ViewPresentation.aspx.cs">
-      <DependentUpon>ViewPresentation.aspx</DependentUpon>
     <Compile Include="DashBoard\Pages\TM\EnentsCallender.aspx.cs">
       <DependentUpon>EnentsCallender.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DashBoard\Pages\TM\EnentsCallender.aspx.designer.cs">
       <DependentUpon>EnentsCallender.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DashBoard\Pages\WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TM\ViewPresentation.aspx.designer.cs">
-      <DependentUpon>ViewPresentation.aspx</DependentUpon>
     </Compile>
     <Compile Include="DashBoard\TeamCoordinatorDashBoard.aspx.cs">
       <DependentUpon>TeamCoordinatorDashBoard.aspx</DependentUpon>
