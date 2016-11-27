@@ -52,5 +52,59 @@ namespace FullertonDAL
             return Events;
 
         }
+
+        public Institute GetInstituteDetails(int id)
+        {
+            DBConnection dbcon = new DBConnection();
+            Institute ins = new Institute();
+
+            try
+            {
+                string strQuery = "PROC_GETINSTITUTEDETAILS";
+                SqlCommand cmd = dbcon.setCommandProperties(strQuery);
+                cmd.Parameters.AddWithValue("@INSTITUTEID", id);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                sda.Fill(ds);
+                cmd.Dispose();
+
+                if (ds.Tables[0].Rows.Count < 0)
+                    return ins;
+
+                ins.ICName = Convert.ToString(ds.Tables[0].Rows[0]["InstituteCoordinator"]);
+                ins.Email= Convert.ToString(ds.Tables[0].Rows[0]["Email"]);
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                if (dbcon != null) dbcon.closeDBConnection();
+            }
+            return ins;
+
+        }
+
+        public void SaveEmail(string quary)
+        {
+            DBConnection dbcon = new DBConnection();
+            
+            try
+            {
+                SqlCommand cmd = dbcon.setCommandProperties(quary,CommandType.Text);
+                cmd.ExecuteNonQuery();
+                
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                if (dbcon != null) dbcon.closeDBConnection();
+            }
+
+        }
     }
 }

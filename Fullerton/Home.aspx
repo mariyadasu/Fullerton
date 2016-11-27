@@ -35,9 +35,42 @@
 
     <!-- **Pace** -->
     <link rel="stylesheet" href="css/pace-theme-big-counter.css" />
-
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script src="DashBoard/Jscripts/jquery-ui-1.12.1.js"></script>
+    <link href="DashBoard/Jscripts/jquery-ui-1.12.1.css" rel="stylesheet" />
     <script src="js/modernizr-2.6.2.min.js"></script>
 
+    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/jquery-easing-1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
+    <script type="text/javascript" src="js/toucheffects.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.sticky.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.tabs.min.js"></script>
+    <script type="text/javascript" src="js/plugins.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
+
+    <script src="js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.perfectmasonry.min.js"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.min.js"></script>
+
+    <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+    <%-- <script src="http://maps.google.com/maps/api/js?sensor=false"></script>--%>
+    <script src="js/jquery.gmap.min.js"></script>
+    <script src="Scripts/DateFormat.js"></script>
+
+    <script type="text/javascript" src="js/retina.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+
+    <script type="text/javascript" src="js/custom.js"></script>
 
 </head>
 
@@ -568,7 +601,7 @@ Develop a solution that would mask confidential information, attribute data a co
                             <span>The following terms and conditions ("Terms") shall apply to and govern Fullerton India Credit Company's Program and more specifically the Entries in the first stage of the Program. Fullerton India Credit Company may specify additional terms and conditions governing the Program from time to time and/or revise or amend the existing Terms. 
 							Such amended/revised terms/ additional terms and conditions shall be communicated by Fullerton India Credit Company by hosting the same on Website or in any other manner as decided by Fullerton India Credit Company. The Participants/Teams shall be responsible for regularly reviewing these Terms including any amendments thereto as may be posted on Website. 
 							 All Participants undertake to have read and understood these Terms and agree to abide by them at all times. The entire Program shall be divided into three stages  1) Genesis  2) Appathon   3) The Final Arena. Such stages shall have additional terms and conditions governing them.
- 							</span>
+                            </span>
                         </div>
                     </div>
                     <div class="dt-sc-tabs-vertical-container">
@@ -650,110 +683,110 @@ o	One Team cannot submit more than two (2) concept notes.  </li>
 										discretion to determine the following  </li>
                                         <ul>
                                             <li>Eligibility criteria for participating in the Program 
-										 </li>
+                                            </li>
                                             <li>Jury to adjudge the Entries at this stage of the Program.
-										 </li>
+                                            </li>
                                             <li>Areas of invention/ innovation which is to be covered under the Program. 
-										 </li>
+                                            </li>
                                             <li>Program Schedule at all stages of the Program within which the Teams must submit their Entry including but not limited to specifying the manner, mode, format, requisite details etc.
-										 </li>
+                                            </li>
                                         </ul>
                                         <li>2.Fullerton India Credit Company shall communicate the results to the qualifying Teams who shall proceed to the next stage. Fullerton India Credit Company shall decide the time period within which the Team/s selected by it shall be required to develop the prototype.
-										 </li>
+                                        </li>
                                         <li>3.	In the event a Team does not qualify for further stages of the Program then such Team can, within sixty (60) days of being informed of the same, apply to Fullerton India Credit Company for issuing a no objection certificate (NOC) which when granted by Fullerton India Credit Company and subject to the terms stated therein, shall enable the Team to so use the Entry so generated by it. Fullerton India Credit Company shall within ninety (90) days of receiving such application, issue the same or induct the team back into the Program at the relevant stage. 
-										 </li>
+                                        </li>
                                         <li>4.	Fullerton India Credit Company shall provide / make available such awards / benefits to the winning Teams as are detailed in the Website.
-										 </li>
+                                        </li>
                                         <li>5.	Fullerton India Credit Company reserves the sole and absolute right to invite registrations for the Program from interested participants other than students of the Institute. Such interested participants can be students of other participating engineering/technical institutes as well as third parties.
-										 </li>
+                                        </li>
                                     </ul>
                                     <h5>Representation/Warranties by the Team/Participant</h5>
                                     <ul class="dt-sc-fancy-list rounded-arrow">
                                         <li>1.		The Qualified Team acknowledges and declares that the Entry is a novel and original work of the Qualified Team which is neither a copy nor has been previously used in any manner. The Team represents and warrants that the submitted Entry does not infringe any copyright, trademark, proprietary rights, rights of privacy or publicity, Intellectual Property Rights of any person, or any other right including but not limited to Intellectual Property Right of any third party whether in law or in equity and that the Team has full and unrestricted right to transfer the Entry to Fullerton India Credit Company, free and clear of any claims or encumbrances. Any Entry found to be copied, adapted, or otherwise not novel will be disqualified from the Program.   </li>
                                         <li>2.The Team represents that it shall be solely responsible for any taxes, duties, charges or levies to be paid to any person in connection with any money (including any prizes) they pay or receive in connection with the Program. 
-										</li>
+                                        </li>
                                         <li>3.The Team / Participant acknowledges and agrees that it shall not 
-										</li>
+                                        </li>
                                         <ul>
                                             <li>acquire or claim any title on any of Fullerton India Credit Company's / its affiliates Intellectual Property by virtue of the rights granted to it under these Terms or through its use of such Intellectual Property; 
-										</li>
+                                            </li>
                                             <li>at any time, do or omit to do, anything which is likely to prejudice Fullerton India Credit Company's / its affiliates ownership of such Intellectual Property Rights;
-										</li>
+                                            </li>
                                             <li>acquire at any time hereafter nor shall it claim or assert any right, title or interest whatsoever in, to or over any of Intellectual Property belonging to Fullerton India Credit Company/its affiliates; 
-										</li>
+                                            </li>
                                             <li>enroll for or participate in any other program as long as it continues to participate in this Program. 
-										</li>
+                                            </li>
                                             <li>disclose the details of Entries submitted by the Team with any third party, or with the Institute/ other participating teams at any point without prior written consent of Fullerton India Credit Company. 
-										</li>
+                                            </li>
                                             <li>disclose Intellectual Property belonging to the Bank/its affiliates to any third party in any manner at any point of time without the prior written permission of Fullerton India Credit Company/its affiliates. 
-										</li>
+                                            </li>
 
                                         </ul>
                                     </ul>
                                     <h5>Judging the Entries </h5>
                                     <ul class="dt-sc-fancy-list rounded-arrow">
                                         <li>The Entries shall be judged and short-listed by the Jury for the second stage i.e. Prototype. Fullerton India Credit Company reserves the right to ask the teams for a detailed report, presentations to be made and discussions and interviews to be conducted with the Team for such purpose.
-   </li>
+                                        </li>
                                     </ul>
                                     <h5>Intellectual Property Rights </h5>
                                     <ul class="dt-sc-fancy-list rounded-arrow">
                                         <li>1.In case of Intellectual Property Rights violation or any damage arising out of Entry submitted under this Program, the onus, responsibility and consequences thereof shall be taken on/ borne by the Team solely and completely without any responsibility of Fullerton India Credit Company. 
-   </li>
+                                        </li>
                                         <li>2.Fullerton India Credit Company shall have sole and exclusive ownership rights over all the submitted Entries from the stage of registration/enrollment itself. The Team grants all rights over the Entry, present and future, irrevocably to Fullerton India Credit Company. The Team understands and agrees that the Entry could be used in future by Fullerton India Credit Company for commercial/ non-commercial or any other purposes as permissible.  
-   </li>
+                                        </li>
                                         <li>3.Fullerton India Credit Company retains ownership in any software, materials, know-how and/or methodologies developed by Fullerton India Credit Company and provided to the Team or otherwise independently developed/generated in course of carrying out the Program. To the extent that the Team utilizes any of its property (whether tangible or intangible) in connection with the Program, such property shall remain the property of Fullerton India Credit Company, and the Team shall not acquire any right, title or interest in such property.  
-   </li>
+                                        </li>
                                     </ul>
                                     <h5>Confidentiality </h5>
                                     <ul class="dt-sc-fancy-list rounded-arrow">
                                         <li>All details, documents, data, applications, software, systems, papers, statements and business information which is communicated / submitted by Fullerton India Credit Company or any of its representatives to the Institute, Mentor/s, Teams and /or its faculty and any projects /ideas / concepts notes / prototypes submitted under this Program by the Team/s to Fullerton India Credit Company shall be regarded as confidential information ("Confidential Information").
-   </li>
+                                        </li>
                                         <li>1. All Confidential Information shall be treated as absolutely confidential and the Institute/Team(s) irrevocably agrees and undertakes to ensure that the Institute, Participant (s) and its faculty, including Mentors shall keep the same secret and confidential and that they shall not disclose the same, in whole or in part to any person without the prior written permission of Fullerton India Credit Company. The Team agrees to ensure that its faculty and Mentors also undertake a similar obligation as contained in this clause. 
-   </li>
+                                        </li>
                                         <li>2.The Institute/Team(s) shall ensure that the access to Confidential Information by the faculty and Mentors shall be on “need to know” basis i.e. limited to those areas where the information is required in order to perform the obligations under these Terms.  
-   </li>
+                                        </li>
                                         <li>3.The Institute/Team(s) agrees 
                                             <ul>
                                                 <li>to take all necessary action to protect the Confidential Information against misuse, loss, destruction, deletion and/or alteration. 
-   </li>
+                                                </li>
                                                 <li>not to misuse or permit misuse directly or indirectly, or commercially explore the Confidential Information for economic or any other benefit.  
-   </li>
+                                                </li>
                                                 <li>not to make or retain any copies or record of any Confidential Information other than as may be required for the performance of the Institute's obligations under the MOU.   
-   </li>
+                                                </li>
                                                 <li>to notify Fullerton India Credit Company promptly of any unauthorized or improper use or disclosure of the Confidential Information.
-   </li>
+                                                </li>
                                                 <li>to return all the Confidential Information that is in the custody of the Team upon termination/conclusion of the Program.
-   </li>
+                                                </li>
                                             </ul>
                                         </li>
                                         <li>4.The Institute/Team(s) shall ensure that it has appropriate mechanisms and means to ensure adequate precautions to protect the privacy and confidentiality of all Confidential Information. 4.	The Institute/Team(s) shall not disclose the contents of the Terms or any details pertaining to the Program to any third party without the prior written permission of Fullerton India Credit Company. 5.	Nothing contained herein shall be applicable to any information required to be provided to any statutory / regulatory / government authority under Applicable Laws. 6.	The provisions of this clause shall survive the termination of the Terms for a period of 6 years.
-   </li>
+                                        </li>
 
                                     </ul>
                                     <h5>Termination  </h5>
                                     <ul class="dt-sc-fancy-list rounded-arrow">
                                         <li>Fullerton India Credit Company, may, in its sole discretion and at any point of time, suspend/cancel the Program without giving any reason thereof and/or without giving any prior notice of the same.
-   </li>
+                                        </li>
                                     </ul>
 
 
                                     <h5>Indemnity </h5>
                                     <ul class="dt-sc-fancy-list rounded-arrow">
                                         <li>The Team(s) / Participant(s) shall, at its own expense, indemnify, defend and hold harmless Fullerton India Credit Company/its affiliates from and against any and all liabilities suffered or incurred (including but not limited to liabilities, judgments, damages, losses, claims, costs and expenses, including attorneys fees and expenses) or any other loss that may occur to Fullerton India Credit Company/its affiliates , due to breach of any of the covenants of these Terms by the Team(s) / Participant(s).
-   </li>
+                                        </li>
                                     </ul>
 
 
                                     <h5>Other terms & conditions  </h5>
                                     <ul class="dt-sc-fancy-list rounded-arrow">
                                         <li>Fullerton India Credit Company reserves the right to disqualify the Team without assigning any reasons thereof, if it has reasonable grounds to believe that the Team has breached any of these terms and conditions and/or does not fulfill any of the eligibility criteria as may be specified by Fullerton India Credit Company from time to time. The decision of Fullerton India Credit Company shall be final and binding in this regard. 1.	Fullerton India Credit Company shall retain all the data/details/documents etc submitted by the participating Teams at any stage of the Program and shall not be liable to return the same to such participating Teams /Institutes irrespective of the fact as to whether the participating Team qualifies for the next stage/round. 2.	Notwithstanding anything contained in the Terms or in any other document
-   </li>
+                                        </li>
                                         <li>Under no circumstances shall Fullerton India Credit Company be liable to the Institute/Team(s) for any direct, indirect, incidental, consequential, special or exemplary damages arising with respect to the Program / activities carried on under the Terms or the termination of this Program, even if Fullerton India Credit Company has been advised of the possibility of such damages, such as, but not limited to, loss of revenue or anticipated profits or lost business. 2. Fullerton India Credit Company shall not have any liability whatsoever in case of any third party claims, demands, suit, actions, or other proceedings against the Institute or its students / faculty / personnel or the Team, Participants, or any other person engaged by the Team in relation to the Program and/or arrangement contemplated under the Terms. 3.	Fullerton India Credit Company and Institute shall jointly develop a dispute redressal mechanism to handle any issues as may emerge from the Program. A dispute resolution committee shall be formed, with one representative each from Fullerton India Credit Company and the Institute, who then shall jointly nominate an independent party to be the third member of this committee. Such committee's decision shall be final and binding and in the event such decision is disputed, Fullerton India Credit Company's decision shall be final and binding. In case of any dispute between Fullerton India Credit Company and any individuals involved in the Program, the decision of Fullerton India Credit Company will be final and binding. All disputes shall be governed by laws of India and subject to exclusive jurisdiction of courts of Mumbai. 4.	Fullerton India Credit Company/ Jury shall not be liable for
-   </li>
+                                        </li>
                                         <li>any costs incurred or loss or liability suffered by the Teams /Participants in relation to Program ; 2.	any lost expectation of profits by the Teams / Participant/s; 3.	any failure by Teams / Participant/s to understand the Terms and his/her interpretation of the same; or 4.	any other benefit the Teams/Participants may expect to gain by participating in the Program. 5.	any direct, indirect, incidental, consequential, special or exemplary damages arising with respect to the Program or the suspension/cancellation/termination of the Program, even if Fullerton India Credit Company/its affiliates have been advised of the possibility of such damages, such as, but not limited to, loss of revenue or anticipated profits or lost business. Fullerton India Credit Company/its affiliates shall not have any liability whatsoever in case of any third party claims, demands, suit, actions, or other proceedings against the Teams/Participant/s /Institute in relation to the Program and/or arrangement/obligations contemplated under these Terms.
-   </li>
+                                        </li>
                                         <li>The Teams qualifying the Ideate stage and the presentation round thereof, shall be eligible for the prototype development stage. The participation in the Prototype stage shall be at the sole discretion of Fullerton India Credit Company and subject to such eligibility criteria's as may be determined by Fullerton India Credit Company and shall not be open to dispute by any Team/Participant(s). 6.	For Teams/Participants registering through Institutes which have signed an MOU with Fullerton India Credit Company, these Terms shall apply in addition to, and not in derogation of the terms of such MOU.
-   </li>
+                                        </li>
                                     </ul>
 
                                 </div>
@@ -1439,188 +1472,198 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
         </div>
     </div>
     <form id="from1" runat="server">
-    <div id="Login" class="overlay">
-        <div class="popup">
-            <a class="close" href="#">X</a>
-            <div class="content">
-                <div class="login-box">
-                    <div class="lb-header">
-                        <a href="#" class="active" id="login-box-link">Login Here</a>
-                    </div>
-                    <asp:Label ID="lblLoginMsg" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
-                     <asp:Panel ID="pnlLogin" runat="server">
-                    <div class="email-login"  >
-                        <div class="u-form-group">
-                            <asp:TextBox ID="txtuserid" runat="server" placeholder="User Id" />
+        <div id="Login" class="overlay">
+            <div class="popup">
+                <a class="close" href="#">X</a>
+                <div class="content">
+                    <div class="login-box">
+                        <div class="lb-header">
+                            <a href="#" class="active" id="login-box-link">Login Here</a>
                         </div>
-                        <div class="u-form-group">
-                            <asp:TextBox ID="txtpassword" runat="server" TextMode="Password" placeholder="Password" />
-                        </div>
-                        <div class="u-form-group">
-                             <asp:DropDownList ID="ddlLoginType" runat="server"   CssClass="selectdrop" > 
-                            </asp:DropDownList>
-                        </div>
-                        <div class="u-form-group">
-                            <asp:Button ID="btnsubmit" runat="server" Text="Submit" OnClientClick="return LoginValidate(this);" OnClick="btnlogin_Click" />
-                        </div>
-                        <div class="u-form-group">
-                            <a href="#ForGetPassword" class="forgot-password">Forgot password?</a>
-                        </div>
-                    </div>
-                         </asp:Panel>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="SignUp" class="overlay">
-        <div class="popup">
-            <a class="close" href="#">X</a>
-            <div class="content">
-                <div class="login-box">
-                    <div class="lb-header">
-                        <a href="#" class="active" id="A1">Register Here</a>
-                    </div>
-                    <asp:Label ID="lblMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
-                    <asp:Panel ID="pnlReg" runat="server">
-                    <div class="email-login" >
-                        <div class="u-form-group">
-                           <asp:TextBox ID="txtfname" runat="server" placeholder="First Name"/>  
-                        </div>
-                        <div class="u-form-group">
-                            <asp:TextBox ID="txtlname" runat="server"  placeholder="Last Name"/> 
-                        </div>
-                          <div class="u-form-group">
-                           <asp:TextBox ID="txtEmailID" runat="server" placeholder="Email ID"/>  
-                        </div>
-                        <div class="u-form-group">
-                            <asp:TextBox ID="txtSignupUserId" runat="server" placeholder="User ID" />  
-                        </div>
-                        <div class="u-form-group">
-                            <asp:TextBox ID="txtSignupPwd" runat="server" placeholder="Password"/> 
-                        </div>
-                        <div class="u-form-group">
-                          <asp:TextBox ID="txtConfirmPassword" runat="server" TextMode="Password" placeholder="Confirm Password" />  
-                        </div>
-                        
-                        <div class="u-form-group">
-                            <asp:TextBox ID="txtdob" runat="server" placeholder="Date Of Birth"/> 
-                        </div>
-                        <div class="u-form-group">
-                            <asp:DropDownList ID="ddlinstitute" runat="server" placeholder="Institute" CssClass="selectdrop" >
-                                
-                            </asp:DropDownList>
-                             
-                        </div>
-                      
-                        <div class="u-form-group">
-                            <asp:Button ID="btnRegister" runat="server" Text="SING UP"  OnClientClick="return Validateall(this);" OnClick="btnRegister_Click" /> 
-                        </div>
+                        <asp:Label ID="lblLoginMsg" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
+                        <asp:Panel ID="pnlLogin" runat="server">
+                            <div class="email-login">
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtuserid" runat="server" placeholder="User Id" />
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtpassword" runat="server" TextMode="Password" placeholder="Password" />
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:DropDownList ID="ddlLoginType" runat="server" CssClass="selectdrop">
+                                    </asp:DropDownList>
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:Button ID="btnsubmit" runat="server" Text="Submit"  OnClick="btnlogin_Click" />
 
-                    </div>
+                                    <asp:Button ID="btnnidden"  runat="server" Text="Submit" style="visibility: hidden; display: none;" OnClick="btnlogin_Click"  />
+                                </div>
+                                <div class="u-form-group">
+                                    <a href="#ForGetPassword" class="forgot-password">Forgot password?</a>
+                                </div>
+                            </div>
                         </asp:Panel>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="ForGetPassword" class="overlay">
-        <div class="popup">
-            <a class="close" href="#">X</a>
-            <div class="content">
-                <div class="login-box">
-                    <div class="lb-header">
-                        <a href="#" class="active" id="A2">Forget Password</a>
-                    </div>
-                    <asp:Label ID="lblForgetMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
-                    <div class="email-login"  >
-                        <div class="u-form-group">
-                            <asp:TextBox ID="txtFPEmail" runat="server" placeholder="User Id" />
+        <div id="SignUp" class="overlay">
+            <div class="popup">
+                <a class="close" href="#">X</a>
+                <div class="content">
+                    <div class="login-box">
+                        <div class="lb-header">
+                            <a href="#" class="active" id="A1">Register Here</a>
                         </div>
-                        <div class="u-form-group">
-                            <asp:Button ID="btnForgot" runat="server" Text="Submit" OnClientClick="return ForgotValidate(this);" OnClick="btnForgot_Click" />
-                        </div>
-                        
+                        <asp:Label ID="lblMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
+                        <asp:Panel ID="pnlReg" runat="server">
+                            <div class="email-login">
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtfname" runat="server" placeholder="First Name" />
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtlname" runat="server" placeholder="Last Name" />
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtEmailID" runat="server" placeholder="Email ID" />
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtSignupUserId" runat="server" placeholder="User ID" />
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtSignupPwd" runat="server" placeholder="Password" />
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtConfirmPassword" runat="server" TextMode="Password" placeholder="Confirm Password" />
+                                </div>
+
+                                <div class="u-form-group">
+                                    <asp:TextBox ID="txtdob" runat="server" placeholder="Date Of Birth" />
+                                </div>
+                                <div class="u-form-group">
+                                    <asp:DropDownList ID="ddlinstitute" runat="server" placeholder="Institute" CssClass="selectdrop">
+                                    </asp:DropDownList>
+
+                                </div>
+
+                                <div class="u-form-group">
+                                    <asp:Button ID="btnRegister" runat="server" Text="SING UP" OnClientClick="return Validateall(this);" OnClick="btnRegister_Click" />
+                                </div>
+
+                            </div>
+                        </asp:Panel>
                     </div>
-   
                 </div>
             </div>
         </div>
-    </div>
-        </form>
-    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
-    <script type="text/javascript" src="js/jquery-easing-1.3.js"></script>
-    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+        <div id="ForGetPassword" class="overlay">
+            <div class="popup">
+                <a class="close" href="#">X</a>
+                <div class="content">
+                    <div class="login-box">
+                        <div class="lb-header">
+                            <a href="#" class="active" id="A2">Forget Password</a>
+                        </div>
+                        <asp:Label ID="lblForgetMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
+                        <div class="email-login">
+                            <div class="u-form-group">
+                                <asp:TextBox ID="txtFPEmail" runat="server" placeholder="User Id" />
+                            </div>
+                            <div class="u-form-group">
+                                <asp:Button ID="btnForgot" runat="server" Text="Submit" OnClientClick="return ForgotValidate(this);" OnClick="btnForgot_Click" />
+                            </div>
 
-    <script type="text/javascript" src="js/jquery.parallax.min.js"></script>
-    <script type="text/javascript" src="js/toucheffects.min.js"></script>
+                        </div>
 
-    <script type="text/javascript" src="js/jquery.sticky.min.js"></script>
-    <script type="text/javascript" src="js/jquery.nav.min.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
 
-    <script type="text/javascript" src="js/jquery.tabs.min.js"></script>
-    <script type="text/javascript" src="js/plugins.min.js"></script>
+    <%--<script src="DashBoard/Jscripts/jquery-1.12.4.js"></script>
+    <script src="DashBoard/Jscripts/jquery-ui-1.12.1.js"></script>
+    <script src="DashBoard/Jscripts/bootstrap.min-3.3.7.js"></script>--%>
 
-    <script type="text/javascript" src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
-    <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
-    <script type="text/javascript" src="js/twitter/jquery.tweet.min.js"></script>
 
-    <script src="js/jquery.cookie.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.perfectmasonry.min.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.min.js"></script>
-
-    <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script src="js/jquery.gmap.min.js"></script>
-    <script src="Scripts/DateFormat.js"></script>
-   
 
     <script type="text/javascript">
-        function LoginValidate(btnsubmit) {
-            debugger;
-            var UserEmail = document.getElementById("<%=txtuserid.ClientID%>");
-            var UserPassword = document.getElementById("<%=txtpassword.ClientID%>");
-            var ddlLoginType = document.getElementById("<%=ddlLoginType.ClientID%>");
-            if (UserEmail.value == "") {
-                alert("Please enter UserId.");
-                UserEmail.focus();
-                return false;
-            }
-            if (UserPassword.value == "") {
-                alert("Please enter Password.");
-                UserPassword.focus();
-                return false;
-            }
-            
-            if (ddlLoginType.value == "0") {
-                alert("Please select LoginType.");
-                ddlLoginType.focus();
-                return false;
-            }
-        }
+       
         function ForgotValidate(btnsubmit) {
             debugger;
             var UserEmail = document.getElementById("<%=txtFPEmail.ClientID%>");
-             if (UserEmail.value == "") {
-                 alert("Please enter Email.");
-                 UserEmail.focus();
-                 return false;
-             }
-         }
+            if (UserEmail.value == "") {
+                alert("Please enter Email.");
+                UserEmail.focus();
+                return false;
+            }
+        }
+
+        jQuery(document).ready(function () {
+          
+            jQuery("#btnsubmit").click(function () {
+                
+                                var UserEmail = document.getElementById("<%=txtuserid.ClientID%>");
+                var UserPassword = document.getElementById("<%=txtpassword.ClientID%>");
+                var ddlLoginType = document.getElementById("<%=ddlLoginType.ClientID%>");
+                if (UserEmail.value == "") {
+                    alert("Please enter UserId.");
+                    UserEmail.focus();
+                    return false;
+                }
+                if (UserPassword.value == "") {
+                    alert("Please enter Password.");
+                    UserPassword.focus();
+                    return false;
+                }
+
+                if (ddlLoginType.value == "0") {
+                    alert("Please select LoginType.");
+                    ddlLoginType.focus();
+                    return false;
+                }
+
+                jQuery.ajax({
+                    type: "POST",
+                    url: "/FullertonService.asmx/IsValidUser",
+                    contentType: "application/json; charset=utf-8",
+                    type: 'POST',
+                    dataType: 'JSON',
+                    async: false,
+                    data: JSON.stringify({ email: UserEmail.value, password: UserPassword.value, role: ddlLoginType.value }),
+                    success: function (data) {
+                        debugger;
+
+                        if (data.d == false) {
+                            alert("UserID/Password incorrect.");
+                            return false;
+                        }
+                        else
+                        {
+                            jQuery("#<%=btnnidden.ClientID%>").trigger("click");
+                            return true;
+
+                        }
+
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        debugger;
+                        return false;
+                    }
+                });
+                return false;
+            });
+        });
     </script>
     <script type="text/javascript">
-        $('#main-menu').onePageNav({
-            currentClass: 'current_page_item',
-            filter: ':not(.external)',
-            scrollSpeed: 750,
-            scrollOffset: 73
-        });
-	</script>
+        //$('#main-menu').onePageNav({
+        //    currentClass: 'current_page_item',
+        //    filter: ':not(.external)',
+        //    scrollSpeed: 750,
+        //    scrollOffset: 73
+        //});
+    </script>
 
-    <script type="text/javascript" src="js/retina.js"></script>
-    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-
-    <script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 </html>

@@ -92,7 +92,7 @@ namespace FullertonDAL
                         UserBo user = new UserBo();
 
                         user.UserId =Convert.ToString(item["UserId"]);
-                        user.UserName = Convert.ToString(item["UserName"]);
+                        //user.UserName = Convert.ToString(item["UserName"]);
                         user.EmailId = Convert.ToString(item["Email"]);
                         user.MobileNo = Convert.ToString(item["MobileNo"]);
                         user.CourseName = Convert.ToString(item["Course"]);

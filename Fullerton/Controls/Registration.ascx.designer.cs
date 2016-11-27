@@ -13,13 +13,13 @@ namespace Fullerton.Controls {
     public partial class Registration {
         
         /// <summary>
-        /// txtUserName control.
+        /// txtEmailId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUserName;
+        protected global::System.Web.UI.WebControls.TextBox txtEmailId;
         
         /// <summary>
         /// txtPassword control.
@@ -74,15 +74,6 @@ namespace Fullerton.Controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlInstitute;
-        
-        /// <summary>
-        /// txtEmailId control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmailId;
         
         /// <summary>
         /// txtMobileNo control.
@@ -200,5 +191,14 @@ namespace Fullerton.Controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSubmit;
+        
+        /// <summary>
+        /// btnnidden control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnnidden;
     }
 }

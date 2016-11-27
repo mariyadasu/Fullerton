@@ -567,18 +567,21 @@
     <Content Include="DashBoard\js\sparklines.js" />
     <Content Include="DashBoard\js\xcharts.min.js" />
     <Content Include="DashBoard\Pages\Admin\ConceptNoteDetails.aspx" />
+    <Content Include="DashBoard\Pages\Admin\EnentsCallender.aspx" />
     <Content Include="DashBoard\Pages\Admin\Events.aspx" />
     <Content Include="DashBoard\Pages\Admin\InstituteCoordinatorDetails.aspx" />
     <Content Include="DashBoard\Pages\Admin\StudentDetails.aspx" />
     <Content Include="DashBoard\Pages\Admin\TeamDetails.aspx" />
     <Content Include="DashBoard\Pages\Admin\UpdateTeam.aspx" />
     <Content Include="DashBoard\Pages\EnentsCallender.aspx" />
+    <Content Include="DashBoard\Pages\IC\EnentsCallender.aspx" />
     <Content Include="DashBoard\Pages\IC\ICDashBoard.aspx" />
     <Content Include="DashBoard\Pages\IC\StudentDetailsIC.aspx" />
-    <Content Include="DashBoard\Pages\TC\ManageTc.aspx" />
+    <Content Include="DashBoard\Pages\TC\EnentsCallender.aspx" />
     <Content Include="DashBoard\Pages\TC\ManageTeamCoordinator.aspx" />
     <Content Include="DashBoard\Pages\TC\StudentRegistration.aspx" />
     <Content Include="DashBoard\Pages\TC\TcDashBoard.aspx" />
+    <Content Include="DashBoard\Pages\TM\EnentsCallender.aspx" />
     <Content Include="DashBoard\Pages\WebForm1.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
     <Content Include="FullCallender\fullcalendar.css" />
@@ -866,6 +869,13 @@
     <Compile Include="DashBoard\Pages\Admin\ConceptNoteDetails.aspx.designer.cs">
       <DependentUpon>ConceptNoteDetails.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DashBoard\Pages\Admin\EnentsCallender.aspx.cs">
+      <DependentUpon>EnentsCallender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\EnentsCallender.aspx.designer.cs">
+      <DependentUpon>EnentsCallender.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DashBoard\Pages\Admin\Events.aspx.cs">
       <DependentUpon>Events.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -908,6 +918,13 @@
     <Compile Include="DashBoard\Pages\EnentsCallender.aspx.designer.cs">
       <DependentUpon>EnentsCallender.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DashBoard\Pages\IC\EnentsCallender.aspx.cs">
+      <DependentUpon>EnentsCallender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\IC\EnentsCallender.aspx.designer.cs">
+      <DependentUpon>EnentsCallender.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DashBoard\Pages\IC\ICDashBoard.aspx.cs">
       <DependentUpon>ICDashBoard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -922,12 +939,12 @@
     <Compile Include="DashBoard\Pages\IC\StudentDetailsIC.aspx.designer.cs">
       <DependentUpon>StudentDetailsIC.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DashBoard\Pages\TC\ManageTc.aspx.cs">
-      <DependentUpon>ManageTc.aspx</DependentUpon>
+    <Compile Include="DashBoard\Pages\TC\EnentsCallender.aspx.cs">
+      <DependentUpon>EnentsCallender.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DashBoard\Pages\TC\ManageTc.aspx.designer.cs">
-      <DependentUpon>ManageTc.aspx</DependentUpon>
+    <Compile Include="DashBoard\Pages\TC\EnentsCallender.aspx.designer.cs">
+      <DependentUpon>EnentsCallender.aspx</DependentUpon>
     </Compile>
     <Compile Include="DashBoard\Pages\TC\ManageTeamCoordinator.aspx.cs">
       <DependentUpon>ManageTeamCoordinator.aspx</DependentUpon>
@@ -949,6 +966,13 @@
     </Compile>
     <Compile Include="DashBoard\Pages\TC\TcDashBoard.aspx.designer.cs">
       <DependentUpon>TcDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\EnentsCallender.aspx.cs">
+      <DependentUpon>EnentsCallender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\EnentsCallender.aspx.designer.cs">
+      <DependentUpon>EnentsCallender.aspx</DependentUpon>
     </Compile>
     <Compile Include="DashBoard\Pages\WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
@@ -997,6 +1021,7 @@
     <Compile Include="Test.aspx.designer.cs">
       <DependentUpon>Test.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Utility\SendMails.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
@@ -1014,7 +1039,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DashBoard\assets\jquery-file-upload\server\php\files\thumbnail\" />
-    <Folder Include="DashBoard\Pages\TM\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

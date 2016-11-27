@@ -16,9 +16,6 @@ namespace Fullerton.TC
         {
             if (!IsPostBack)
             {
-                Session["UserId"] = "1";
-                Session["TeamID"] = "1";
-
                 BindMemebers();
             }
         }

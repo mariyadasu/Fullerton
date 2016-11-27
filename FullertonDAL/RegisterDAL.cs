@@ -129,7 +129,7 @@ namespace FullertonDAL
                 cmd.Parameters.AddWithValue("@INSTITUTEID", user.InstituteID);
                 cmd.Parameters.AddWithValue("@EMAILID", user.EmailId);
                 cmd.Parameters.AddWithValue("@MOBILE", user.MobileNo);
-                cmd.Parameters.AddWithValue("@COURSEID", user.CourseId);
+                cmd.Parameters.AddWithValue("@COURSEID", user.CourseName);
                 cmd.Parameters.AddWithValue("@COURSETYPE", user.CourserType);
                 cmd.Parameters.AddWithValue("@HOMETOWN", user.Hometown);
                 cmd.Parameters.AddWithValue("@ADDRESS", user.Address);
@@ -225,6 +225,28 @@ namespace FullertonDAL
                 if (dbcon != null) dbcon.closeDBConnection();
             }
 
+        }
+
+        public bool UpdateUserStatus(string enableUserIds,string disableUserId)
+        {
+            DBConnection dbcon = new DBConnection();
+            try
+            {
+                string strQuery = "Proc_UpdateUserStatus";
+                SqlCommand cmd = dbcon.setCommandProperties(strQuery);
+                cmd.Parameters.AddWithValue("@EnableIds", enableUserIds);
+                cmd.Parameters.AddWithValue("@DisableIds", disableUserId);
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            finally
+            {
+                if (dbcon != null) dbcon.closeDBConnection();
+            }
         }
     }
 }

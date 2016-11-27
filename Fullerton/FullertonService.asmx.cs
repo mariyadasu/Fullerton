@@ -2,6 +2,7 @@
 using FullertonDAL;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
@@ -52,7 +53,32 @@ namespace Fullerton
 
             return result;
         }
+        [WebMethod]
+        public bool IsValidUser(string email,string password,string role)
+        {
+            UserBo objbo = new UserBo();
+            objbo.EmailId = email.Trim();
+            objbo.Password = password.Trim();
+            objbo.LoginTypeID = Convert.ToInt32(role);
+            DataSet dsLogin = _regDal.CheckLogin(objbo);
 
-        
+            if (dsLogin.Tables[0].Rows.Count > 0)
+                return true;
+
+            return false;
+        }
+
+        [WebMethod]
+        public bool CheckEmailExist(string email)
+        {
+            DataSet dsLogin = _regDal.GetStudentbyEmail(email);
+
+            if (dsLogin.Tables[0].Rows.Count > 0)
+                return true;
+
+            return false;
+        }
+
+
     }
 }

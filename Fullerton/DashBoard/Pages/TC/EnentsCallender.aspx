@@ -1,24 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/DashBoard/DashboardMaster.Master" AutoEventWireup="true" CodeBehind="EnentsCallender.aspx.cs" Inherits="Fullerton.DashBoard.Pages.EnentsCallender" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/DashBoard/DashboardMaster.Master" AutoEventWireup="true" CodeBehind="EnentsCallender.aspx.cs" Inherits="Fullerton.DashBoard.Pages.TC.EnentsCallender" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
-    <%--    <style>
-        body {
-            margin: 40px 10px;
-            padding: 0;
-            font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-            font-size: 14px;
-        }
-
-        #calendar {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-    </style>--%>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-    <form id="form2" runat="server">
+    
+     <form id="form2" runat="server">
         <section id="main-content">
             <section class="wrapper">
                 <div class="row">
@@ -92,4 +77,5 @@
         });
          
     </script>
+
 </asp:Content>

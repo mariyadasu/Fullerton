@@ -1,7 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="StudentDetailsIC.aspx.cs" Inherits="Fullerton.DashBoard.Pages.TC.StudentDetails" MasterPageFile="~/DashBoard/DashboardMaster.Master" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
-
 </asp:Content>
 <asp:Content ID="Body" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
@@ -25,11 +24,11 @@
                                 <a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>
                             </header>
 
-                            <asp:GridView ID="gvTeamDetails" runat="server" AutoGenerateColumns="false" Width="100%"
-                                AllowPaging="true" EmptyDataText="No Records Found" PageSize="8" OnPageIndexChanging="gvTeamDetails_PageIndexChanging"
+                            <asp:GridView ID="gdvMembers" runat="server" AutoGenerateColumns="false" Width="100%"
+                                AllowPaging="true" EmptyDataText="No Records Found" 
                                 CssClass="gv"
                                 AlternatingRowStyle-CssClass="alt"
-                                PagerStyle-CssClass="pgr">
+                                PagerStyle-CssClass="pgr" OnRowDataBound="gdvMembers_RowDataBound">
                                 <Columns>
                                     <asp:TemplateField HeaderText="NAME">
                                         <ItemTemplate>
@@ -41,57 +40,71 @@
                                             <asp:Label ID="lblEmail" runat="server" Text='<%#Eval("Email") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                     <asp:TemplateField HeaderText="Institute Name">
+                                    <asp:TemplateField HeaderText="Institute Name">
                                         <ItemTemplate>
                                             <asp:Label ID="lblInstituteName" runat="server" Text='<%#Eval("InstituteName") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                     <asp:TemplateField HeaderText="Institute Coordinator">
+                                    <asp:TemplateField HeaderText="Institute Coordinator">
                                         <ItemTemplate>
                                             <asp:Label ID="lblInstituteCoordinator" runat="server" Text='<%#Eval("InstituteCoordinator") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                     <asp:TemplateField HeaderText="Mobile No">
+                                    <asp:TemplateField HeaderText="Mobile No">
                                         <ItemTemplate>
                                             <asp:Label ID="lblMobileNo" runat="server" Text='<%#Eval("MobileNo") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                       <asp:TemplateField HeaderText="Course">
+                                    <asp:TemplateField HeaderText="Course">
                                         <ItemTemplate>
                                             <asp:Label ID="lblCourse" runat="server" Text='<%#Eval("Course") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                     
-                                     <asp:TemplateField HeaderText="RollNo">
+
+                                    <asp:TemplateField HeaderText="RollNo">
                                         <ItemTemplate>
                                             <asp:Label ID="lblRollNo" runat="server" Text='<%#Eval("RollNo") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                      <asp:TemplateField HeaderText="StatusName">
+                                    <asp:TemplateField HeaderText="StatusName">
                                         <ItemTemplate>
                                             <asp:Label ID="lblStatusName" runat="server" Text='<%#Eval("Status") %>'></asp:Label>
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="">
+                                    <asp:TemplateField HeaderText="Status">
                                         <ItemTemplate>
-                                            <asp:Button ID="btnApprove" runat="server" Text="Approve" OnClick="btnApprove_Click" />
+                                            <asp:CheckBox ID="chkstatus" CssClass="statusCheck" runat="server" />
+                                            <asp:HiddenField ID="hdnUserId" runat="server" Value='<%#Eval("UserId") %>' />
+                                            <asp:HiddenField ID="hdnStatus" runat="server" Value='<%#Eval("Status") %>' />
                                         </ItemTemplate>
                                     </asp:TemplateField>
-                                     <asp:TemplateField HeaderText="">
-                                        <ItemTemplate>
-                                            <asp:Button ID="btnReject" runat="server" Text="Reject" OnClick="btnReject_Click" />
-                                            <asp:Label ID="lblUserId" runat="server" Text='<%#Eval("SNO") %>' Visible="false"></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
+
                                 </Columns>
                             </asp:GridView>
+
+                             <br />
+                            <asp:Button ID="btnUpdateStatus" runat="server" class="btn btn-success"  Text="Submit" OnClick="btnUpdateStatus_Click"/>
+                            <br />
+
                         </section>
                     </div>
+
                 </div>
-                 
+
                 <!-- page end-->
             </section>
         </section>
-        <input type="hidden" runat="server" id="hidUserId" />
+
+
     </form>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //$(".statusCheck").on("click", function () {
+
+            //    var hdnUserId = $(this);
+            //});
+
+        });
+    </script>
+
 </asp:Content>

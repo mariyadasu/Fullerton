@@ -22,21 +22,21 @@ namespace Fullerton.DashBoard.Pages.TC {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// gvTeamDetails control.
+        /// gdvMembers control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gvTeamDetails;
+        protected global::System.Web.UI.WebControls.GridView gdvMembers;
         
         /// <summary>
-        /// hidUserId control.
+        /// btnUpdateStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputHidden hidUserId;
+        protected global::System.Web.UI.WebControls.Button btnUpdateStatus;
     }
 }

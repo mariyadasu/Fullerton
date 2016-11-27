@@ -17,8 +17,6 @@ namespace Fullerton.DashBoard.Pages.TC
         {
             if (!IsPostBack)
             {
-                Session["UserId"] = "1";
-                Session["TeamID"] = "1";
 
                 BindTcStatus();
                 BindTeammembers();
@@ -37,7 +35,7 @@ namespace Fullerton.DashBoard.Pages.TC
             if (teamMembers != null)
             {
                 ddlTeamMembers.DataSource = teamMembers;
-                ddlTeamMembers.DataTextField = "UserName";
+                ddlTeamMembers.DataTextField = "EmailId";
                 ddlTeamMembers.DataValueField = "UserId";
                 ddlTeamMembers.DataBind();
 
@@ -50,6 +48,14 @@ namespace Fullerton.DashBoard.Pages.TC
             if (newTc != null)
                 ddlTeamMembers.SelectedValue = Convert.ToString(newTc.NewTcId);
 
+            string AcStatus = ddlStatus.SelectedValue;
+
+            if (AcStatus == "1")
+            {
+                ddlTeamMembers.Enabled = btnNewTcUpdate.Enabled = false;
+                ddlTeamMembers.Attributes.Add("class", "form-control");
+            }
+               
         }
 
         private void BindTcStatus()
@@ -67,7 +73,7 @@ namespace Fullerton.DashBoard.Pages.TC
 
             int reult = _tcDal.UpdateTCActivation(userId, status);
 
-            Response.Redirect("ManageTeamCoordinator.aspx");
+            Response.Redirect("~/DashBoard/Pages/TC/ManageTeamCoordinator.aspx");
         }
 
         protected void btnNewTcUpdate_Click(object sender, EventArgs e)
