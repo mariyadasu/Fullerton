@@ -35,7 +35,7 @@
 
         <div class="form-group text-aline-left">
             <label for="txtDOB">DOB <span class="red-text">*</span></label>
-            <asp:TextBox class="form-control" MaxLength="10" runat="server" ID="txtDOB" ClientIDMode="Static"></asp:TextBox>
+            <asp:TextBox class="form-control" MaxLength="10" runat="server" ID="txtDOB" ClientIDMode="Static" Enabled="false" EnableViewState="false"></asp:TextBox>
             <label id="txtDOBError" class="red-text"></label>
         </div>
 
@@ -166,7 +166,9 @@
 
         $("#txtDOB").datepicker({
             changeMonth: true,
-            changeYear: true
+            changeYear: true,
+            ignoreReadonly: false,
+            maxDate: 'now'
         });
         $("#ddlTeamNames").change(function () {
 

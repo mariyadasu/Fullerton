@@ -4814,7 +4814,7 @@ h6 {
     }
 
     .lb-header .active {
-        color: #029f5b;
+        color: orange;
         font-size: 18px;
     }
 
@@ -4869,7 +4869,7 @@ h6 {
 
 .u-form-group input[type="submit"] {
     width: 30%;
-    background-color: #1CB94E;
+    background-color: #fcdb34;
     border: none;
     outline: none;
     color: #fff;

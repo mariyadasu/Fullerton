@@ -242,5 +242,17 @@ namespace FullertonDAL
             }
 
         }
+        public DataSet GetConceptNoteDetails()
+        {
+            try
+            {
+                return SqlDbHelper.ExecuteSelectCommand("PROC_GET_CONCEPTNOTEDETAILS", CommandType.StoredProcedure);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
     }
 }

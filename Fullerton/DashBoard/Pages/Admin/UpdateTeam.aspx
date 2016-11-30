@@ -24,7 +24,7 @@
                 return false;
             }
         }
-</script>
+    </script>
 </asp:Content>
 <asp:Content ID="Body" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
@@ -45,7 +45,7 @@
                     <div class="col-sm-12">
                         <section class="panel">
                             <header class="panel-heading">
-                               <%-- <a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>--%>
+                                <%-- <a class="btn btn-success" href="" title="Bootstrap 3 themes generator">Export To Excel</a>--%>
                             </header>
 
                             <asp:GridView ID="gvTeamDetails" runat="server" AutoGenerateColumns="false" Width="100%"
@@ -88,96 +88,91 @@
                                 Modify Team Member
                             </header>
                             <div class="panel-body">
-                                <asp:GridView ID="gvMemberDetails" runat="server" AutoGenerateColumns="false" Width="100%" 
-                                AllowPaging="true" EmptyDataText="No Records Found" PageSize="8" OnPageIndexChanging="gvMemberDetails_PageIndexChanging"
-                                CssClass="gv"
-                                AlternatingRowStyle-CssClass="alt"
-                                PagerStyle-CssClass="pgr">
-                                <Columns>
-                                    <asp:TemplateField HeaderText="FirstName">
-                                        <ItemTemplate>
-                                            <asp:Label ID="lblFirstName" runat="server" Text='<%#Eval("FirstName") %>'></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
-                                    <asp:TemplateField HeaderText="LastName">
-                                        <ItemTemplate>
-                                            <asp:Label ID="lblLastName" runat="server" Text='<%#Eval("LastName") %>'></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
-                                     <asp:TemplateField HeaderText="Role">
-                                        <ItemTemplate>
-                                            <asp:Label ID="lblShortName" runat="server" Text='<%#Eval("ShortName") %>'></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
-                                     <asp:TemplateField HeaderText="Team Name">
-                                        <ItemTemplate>
-                                            <asp:Label ID="lblTeamName" runat="server" Text='<%#Eval("TeamName") %>'></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
-                                     <asp:TemplateField HeaderText="Institute Name">
-                                        <ItemTemplate>
-                                            <asp:Label ID="lblInstituteName" runat="server" Text='<%#Eval("InstituteName") %>'></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
+                                <asp:GridView ID="gvMemberDetails" runat="server" AutoGenerateColumns="false" Width="100%"
+                                    AllowPaging="true" EmptyDataText="No Records Found" PageSize="8" OnPageIndexChanging="gvMemberDetails_PageIndexChanging"
+                                    CssClass="gv"
+                                    AlternatingRowStyle-CssClass="alt"
+                                    PagerStyle-CssClass="pgr">
+                                    <Columns>
+                                        <asp:TemplateField HeaderText="FirstName">
+                                            <ItemTemplate>
+                                                <asp:Label ID="lblFirstName" runat="server" Text='<%#Eval("FirstName") %>'></asp:Label>
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
+                                        <asp:TemplateField HeaderText="LastName">
+                                            <ItemTemplate>
+                                                <asp:Label ID="lblLastName" runat="server" Text='<%#Eval("LastName") %>'></asp:Label>
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
+                                        <asp:TemplateField HeaderText="Role">
+                                            <ItemTemplate>
+                                                <asp:Label ID="lblShortName" runat="server" Text='<%#Eval("ShortName") %>'></asp:Label>
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
+                                        <asp:TemplateField HeaderText="Team Name">
+                                            <ItemTemplate>
+                                                <asp:Label ID="lblTeamName" runat="server" Text='<%#Eval("TeamName") %>'></asp:Label>
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
+                                        <asp:TemplateField HeaderText="Institute Name">
+                                            <ItemTemplate>
+                                                <asp:Label ID="lblInstituteName" runat="server" Text='<%#Eval("InstituteName") %>'></asp:Label>
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
 
-                                    <asp:TemplateField HeaderText="Action">
-                                        <ItemTemplate>
-                                            <asp:Button ID="btnEdit" runat="server" Text="Edit" OnClick="btnEdit_Click"  />
-                                            <asp:Button ID="btnDelete" runat="server" Text="Delete" 
-                                                Visible='<%# Eval("ShortName").ToString() == "TC" ? false : true %>'
-                                                 OnClientClick="return confirm('Are you sure? want to delete the Event.');"
-                                                 OnClick="btnDelete_Click" />
-                                            <asp:Label ID="lblUserId" runat="server" Text='<%#Eval("UserId") %>' Visible="false"></asp:Label>
-                                        </ItemTemplate>
-                                    </asp:TemplateField>
-                                </Columns>
-                            </asp:GridView>
+                                        <asp:TemplateField HeaderText="Action">
+                                            <ItemTemplate>
+                                                <asp:Button ID="btnEdit" runat="server" Text="Edit" OnClick="btnEdit_Click" />
+                                                <asp:Button ID="btnDelete" runat="server" Text="Delete"
+                                                    Visible='<%# Eval("ShortName").ToString() == "TC" ? false : true %>'
+                                                    OnClientClick="return confirm('Are you sure? want to delete the Event.');"
+                                                    OnClick="btnDelete_Click" />
+                                                <asp:Label ID="lblUserId" runat="server" Text='<%#Eval("UserId") %>' Visible="false"></asp:Label>
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
+                                    </Columns>
+                                </asp:GridView>
                                 <div align="center">
                                     <asp:Label ID="lblMessage" runat="server" EnableViewState="false" ForeColor="Orange" Font-Bold="true"></asp:Label>
                                 </div>
                                 <div id="divUpdateView" runat="server" visible="false">
-                                <table align="center" style="position: relative; top: 10px;">
-                                    <tr>
-                                        <td>
-                                            <table align="center">
-                                                <tr>
-                                                    <td>First Name :
-                                                    </td>
-                                                    <td>
-                                                        <asp:TextBox ID="txtFirstName" runat="server" MaxLength="100" Width="250px"></asp:TextBox>
+                                    <br />
+                                   <div class="col-lg-2"></div>
+                                    <div class="col-lg-8">
+                                    <section class="panel">
+                                        <header class="panel-heading">
+                                            Update Team Member
+                                        </header>
+                                        <div class="panel-body">
+                                            <div align="center" style="position: relative; top: 10px;">
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-4">First Name :</label>
+                                                    <div class="col-sm-6">
+                                                        <asp:TextBox ID="txtFirstName" runat="server" MaxLength="100" class="form-control"></asp:TextBox>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-4">Last Name:</label>
+                                                    <div class="col-sm-6">
+                                                        <asp:TextBox ID="txtLastName" runat="server" MaxLength="100" class="form-control"></asp:TextBox>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label col-sm-4">Role:</label>
+                                                    <div class="col-sm-6">
+                                                        <asp:DropDownList ID="ddlRole" runat="server" class="form-control">
+                                                            <asp:ListItem Text="Select Role" Value="0"></asp:ListItem>
+                                                            <asp:ListItem Text="TC" Value="1"></asp:ListItem>
+                                                            <asp:ListItem Text="TM" Value="2"></asp:ListItem>
+                                                        </asp:DropDownList>
 
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Last Name:
-                                                    </td>
-                                                    <td>
-                                                        <asp:TextBox ID="txtLastName" runat="server" MaxLength="100" Width="250px"></asp:TextBox>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Role:
-                                                    </td>
-                                                    <td>
-                                                       <asp:DropDownList ID="ddlRole" runat="server" Width="250px">
-                                                           <asp:ListItem Text="Select Role" Value="0"></asp:ListItem>
-                                                           <asp:ListItem Text="TC" Value="1"></asp:ListItem>
-                                                           <asp:ListItem Text="TM" Value="2"></asp:ListItem>
-                                                       </asp:DropDownList>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2" align="center">
-                                                        <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" OnClientClick="return Validateall();"
-                                                             />
-                                                        
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-
-                                </table>
+                                                    </div>
+                                                </div>
+                                                <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" OnClientClick="return Validateall();" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                        </div>
                                 </div>
                             </div>
                         </section>
@@ -188,6 +183,6 @@
             </section>
         </section>
         <input type="hidden" runat="server" id="hidTeamId" />
-         <input type="hidden" runat="server" id="hidUserId" />
+        <input type="hidden" runat="server" id="hidUserId" />
     </form>
 </asp:Content>

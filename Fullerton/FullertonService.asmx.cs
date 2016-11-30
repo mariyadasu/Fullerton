@@ -79,6 +79,15 @@ namespace Fullerton
             return false;
         }
 
-
+        [WebMethod]
+        public bool SaveContactUs(string CUserName, string CEmail, string CCommentsss)
+        {
+            UserBo objbo = new UserBo();
+            objbo.UserName = CUserName.Trim();
+            objbo.EmailId = CEmail.Trim();
+            objbo.Comments = CCommentsss.Trim();
+            bool flag = _regDal.SaveContactUs(objbo);
+            return flag;
+        }
     }
 }

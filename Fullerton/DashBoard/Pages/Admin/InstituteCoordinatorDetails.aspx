@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InstituteCoordinatorDetails.aspx.cs" Inherits="Fullerton.DashBoard.Pages.Admin.InstituteCoordinatorDetails"
-    MasterPageFile="~/DashBoard/DashboardMaster.Master" EnableEventValidation = "false" %>
+    MasterPageFile="~/DashBoard/DashboardMaster.Master" EnableEventValidation="false" %>
 
 <asp:Content ID="Head" ContentPlaceHolderID="head" runat="server">
 
@@ -30,7 +30,7 @@
             else {
                 var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
                 if (!filter.test(txtIEmail.value)) {
-                    lblMessage.innerText="Please enter valid Email ID";
+                    lblMessage.innerText = "Please enter valid Email ID";
                     txtIEmail.focus();
                     return false;
                 }
@@ -44,7 +44,7 @@
                 var x = txtIPwd.value;
                 var filter = /(?!^[0-9]*$)(?!^[a-zA-Z~|!@#$%^&*()+=_-]*$)^([a-zA-Z0-9~!|@#$%^&*()+=_-]{8,})$/
                 if (!filter.test(x)) {
-                    lblMessage.innerText="Password should be at least 8 characters long, include at least 1 number and at least 1 alphabet or special character.";
+                    lblMessage.innerText = "Password should be at least 8 characters long, include at least 1 number and at least 1 alphabet or special character.";
                     txtIPwd.value = '';
                     txtIPwd.focus();
                     return false;
@@ -74,7 +74,7 @@
                     <div class="col-lg-12">
                         <h3 class="page-header"></h3>
                         <ol class="breadcrumb">
-                            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+                            <li><i class="fa fa-home"></i><a href="AdminDashBoard.aspx">Home</a></li>
                             <li><i class="fa fa-th-list"></i>Institute Coordinator Details</li>
                         </ol>
                     </div>
@@ -141,61 +141,42 @@
                                 <div align="center">
                                     <asp:Label ID="lblMessage" runat="server" EnableViewState="false" ForeColor="Orange" Font-Bold="true"></asp:Label>
                                 </div>
-
-                                <table align="center" style="position: relative; top: 10px;">
-                                    <tr>
-                                        <td>
-                                            <table align="center">
-                                                <tr>
-                                                    <td>Institute Name :
-                                                    </td>
-                                                    <td>
-                                                        <asp:TextBox ID="txtInstitueName" runat="server" MaxLength="100" Width="250px"></asp:TextBox>
-
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Institute Coordinator:
-                                                    </td>
-                                                    <td>
-                                                        <asp:TextBox ID="txtInstituteCoordinator" runat="server" Width="250px"></asp:TextBox>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Email :
-                                                    </td>
-                                                    <td>
-                                                        <asp:TextBox ID="txtIEmail" runat="server" MaxLength="100" Width="250px"></asp:TextBox>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Password :
-                                                    </td>
-                                                    <td>
-                                                       
-                                                        <asp:TextBox ID="txtIPwd" runat="server" TextMode="Password" MaxLength="100" Width="250px" EnableViewState="true"></asp:TextBox>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Mobile No :
-                                                    </td>
-                                                    <td>
-                                                        <asp:TextBox ID="txtIMobileNo" runat="server" MaxLength="10" Width="250px"></asp:TextBox>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td colspan="2" align="center">
-                                                        <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" OnClientClick="return Validateall()" />
-                                                        <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClientClick="return Validateall()" OnClick="btnUpdate_Click"
-                                                            Visible="false" />
-                                                        <asp:Button ID="btnClear" runat="server" Text="Clear" OnClick="btnClear_Click" />
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-
-                                </table>
+                                <div align="center" style="position: relative; top: 10px;">
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-4">Institute Name :</label>
+                                        <div class="col-sm-6">
+                                            <asp:TextBox ID="txtInstitueName" runat="server" MaxLength="100" class="form-control"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-4">Institute Coordinator:</label>
+                                        <div class="col-sm-6">
+                                            <asp:TextBox ID="txtInstituteCoordinator" runat="server" class="form-control"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-4">Email :</label>
+                                        <div class="col-sm-6">
+                                            <asp:TextBox ID="txtIEmail" runat="server" MaxLength="100" class="form-control"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-4">Password :</label>
+                                        <div class="col-sm-6">
+                                            <asp:TextBox ID="txtIPwd" runat="server" TextMode="Password" MaxLength="100" class="form-control" EnableViewState="true"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-4">Mobile No :</label>
+                                        <div class="col-sm-6">
+                                            <asp:TextBox ID="txtIMobileNo" runat="server" MaxLength="10" class="form-control"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" OnClientClick="return Validateall()" />
+                                    <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClientClick="return Validateall()" OnClick="btnUpdate_Click"
+                                        Visible="false" />
+                                    <asp:Button ID="btnClear" runat="server" Text="Clear" OnClick="btnClear_Click" />
+                                </div>
 
                             </div>
                         </section>

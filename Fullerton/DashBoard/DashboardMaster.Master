@@ -99,7 +99,7 @@
                 <!-- sidebar menu start-->
                 <asp:Panel ID="pnlAdmin" runat="server"   Visible="false" >
                     <ul class="sidebar-menu">
-                        <li class="active">
+                        <li >
                             <a class="" href="AdminDashBoard.aspx">
                                 <i class="icon_house_alt"></i>
                                 <span>Dashboard</span>
@@ -120,10 +120,10 @@
 
                         </li>
                         <li class="sub-menu">
-                            <a class="" href="#">
+                            <a class="" href="ConceptNoteDetails.aspx">
                                 <i class="icon_genius"></i>
                                 <span>Concept Notes
-                                    <br />
+                                   
                                     Details</span>
                             </a>
 
@@ -132,7 +132,7 @@
                             <a class="" href="InstituteCoordinatorDetails.aspx">
                                 <i class="icon_piechart"></i>
                                 <span>Add/Modify
-                                    <br />
+                                 
                                     Institute Details</span>
                             </a>
 
@@ -149,7 +149,7 @@
                             <a class="" href="UpdateTeam.aspx">
                                 <i class="icon_table"></i>
                                 <span>Modify/Delete
-                                    <br />
+                                     
                                     Team</span>
                             </a>
 
@@ -159,7 +159,7 @@
                 </asp:Panel>
                 <asp:Panel ID="pnlInstituteCoordinator" runat="server" Visible="false">
                     <ul class="sidebar-menu">
-                        <li class="active">
+                        <li >
                             <a class="" href="#">
                                 <i class="icon_house_alt"></i>
                                 <span>Dashboard</span>
@@ -178,14 +178,14 @@
                 </asp:Panel>
                 <asp:Panel ID="pnlTeamCoordinator" runat="server" Visible="false">
                     <ul class="sidebar-menu">
-                        <li class="active">
+                        <li  >
                             <a class="" href="TcDashBoard.aspx">
                                 <i class="icon_house_alt"></i>
                                 <span>Dashboard</span>
                             </a>
                         </li>
                         <li class="sub-menu">
-                            <a class="" href="ManageTc.aspx">
+                            <a class="" href="ManageTeamCoordinator.aspx">
                                 <i class="icon_document_alt"></i>
                                 <span>Change Team Coordinator</span>
                             </a>
@@ -200,14 +200,14 @@
                         </li>
                          <li class="sub-menu">
                             <a class="" href="UploadConceptNotes.aspx">
-                                <i class="icon_desktop"></i>
+                                <i class="icon_piechart"></i>
                                 <span>Upload Concept Note</span>
                             </a>
 
                         </li>
                          <li class="sub-menu">
                             <a class="" href="UploadPresentation.aspx">
-                                <i class="icon_desktop"></i>
+                               <i class="icon_documents_alt"></i>
                                 <span>Upload Presentation  </span>
                             </a>
 
@@ -218,7 +218,7 @@
                 </asp:Panel>
                  <asp:Panel ID="pnlTeamMember" runat="server" Visible="false">
                     <ul class="sidebar-menu">
-                        <li class="active">
+                        <li  >
                             <a class="" href="#">
                                 <i class="icon_house_alt"></i>
                                 <span>Dashboard</span>
@@ -233,7 +233,7 @@
                         </li>
                         <li class="sub-menu">
                             <a class="" href="#">
-                                <i class="icon_desktop"></i>
+                                    <i class="icon_piechart"></i>
                                 <span>Events</span>
                             </a>
 
@@ -247,7 +247,7 @@
                         </li>
                          <li class="sub-menu">
                             <a class="" href="ViewPresentation.aspx">
-                                <i class="icon_desktop"></i>
+                                <i class="icon_genius"></i>
                                 <span>View Presentation  </span>
                             </a>
 

@@ -72,39 +72,26 @@
                                         <div align="center">
                                             <asp:Label ID="lblMessage" runat="server" EnableViewState="false" ForeColor="Orange" Font-Bold="true"></asp:Label>
                                         </div>
-                                <table align="center" style="position: relative; top: 10px;">
-                                    <tr>
-                                        <td>
-                                            <table align="center">
-                                                <tr>
-                                                    <td>Event Name :
-                                                    </td>
-                                                    <td>
-                                                        <asp:TextBox ID="txtEventName" runat="server" MaxLength="150" Width="250px"></asp:TextBox>
-
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Event Date:
-                                                    </td>
-                                                    <td>
-                                                        <asp:TextBox ID="txtEventDate" runat="server" MaxLength="10" Width="250px" ClientIDMode="Static"></asp:TextBox>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td colspan="2" align="center">
-                                                        <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" OnClientClick="return Validateall();" />
+                                <div align="center" style="position: relative; top: 10px;">
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-4">Event Name :</label>
+                                        <div class="col-sm-6">
+                                           <asp:TextBox ID="txtEventName" runat="server" MaxLength="150"  class="form-control"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-4">Event Date:</label>
+                                        <div class="col-sm-6">
+                                            <asp:TextBox ID="txtEventDate" runat="server" MaxLength="10"  class="form-control" ClientIDMode="Static"></asp:TextBox>
+                                        </div>
+                                    </div>
+                                    
+                                    <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" OnClientClick="return Validateall();" />
                                                         <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click" OnClientClick="return Validateall();"
                                                             Visible="false" />
                                                         <asp:Button ID="btnClear" runat="server" Text="Clear" OnClick="btnClear_Click" />
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </td>
-                                    </tr>
-                                    
-                                </table>
+                                </div>
+                                 
 
                             </div>
                         </section>
