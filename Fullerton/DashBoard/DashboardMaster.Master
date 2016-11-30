@@ -32,6 +32,7 @@
    <link href="<%= Page.ResolveUrl("~/DashBoard/css/widgets.css")%>" rel="stylesheet">
    <link href="<%= Page.ResolveUrl("~/DashBoard/css/style.css")%>" rel="stylesheet">
    <link href="<%= Page.ResolveUrl("~/DashBoard/css/style-responsive.css")%>" rel="stylesheet" />
+
    
    <%--<link href="<%= Page.ResolveUrl("~/DashBoard/css/jquery-ui-1.10.4.min.css")%>" rel="stylesheet">--%>
    <link href="<%= Page.ResolveUrl("~/DashBoard/css/CustomStyles.css")%>" rel="stylesheet">          
@@ -41,6 +42,8 @@
 
     <script src="<%= Page.ResolveUrl("~/FullCallender/moment.min.js")%>"></script>
     <script src="<%= Page.ResolveUrl("~/FullCallender/fullcalendar.min.js")%>"></script>
+    <script src="<%= Page.ResolveUrl("~/Scripts/scripts.js")%>"></script>
+    <link href="<%= Page.ResolveUrl("~/css/style.css")%>" rel="stylesheet" />
     
 </head>
 
@@ -223,6 +226,13 @@
                                 <i class="icon_house_alt"></i>
                                 <span>Dashboard</span>
                             </a>
+                        </li>
+                        <li class="sub-menu">
+                            <a class="" href="TmProfile.aspx">
+                                <i class="icon_document_alt"></i>
+                                <span>Profile</span>
+                            </a>
+
                         </li>
                         <li class="sub-menu">
                             <a class="" href="#">

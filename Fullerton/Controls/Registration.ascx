@@ -164,6 +164,10 @@
 
     $(document).ready(function () {
 
+
+        $('.aspNetDisabled').addClass('form-control');
+        $('.aspNetDisabled').removeClass('aspNetDisabled');
+
         $("#txtDOB").datepicker({
             changeMonth: true,
             changeYear: true
@@ -237,7 +241,9 @@
     });
 
     function Redirection() {
-        alert("Registration Successfully Completed");
+
+        var msg = '<%=MSG%>';
+        alert(msg);
         jQuery("#<%=btnnidden.ClientID%>").trigger("click");
         return true;
     }

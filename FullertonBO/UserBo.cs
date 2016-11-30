@@ -37,6 +37,8 @@ namespace FullertonBO
         public bool PartialTc { get; set; }
         public int NewTcId { get; set; }
 
+        public int RoleID { get; set; }
+
         public enum RoleName
         {
             TC = 1,

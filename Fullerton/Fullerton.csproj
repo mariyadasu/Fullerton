@@ -150,9 +150,12 @@
     <Content Include="DashBoard\Pages\IC\StudentDetailsIC.aspx" />
     <Content Include="DashBoard\Pages\TC\EnentsCallender.aspx" />
     <Content Include="DashBoard\Pages\TC\ManageTeamCoordinator.aspx" />
+    <Content Include="DashBoard\Pages\TC\Profile.aspx" />
     <Content Include="DashBoard\Pages\TC\StudentRegistration.aspx" />
     <Content Include="DashBoard\Pages\TC\TcDashBoard.aspx" />
     <Content Include="DashBoard\Pages\TM\EnentsCallender.aspx" />
+    <Content Include="DashBoard\Pages\TM\TMDashBoard.aspx" />
+    <Content Include="DashBoard\Pages\TM\TmProfile.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
     <Content Include="FullCallender\fullcalendar.css" />
     <Content Include="FullCallender\fullcalendar.min.js" />
@@ -428,6 +431,13 @@
     <Compile Include="DashBoard\Pages\TC\ManageTeamCoordinator.aspx.designer.cs">
       <DependentUpon>ManageTeamCoordinator.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DashBoard\Pages\TC\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DashBoard\Pages\TC\StudentRegistration.aspx.cs">
       <DependentUpon>StudentRegistration.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -448,6 +458,20 @@
     </Compile>
     <Compile Include="DashBoard\Pages\TM\EnentsCallender.aspx.designer.cs">
       <DependentUpon>EnentsCallender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\TMDashBoard.aspx.cs">
+      <DependentUpon>TMDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\TMDashBoard.aspx.designer.cs">
+      <DependentUpon>TMDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\TmProfile.aspx.cs">
+      <DependentUpon>TmProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\TmProfile.aspx.designer.cs">
+      <DependentUpon>TmProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="DashBoard\TeamCoordinatorDashBoard.aspx.cs">
       <DependentUpon>TeamCoordinatorDashBoard.aspx</DependentUpon>

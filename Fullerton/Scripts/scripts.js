@@ -81,13 +81,13 @@ jQuery(document).ready(function () {
             });
         }
 
-
-        if (txtPassword == "") {
+        debugger;
+        if (txtPassword == "" && $("#txtPassword")[0].disabled==false) {
             $("#txtPasswordError")[0].innerText = "Please Enter Password";
             next_step = false;
         }
 
-        if (txtPassword != "") {
+        if (txtPassword != "" && $("#txtPassword")[0].disabled==false) {
             var filter = /(?!^[0-9]*$)(?!^[a-zA-Z~|!@#$%^&*()+=_-]*$)^([a-zA-Z0-9~!|@#$%^&*()+=_-]{8,})$/
             if (!filter.test(txtPassword)) {
 
@@ -95,12 +95,12 @@ jQuery(document).ready(function () {
             }
         }
 
-        if (txtConformPwd == "") {
+        if (txtConformPwd == "" && $("#txtConformPwd")[0].disabled == false) {
             $("#txtConformPwdError")[0].innerText = "Please Enter Confirm Password";
             next_step = false;
         }
 
-        if (txtPassword != "" && txtConformPwd != "") {
+        if (txtPassword != "" && txtConformPwd != "" &&  $("#txtConformPwd")[0].disabled == false) {
             if (txtPassword != txtConformPwd) {
                 $("#txtConformPwdError")[0].innerText = "Miss Match in Password and Confirm Password";
                 next_step = false;

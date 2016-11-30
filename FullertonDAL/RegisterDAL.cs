@@ -113,7 +113,7 @@ namespace FullertonDAL
             return institutes;
 
         }
-        public int InsertStudentDet(UserBo user)
+        public int InsertStudentDet(UserBo user,int userId=0)
         {
             DBConnection dbcon = new DBConnection();
             int Result=0;
@@ -139,6 +139,7 @@ namespace FullertonDAL
                 cmd.Parameters.AddWithValue("@TEAMID", user.TeamId);
                 cmd.Parameters.AddWithValue("@IMAGE", user.Image);
                 cmd.Parameters.AddWithValue("@CourseName", user.OtherCourse);
+                cmd.Parameters.AddWithValue("@USERIDINPUT", userId);
 
                 Result = cmd.ExecuteNonQuery();
                 return Result;

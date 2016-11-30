@@ -32,6 +32,20 @@ namespace FullertonDAL
                 {
                     user.PartialTc =Convert.ToBoolean(ds.Tables[0].Rows[0]["PartialTc"]);
                     user.InstituteID = Convert.ToInt32(ds.Tables[0].Rows[0]["InstituteID"]);
+                    user.EmailId = Convert.ToString(ds.Tables[0].Rows[0]["Email"]);
+                    user.Password = Convert.ToString(ds.Tables[0].Rows[0]["PassWord"]);
+                    user.FirstName = Convert.ToString(ds.Tables[0].Rows[0]["FirstName"]);
+                    user.LastName = Convert.ToString(ds.Tables[0].Rows[0]["LastName"]);
+                    user.DOB = Convert.ToString(ds.Tables[0].Rows[0]["DateOfBirth"]);
+                    user.MobileNo = Convert.ToString(ds.Tables[0].Rows[0]["MobileNo"]);
+                    user.CourseName = Convert.ToString(ds.Tables[0].Rows[0]["Course"]);
+                    user.CourserType = Convert.ToInt32(ds.Tables[0].Rows[0]["CourseType"]);
+                    user.Hometown = Convert.ToString(ds.Tables[0].Rows[0]["HomeTown"]);
+                    user.Address = Convert.ToString(ds.Tables[0].Rows[0]["Address"]);
+                    user.SemisterId = Convert.ToInt32(ds.Tables[0].Rows[0]["YearSemester"]);
+                    user.RollNo = Convert.ToString(ds.Tables[0].Rows[0]["RollNo"]);
+                    user.TeamId = Convert.ToInt32(ds.Tables[0].Rows[0]["TeamName"]);
+                    user.RoleID= Convert.ToInt32(ds.Tables[0].Rows[0]["RoleId"]);
                 }
             }
             catch (Exception ex)
