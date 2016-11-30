@@ -10,7 +10,7 @@
                     <div class="col-lg-12">
                         <h3 class="page-header"></h3>
                         <ol class="breadcrumb">
-                            <li><i class="fa fa-home"></i><a href="AdminDashBoard.aspx">Home</a></li>
+                            <li><i class="fa fa-home"></i><a href="TcDashBoard.aspx">Home</a></li>
                             <li><i class="fa fa-th-list"></i>Manage TC</li>
                         </ol>
                     </div>
@@ -30,7 +30,7 @@
                                             <div class="col-md-3">
                                                 <label for="ddlTeamNames">Activation Type <span class="red-text">*</span> :</label>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-5">
                                                 <asp:DropDownList class="form-control" ID="ddlStatus" runat="server" ClientIDMode="Static">
                                                     <asp:ListItem Value="1" Text="TC"></asp:ListItem>
                                                     <asp:ListItem Value="0" Text="Partial TC"></asp:ListItem>
@@ -53,7 +53,7 @@
                                             <div class="col-md-3">
                                                 <label for="ddlTeamNames">New Team Coordinator <span class="red-text">*</span> :</label>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-5">
                                                 <asp:DropDownList class="form-control" ID="ddlTeamMembers" runat="server" ClientIDMode="Static">
                                                 </asp:DropDownList>
                                             </div>

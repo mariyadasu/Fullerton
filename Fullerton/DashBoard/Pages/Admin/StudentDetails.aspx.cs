@@ -30,6 +30,8 @@ namespace Fullerton.DashBoard.Pages.Admin
                 ds = objdal.GetStudentDetails();
                 if (ds != null && ds.Tables[0].Rows.Count > 0)
                 {
+                    if (ds.Tables[0].Columns.Contains("UserId"))
+                        ds.Tables[0].Columns.Remove("UserId");
                     gvStudent.DataSource = ds;
                     gvStudent.DataBind();
                 }

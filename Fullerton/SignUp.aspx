@@ -162,7 +162,7 @@
                         </li>
                     </ul>
                 </div>--%>
-                <div style="margin-left:110px">
+                <div style="margin-left:60px">
               <div style="margin-left:110px">
                 <uc:Registration ID="ucRegistration" runat="server" MinValue="1" MaxValue="10" />
  

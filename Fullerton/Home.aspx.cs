@@ -9,6 +9,7 @@ using System.Data.SqlClient;
 using FullertonDAL;
 using FullertonBO;
 using System.Net.Mail;
+using System.Web.Services;
 namespace Fullerton
 {
     public partial class Home : System.Web.UI.Page
@@ -151,6 +152,7 @@ namespace Fullerton
                     lblForgetMessage.Text = "Your Password Details Sent to your mail";
                     // Clear the textbox valuess
                     txtFPEmail.Text = "";
+                    
                 }
                 else
                 {
@@ -186,5 +188,7 @@ namespace Fullerton
                 }
             }
         }
+        
+        
     }
 }

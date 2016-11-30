@@ -10,7 +10,7 @@
 namespace Fullerton.DashBoard.Pages.Admin {
     
     
-    public partial class ConceptNoteDetails {
+    public partial class ViewConceptDetails {
         
         /// <summary>
         /// form1 control.

@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Fullerton.DashBoard.Pages.Admin {
+namespace Fullerton.DashBoard.Pages.TM {
     
     
-    public partial class ConceptNoteDetails {
+    public partial class ViewConceptNotes {
         
         /// <summary>
         /// form1 control.

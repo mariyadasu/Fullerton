@@ -75,6 +75,7 @@
 </head>
 
 <body>
+
     <div class="wrapper">
         <div class="inner-wrapper type-1">
             <header id="header" class="dt-sticky-menu">
@@ -103,6 +104,7 @@
                     </div>
                 </div>
             </header>
+
             <div id="main" class="top-slider">
                 <section id="home" class="content">
                     <div class="banner fullwidth-section dt-sc-parallax-section">
@@ -309,7 +311,7 @@
                                         <h5></h5>
                                         <div class="dt-sc-content">
                                             <i class="fa fa-cog"></i>
-                                            <p>Winners of the Final Arena stand to win between INR 10,00,000 – 25,00,000 </p>
+                                            <p>Winners of the Final Arena stand to win between <span style="font-weight: bold; color: yellow">INR 10,00,000 – 25,00,000 </span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -908,132 +910,6 @@ o	One Team cannot submit more than two (2) concept notes.  </li>
                             </div>
                         </div>
                         <div class="dt-sc-toggle-frame">
-                            <a href="#" class="dt-sc-toggle">The Final Arena</a>
-                            <div class="dt-sc-toggle-content">
-                                <div class="block">
-                                    <div>
-                                        <b>1.	I don't know how to make a project plan. What do I do?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            You will be provided with a format and guided on project plan preparation by your mentors in Fullerton India.
-
-   
-                                        </div>
-
-                                        <b>2.	What are the components of the project plan?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            A project plan mainly consists of the major activities (which are subdivided into smaller activities), timelines for completing each line activity, and milestones indicating phase wise development. It also consists of the resource estimates for development (software/hardware costs, logistics costs, other equipment costs).
-   
-                                        </div>
-                                        <b>3.	What kind of support will be provided by Fullerton India for project development?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            Fullerton India will provide teams with
-1.	Mentoring support so that teams have an idea of the product they need to develop
-                                            <br />
-                                            2.	Financial support in terms of cost of development<br />
-                                            3.	Travel/stay costs in case the team is required to visit the office at any point<br />
-
-                                        </div>
-                                        <b>4.	What happens if my coursework/exam dates clash with milestones? </b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            You can make your project plan based on the estimates you have regarding your coursework commitments and exams. However, in case of any sudden change of schedule, you can make a request to your mentor for revision of timelines which may be accepted/rejected after evaluation.
-   
-                                        </div>
-                                        <b>5.	What is the duration for project development?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            There is no specified duration for project development. Timelines will be decided between the teams and their mentors based on scope, resource constraints, schedules, etc. 
-   
-                                        </div>
-                                        <b>6.	Will I have to work at Fullerton India office for the project development?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            You may do most of the work from your own location. However, if it is absolutely necessary for you to work from Fullerton India due to any security/logistical issues, care will be taken to accommodate your coursework and schedule. Also, Fullerton India will bear all costs towards travel (local included), stay and food arrangements.
-   
-                                        </div>
-                                        <b>7.	Can I change my faculty mentor for the project at this stage?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            Yes. However, you will need to provide a letter of acceptance from the older faculty mentor stating that he is OK with you changing your mentor, and is ready to forgo any claims to award money which may/may not be won depending on the team's qualification in the final round. You will also need to provide a letter of acceptance from the new mentor stating that he/she would be your mentor starting “X” date.
-   
-                                        </div>
-                                        <b>8.	Can I change team members for the project at this stage?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            Yes. However, maximum number of team members at any stage of the programme cannot exceed 5.
-
-   
-                                        </div>
-                                        <b>9.	My project requires software/hardware/other equipment which needs to be purchased. What can I do?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            If your project requires any resources apart from those specified in the project plan, you may make a formal request for the same. Fullerton India will evaluate your request and may accept/reject it based on feasibility.
-
-   
-                                        </div>
-                                        <b>10.	What happens to my idea if it doesn't qualify in the final stage?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            Fullerton India still reserves the right to use the product at a later stage in future based on its sole discretion. If you would like to continue pursuing it through other platforms, you may submit a request for an NOC within 60 days of being rejected, post receipt of which the organization will provide you the same within 90 days. 
-   
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="dt-sc-toggle-frame">
-                            <a href="#" class="dt-sc-toggle">Entrepreneurship</a>
-                            <div class="dt-sc-toggle-content">
-                                <div class="block">
-                                    <div>
-                                        <b>1.	My idea has qualified the Grand Arena stage, and I am interested in starting my own business. What kind of support will I get from Fullerton India?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            Fullerton India will guide interested students by
-                                            <br />
-                                            a.	Providing them all the required knowledge and/or putting them in touch with parties with the capability of doing so regarding setting up a new business<br />
-                                            b.	Provide the students a purchase order based on which the team may pitch to investors<br />
-                                            c.	Guide them towards attaining seed funding for their startup<br />
-
-                                        </div>
-
-                                        <b>2.	My idea has qualified the Grand Arena stage, but I am not interested in setting up a business. What happens in this case?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            Fullerton India can use the product within its businesses based on its sole discretion independently or via external parties. 
-   
-                                        </div>
-                                        <b>3.	Will Fullerton India provide me with seed funding for my business?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            Fullerton India will guide teams towards attaining seed funding for their startup, and will also provide the students a purchase order based on which the team may pitch to investors
-   
-                                        </div>
-                                        <b>4.	At this stage, can I sell my idea to other companies? </b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            No. However, if circumstances demand the option, you may apply for an NOC to Fullerton India, who will evaluate your request and accept/reject the same based on its sole discretion.
-   
-                                        </div>
-                                        <b>5.	My team members are no longer interested in pursuing entrepreneurship, but I want to continue by adding new team members/partners. Is this possible?</b>
-                                        <br />
-                                        <div style="padding-left: 25px">
-                                            Yes. After the final arena stage, all students/teams interested in pursuing entrepreneurship are free to set up their business on the lines of any model (partnership, proprietorship, etc) based on their own discretion. If the initial team gets disbanded and a new one is formed, it is the team's/Team Coordinator's responsibility to intimate Fullerton India of the same.
-   
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="column dt-sc-one-half">
-                        <div class="dt-sc-hr-invisible-toosmall"></div>
-                        <div class="dt-sc-toggle-frame">
                             <a href="#" class="dt-sc-toggle">Intellectual Property Rights</a>
                             <div class="dt-sc-toggle-content">
                                 <div class="block">
@@ -1162,6 +1038,12 @@ If your team cannot develop the project, you will be disqualified from the progr
                                 </div>
                             </div>
                         </div>
+
+
+                    </div>
+
+                    <div class="column dt-sc-one-half">
+                        <div class="dt-sc-hr-invisible-toosmall"></div>
                         <div class="dt-sc-toggle-frame">
                             <a href="#" class="dt-sc-toggle">Appathon</a>
                             <div class="dt-sc-toggle-content">
@@ -1237,6 +1119,128 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
 
    
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dt-sc-toggle-frame">
+                            <a href="#" class="dt-sc-toggle">The Final Arena</a>
+                            <div class="dt-sc-toggle-content">
+                                <div class="block">
+                                    <div>
+                                        <b>1.	I don't know how to make a project plan. What do I do?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            You will be provided with a format and guided on project plan preparation by your mentors in Fullerton India.
+
+   
+                                        </div>
+
+                                        <b>2.	What are the components of the project plan?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            A project plan mainly consists of the major activities (which are subdivided into smaller activities), timelines for completing each line activity, and milestones indicating phase wise development. It also consists of the resource estimates for development (software/hardware costs, logistics costs, other equipment costs).
+   
+                                        </div>
+                                        <b>3.	What kind of support will be provided by Fullerton India for project development?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            Fullerton India will provide teams with
+1.	Mentoring support so that teams have an idea of the product they need to develop
+                                            <br />
+                                            2.	Financial support in terms of cost of development<br />
+                                            3.	Travel/stay costs in case the team is required to visit the office at any point<br />
+
+                                        </div>
+                                        <b>4.	What happens if my coursework/exam dates clash with milestones? </b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            You can make your project plan based on the estimates you have regarding your coursework commitments and exams. However, in case of any sudden change of schedule, you can make a request to your mentor for revision of timelines which may be accepted/rejected after evaluation.
+   
+                                        </div>
+                                        <b>5.	What is the duration for project development?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            There is no specified duration for project development. Timelines will be decided between the teams and their mentors based on scope, resource constraints, schedules, etc. 
+   
+                                        </div>
+                                        <b>6.	Will I have to work at Fullerton India office for the project development?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            You may do most of the work from your own location. However, if it is absolutely necessary for you to work from Fullerton India due to any security/logistical issues, care will be taken to accommodate your coursework and schedule. Also, Fullerton India will bear all costs towards travel (local included), stay and food arrangements.
+   
+                                        </div>
+                                        <b>7.	Can I change my faculty mentor for the project at this stage?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            Yes. However, you will need to provide a letter of acceptance from the older faculty mentor stating that he is OK with you changing your mentor, and is ready to forgo any claims to award money which may/may not be won depending on the team's qualification in the final round. You will also need to provide a letter of acceptance from the new mentor stating that he/she would be your mentor starting “X” date.
+   
+                                        </div>
+                                        <b>8.	Can I change team members for the project at this stage?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            Yes. However, maximum number of team members at any stage of the programme cannot exceed 5.
+
+   
+                                        </div>
+                                        <b>9.	My project requires software/hardware/other equipment which needs to be purchased. What can I do?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            If your project requires any resources apart from those specified in the project plan, you may make a formal request for the same. Fullerton India will evaluate your request and may accept/reject it based on feasibility.
+
+   
+                                        </div>
+                                        <b>10.	What happens to my idea if it doesn't qualify in the final stage?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            Fullerton India still reserves the right to use the product at a later stage in future based on its sole discretion. If you would like to continue pursuing it through other platforms, you may submit a request for an NOC within 60 days of being rejected, post receipt of which the organization will provide you the same within 90 days. 
+   
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dt-sc-toggle-frame">
+                            <a href="#" class="dt-sc-toggle">Entrepreneurship</a>
+                            <div class="dt-sc-toggle-content">
+                                <div class="block">
+                                    <div>
+                                        <b>1.	My idea has qualified the Grand Arena stage, and I am interested in starting my own business. What kind of support will I get from Fullerton India?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            Fullerton India will guide interested students by
+                                            <br />
+                                            a.	Providing them all the required knowledge and/or putting them in touch with parties with the capability of doing so regarding setting up a new business<br />
+                                            b.	Provide the students a purchase order based on which the team may pitch to investors<br />
+                                            c.	Guide them towards attaining seed funding for their startup<br />
+
+                                        </div>
+
+                                        <b>2.	My idea has qualified the Grand Arena stage, but I am not interested in setting up a business. What happens in this case?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            Fullerton India can use the product within its businesses based on its sole discretion independently or via external parties. 
+   
+                                        </div>
+                                        <b>3.	Will Fullerton India provide me with seed funding for my business?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            Fullerton India will guide teams towards attaining seed funding for their startup, and will also provide the students a purchase order based on which the team may pitch to investors
+   
+                                        </div>
+                                        <b>4.	At this stage, can I sell my idea to other companies? </b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            No. However, if circumstances demand the option, you may apply for an NOC to Fullerton India, who will evaluate your request and accept/reject the same based on its sole discretion.
+   
+                                        </div>
+                                        <b>5.	My team members are no longer interested in pursuing entrepreneurship, but I want to continue by adding new team members/partners. Is this possible?</b>
+                                        <br />
+                                        <div style="padding-left: 25px">
+                                            Yes. After the final arena stage, all students/teams interested in pursuing entrepreneurship are free to set up their business on the lines of any model (partnership, proprietorship, etc) based on their own discretion. If the initial team gets disbanded and a new one is formed, it is the team's/Team Coordinator's responsibility to intimate Fullerton India of the same.
+   
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -1410,13 +1414,499 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
                                     </div>
                             </article>
                         </div>
+                        <div class="dt-sc-hr-invisible-toosmall"></div>
+                        <div class="dt-sc-one-half column first">
+                            <article class="blog-entry animate" data-animation="fadeInLeft" data-delay="100">
+                                <div class="entry-thumb" style="float:none !important">
+                                    <a href="#">
+                                        <div class="entry-title" style="width:100% !important">
+                                            <h5>ForIndianEntrepreneurs:Repechage is on
+                                            </h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="entry-details">
+                                    <div class="entry-meta">
+                                    </div>
+                                    <div class="tags">
+                                    </div>
+                                </div>
+                                <div class="entry-content" style="width:100% ; padding: 0% 5% 0% 28px !important">
+                                    <p>
+                                        The word Repechage has French roots and literally translated, it means
 
+"rescuing" or "fishing out". The concept of repechage is common in various
+
+contact sports primarily to provide a second chance to athletes who may
+
+have lost to eventual finalists due to random draws.
+                                    </p>
+                                   <p>
+                                        Though the concept of ‘repechage’ exists across various sports, Indians
+
+identify it the most with the sport of wrestling as repechage has helped
+
+India win 3 wrestling bronze medals in the last three Olympics (Sushil
+
+Kumar, Beijing, 2008 ; Yogeshwar Dutt, London, 2012 and Sakshi
+
+Malik, Rio, 2016).
+                                    </p>
+                                     
+                                </div>
+
+                                <div class="dt-sc-toggle-frame">
+                                    <a href="#" class="dt-sc-toggle">Read more  </a>
+                                    <div class="dt-sc-toggle-content">
+                                        <div class="block">
+                                             <p>
+                                               The whole concept of ‘repechage’ was introduced across sports where
+
+random draws were made i.e. draws weren’t taken out basis the
+
+ranking of individual athletes but through a draw of lots which meant
+
+that two highly qualified athletes could meet very early in qualifying
+
+rounds in which case the ‘losing athlete’ deserves a second chance to
+
+prove his/her worth provided his ‘defeater’ reaches the finals of the
+
+competition.
+                                            </p>
+                                      <p>
+                                                Extending the definition of ‘repechage’ to the generally accepted
+meaning of ‘second chance’, I find an eerie resemblance of this concept
+to today’s Indian start up ecosystem as well where highly capable
+founders leading competent companies are looking for their own
+version of repechage to prove their worth. </p>
+                                           <p> These founders and
+companies are performing well but still need help in surviving because
+the hysteria of 2015 fund-raises led them to make a few mistakes and
+they need some time and money (largely to buy the time) to get back to
+basics and get their businesses back on track.
+
+                                            </p>
+                                            <p>
+                                              On one hand, a lot of successful Indian startups have been created
+through pivots which were nothing short of second chances; be it
+Flipkart (from a books e-tailer to an e-commerce player), Snapdeal
+(from a deals platform to an e-commerce marketplace), Freecharge
+(from a cash back company to a payments-led marketing engine) and
+Myntra (From on-demand gift personalization to the largest online
+apparel player). But on the other hand, I am also aware of quite a few
+companies that weren’t able to survive in spite of second (and in some
+cases, third) chances as well.
+
+                                            </p>
+                                            <p>
+                                               I thought through various situations where Companies have been able
+to get this second chance and make it count as also of scenarios I was
+privy to where people couldn’t make it count. In my assessment, there
+were a few key ingredients that led to successes and have tried to list
+four key ingredients for such successes:
+                                            </p>
+                                            <p>
+                                             - Potential and Opportunity: Though one could argue that both
+potential and a large opportunity are needed to get the first chance
+itself; but I think these two attributes take a very different dimension
+when a founder is looking to have that second chance at the business.
+We have seen across funding situations where companies have received
+the first round of funding (either called seed or pre-Series A funding)
+relatively easily as the investors are largely backing individuals with
+potential trying to address a problem in a large market. This happened
+across companies and entrepreneurs through 2015 when initial
+investments were made at breakneck speed to avoid competition from
+fellow investors. But when the markets tightened and things started
+becoming tougher for companies, the prism of evaluation (especially
+for companies that need rescuing) has become very sharp. This also
+stems from the fact that the young, untested, smart individuals now
+need to prove that they are capable entrepreneurs backed by strong
+teams and high execution abilities basis which they deserve the
+support.
+                                            </p>
+                                            <p>
+                                                - Sense of Timing: One of the most impressive things for me about
+Sakshi Malik’s bronze-winning performance in Rio was the sense of
+timing that she displayed. In multiple bouts including the bronze medal
+match, she was trailing her opponents with seconds to go but she timed
+her moves to perfection ensuring that she ended up on the winning
+side. Similarly, I think the one thing smart entrepreneurs need to prove
+is their sense and understanding of timing especially when things aren’t
+going to plan i.e. a bearish market. Over the last 6–9 months I have
+come across various entrepreneurs who have clearly brought down
+their spends (expenses for business growth and investments that we
+ironically in investment circles refer to as ‘burn’) to ensure they are able
+to stay liquid and solvent through challenging times. We also have seen
+a lot of founders exhibiting the long term vision to ensure they are well
+capitalized for a longer period by adding angel investors to their Series
+A’s and B’s as well as use avenues like Venture Debt as and when
+available to ensure the capital buffer is as strong as it can be. To me,
+planning ahead of what is immediately visible is a hallmark of a highquality
+entrepreneur which is why those are the founders who deserve
+the second chance (if they need it) more than others.
+                                            </p>
+                                            <p>
+                                                - Mental strength: Typically an Olympic wrestling competition in a
+specific weight category happens on the same day with bouts in very
+quick succession. More than the physical aspects of the sport that an
+athlete can train for; the mental aspect of recovering from a shattering
+loss to come back and win multiple bouts in succession is much easier
+said than done. Similarly, when an entrepreneur realizes that the
+business idea that he started with and invested all he had into it isn’t
+working; the shift/pivot is not the easiest of things to digest and I feel
+founders who show the gumption to make those changes without
+wavering in their fundamental belief and passion are the ones most
+deserving of that second chance. I have personally spoken to a couple
+of founder friends who have undergone such a change in business idea
+and they strongly felt that being a founder is a very lonely place and
+when a founder needs to adapt his/her business to sync it with some
+external realities, it is a very difficult process mentally and people who
+are able to follow this process should certainly get one more chance.
+                                            </p>
+                                            <p>
+                                                - Support System: One of the biggest factors that play a role in going
+through business transformations and using this second chance is the
+support system around a founder. This support system includes every
+stakeholder including the core team, employees and very importantly,
+investors and financial sponsors of a business. I think all the secondchance
+success stories were crafted by entrepreneurs who always
+stayed transparent with their employees as well as investors because I
+believe in difficult times, it always helps to over-communicate rather
+than under-communicate because the support system needs to feel a
+part of the process rather than be an outside force. I have also seen
+situations where in difficult times, investors get alienated from
+situations as discussions feel like interference and the founders struggle
+to manage expectations across the board. On the other hand, I also
+think investors have been responsible for a few failures where the
+Company clearly deserved a second chance and financial support but
+the investors were over-compensating for large investments made
+during the bull period. I do think that an entrepreneur’s real leadership
+skills come to the fore at times like these because you need to walk the
+tight rope of managing difficult funding environment, keep employee
+morale high and stay engaged with investors in addition to ensuring
+that your dream stays solvent and lives longer while enduring a whole
+lot of heart burn and trouble.
+                                            </p>
+                                            <p>
+                                                With a mat-side view (using a wrestling parallel) to the Indian startup
+world, I feel the learning curve for the Indian entrepreneur is at an alltime
+high currently and people who will be able to come out of these
+repechage rounds well will come out way stronger and we will have
+many more successful companies to talk of over the next 12–15
+months. Wishing all the best to all the enterprising founders and look
+forward to many more successes.
+                                            </p>
+                                             <p>
+                                               Anshu Prasher
+                                                <br />
+                                                <img src="images/0-3CYZn_TBNMHywH71.jpg" width="150px" height="150px" />
+                                            </p>
+                                            <p>
+                                               Working with interesting Indian entrepreneurs as a venture debt provider with @InnoVenCap_IN ; Spend free time travelling, reading and listening to music
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="dt-sc-one-half column">
+                            <article class="blog-entry animate" data-animation="fadeInRight" data-delay="100">
+                                <div class="entry-thumb" style="float:none !important">
+                                    <a href="#">
+                                        <div class="entry-title" style="width:100% !important">
+                                            <h5>How Startups can help Corporates battle the new Goliath
+                                            </h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="entry-details">
+                                    <div class="entry-meta">
+                                    </div>
+                                    <div class="tags">
+                                    </div>
+                                </div>
+                                <div class="entry-content" style="width:100% ; padding: 0% 5% 0% 28px !important">
+                                  <p>Ajay Hattangdi</p>
+                                    <p>
+                                      The Peter Principle was formulated by Canadian educator Laurence
+Johnson Peter in the late 60s. The book by the same name was on the
+best seller list in 1969. Simply put, the Peter Principle explained that
+“managers tends to rise to their level of incompetence.” Peter not only
+confirmed what everyone suspected—that bosses are dolts but also
+provided the rationale for it. Essentially, when someone excels at a job,
+that person gets promoted. And keeps getting promoted until the
+person attains a job that he or she is not very good at. Then the
+promotions stop. 
+                                    </p>
+                                  
+                                </div>
+                                <div class="dt-sc-toggle-frame">
+                                    <a href="#" class="dt-sc-toggle">Read more  </a>
+                                    <div class="dt-sc-toggle-content">
+                                        <div class="block">
+                                            <p>That person has found his or her level of
+incompetence and stays there. Frustrating those that report to that
+person with his or her incompetence. Forever after…</p>
+                                             <img src="images/0-Xdsen948H0P3K66R.png" width="250px" height="250px" />
+                                            <p>
+                                              Most elegant theories tend to be applicable to more areas than just its
+immediate field of application. In this regard, the Peter Principle seems
+to apply to companies just as it does to people. Take a look at the slide
+below produced recently by visualcapitalist.com. Notice how the
+landscape of what we would call “successful companies” has changed
+over the past 15 years. The difference between the current list and the
+older one gets more dramatic the further back we go.
+                                            </p>
+                                            <p>
+                                              At some point almost every one of the so called successful companies in
+the past reached the level of their incompetence and stagnated at that
+level. They were then surpassed by other companies that have been
+more competitive or relevant to their environment. Similarly, the odds
+overwhelmingly suggest that most of the companies that we consider to
+be the superstars of today are destined to wither away at some point in
+the future.
+                                            </p>
+                                            <p>
+                                              That the Peter Principle applies to companies as it does to individuals,
+all of whom seem destined to stare stagnation in the face at some point
+in their careers, is clear. But why a company as an “artificial person
+with perpetual succession” should have the same susceptibility to choke
+as Peter’s unfortunate manager is less clear. In theory, a ‘company’ is
+the perfect survival machine capable of hiring new competent
+managers when the old ones reach their maximum level of
+competence. But there’s clearly something going on inside companies
+that makes them vulnerable to the same limitation as Peter’s manager.
+                                            </p>
+                                            <p>
+                                             Could it be that a company (unlike Peter’s manager) is locked into a
+specific industry in which it operates and its future is therefore tied to
+the fortunes of that industry?
+
+                                            </p>
+                                            <p>
+                                              The author of the article above for example, suggests that oil
+companies have fallen out in favour of tech companies due to a
+comparative difference in their industry dynamics. The oil industry has
+been pummelled by volatile prices as oil has moved from $30/bbl in
+2001 to $100/bbl in 2011 to $40/bbl today. Tech companies on the
+other hand have an inherent advantage in being able to achieve scale
+more quickly and economically and also gain competitive advantages
+through intellectual property that are difficult to supplant. So a
+company stuck in an industry with bleak prospects is pretty much
+doomed.
+                                            </p>
+                                            <p>
+                                              Could it also be that CEOs and Boards that run and manage companies
+are subject to the same human imperfections as Peter’s manager?
+Incompetent CEOs and Board Members drive their companies into the
+path of eventual decay before they get replaced.
+                                            </p>
+                                            <p>
+                                              Whatever the reason, it is somewhat harder to understand why
+companies are not spurred into action more quickly when it is so much
+easier to determine when a company is beginning to fade. Falling stock
+prices in publicly held companies and declining valuations of privately
+held companies, at least the type that we deal with in the venture
+capital world, are much more obvious signs than those apparent to
+Peter’s manager who can live in denial of the less obvious signs of
+career decay.
+                                            </p>
+                                            <p>
+                                             But once the problem is diagnosed and accepted, whether by the
+company in question or Peter’s manager, what course of action can be
+taken to remedy the situation?
+                                            </p>
+                                            <p>
+                                             At an individual level, Peter’s manager could begin to work on her skills
+and take any number of skill improvement courses to up-tier her
+toolkit. Alternatively, she might choose to move to another company
+where her skills are more in synch with the requirements of the job. Or
+she might simply throw in the towel, declare victory, and take that long
+awaited world cruise that she has dreamt about her entire life.
+                                            </p>
+                                            <p>
+                                                Throwing in the towel is generally not an option for a company.
+Returning cash to investors through stock buybacks and dividends will
+clearly score more positively with investors than reinvesting in
+businesses that are plateauing. But that is not the same as throwing in
+the towel
+                                            </p>
+                                            <p>
+                                                What about a company investing in improving the skill set of its people?
+After all, a company is simply a collection of people. Large companies
+have fairly extensive employee training programs but the numbers
+show that that clearly isn’t working.
+                                            </p>
+                                            <p>
+                                                One way could be changing tracks to move towards better prospects as
+Peter’s manager did by changing companies where her existing skills
+were more relevant. What if companies saw better prospects in new
+areas and changed tracks or acquired new skills and capabilities
+through acquisitions?
+                                            </p>
+                                            <p>
+                                                Take a look at the table again. It isn’t by accident that many of the tech
+companies in the 2016 list ended up looking very different than how
+they initially started out. Amazon started out as an online bookstore for
+example. This, however, is not unique to tech companies.
+                                            </p>
+                                            <p>
+                                                Berkshire Hathaway was a textile manufacturing company when
+Warren Buffet acquired it in the mid-60s. He soon acknowledged that
+the textile business was waning and expanded into the insurance
+industry and other investments. Buffet did that multiple times over
+several decades and has since expanded to include a diverse range of
+businesses activities including confectionaries, property and casualty
+insurance, utilities and energy, freight rail transportation, finance,
+manufacturing, retailing and jewellery sales. The reward? Berkshire
+Hathaway continues to remain in the top 10 list of the most valuable
+global companies in 2016.
+                                            </p>
+                                            <p>
+                                                Another way to improve a company’s capacity to react to changes in the
+environment and bring in new perspectives and expanded skillset is
+through acquisitions. Berkshire Hathaway and many of the tech
+companies in the 2016 list flourished not only by being nimble in
+spotting and pivoting towards new opportunities but also keeping their
+skill repertoire current by acquiring new businesses and reinventing
+themselves constantly.
+                                            </p>
+                                            <p>
+                                                This is where it comes home for us at InnoVen Capital. Our work has us
+constantly working with exciting young startups which are at the
+leading edge of innovation. Some of these companies will go on to
+become large successful companies in their own right while others will
+hopefully go on to fuel innovation and trigger fresh perspectives as part
+of other companies. Closer home, Snapdeal buying FreeCharge and
+Myntra being acquired by Flipkart, are both examples of companies
+taking the acquisition route to acquire new capabilities. Forward, up
+and to the right. Never standing in the same place.
+                                            </p>
+                                            <p>
+                                                We are privileged to have a ringside view into how companies are
+shaping up to beat the tyranny of the Peter Principle. Put those dukes
+up!
+                                            </p>
+                                        </div>
+                                    </div>
+                            </article>
+                        </div>
+                          <div class="dt-sc-hr-invisible-toosmall"></div>
+                        <div class="dt-sc-one-half column first">
+                            <article class="blog-entry animate" data-animation="fadeInLeft" data-delay="100">
+                                <div class="entry-thumb" style="float:none !important">
+                                    <a href="#">
+    
+                                        <div class="entry-title" style="width:100% !important">
+                                            <h5>If you meet a (failing) Startup on the road, KILL IT!
+                                            </h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="entry-details">
+                                    <div class="entry-meta">
+                                    </div>
+                                    <div class="tags">
+                                    </div>
+                                </div>
+                                <div class="entry-content" style="width:100% ; padding: 0% 5% 0% 28px !important">
+                                    <p>
+                                      Evolution by means of selection is one of the most elegant explanations in science. Organisms with inherited characteristics that are best suited to the environment are more likely to survive and have successors that in turn possess those same characteristics that favor their odds of survival. This is a virtuous cycle and these “favorable” characteristics accumulate over time. In short, those that are best adapted to the environment will thrive, and those that are not adaptable do not survive. It accounts for all of the designs of the natural world around us. With due apologies to Mr. Churchill, never was so much owed by so many to one explanation.</p>
+                                   
+                                </div>
+
+                                <div class="dt-sc-toggle-frame">
+                                    <a href="#" class="dt-sc-toggle">Read more  </a>
+                                    <div class="dt-sc-toggle-content">
+                                        <div class="block">
+                                            <p>
+                                        But for Evolution to work its magic, the inefficient must be taken out of the gene pool.
+                                    </p>
+                                     <p>
+                                               Using this same logic, inefficient companies need to be weeded out to make way for better variants. Founders that learn from their mistakes go on to start new companies that are, hopefully, improvements over the failed ones. They have different skills and fresh approaches. If these refinements work, the new company is well on its way to achieving success. Those that don’t…lather, rinse and repeat. Better luck the next time around!
+                                            </p>
+                                            <p>
+                                               This process of killing the inefficient company is easy in countries like the US where it takes just a few days to shut down a company that has failed. In India however, the process of shutting down a company can take up several years. In fact, it takes multiples more of time, cost and effort to shut a company in India than it does to start one.
+
+                                            </p>
+                                            <p>
+                                               One problem is bureaucracy. Think of all the paperwork to be filed, the tax and court clearances to be obtained before a company can be dissolved.
+
+                                            </p>
+                                            <p>
+                                             Another problem is culture. It is considered a shameful admission of failure for an Indian entrepreneur to shut down her company. The Architect from the Hollywood movie The Matrix could almost be referring to promoters of failed Indian startups as he says in a grave voice “there are levels of survival that we are prepared to accept”. Whatever the reason, companies that should have no business (pardon the pun) staying alive quietly morph into the living dead. Inefficient companies are a drain on resources and India should have a low tolerance for companies that squander precious innovation capital and intellectual bandwidth.
+                                            </p>
+                                            <p>
+                                              Legislation can change the first problem. But who and what will change the attitude?
+                                            </p>
+                                            <p>
+                                                Best Regards,
+                                                <br />
+                                             Ajay Hattangdi
+                                                <br />
+                                                <img src="images/0-GyNikxkYXM0Dpwci.jpg" width="150px" height="150px" />
+                                            </p>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="dt-sc-one-half column">
+                            <article class="blog-entry animate" data-animation="fadeInRight" data-delay="100">
+                                <div class="entry-thumb" style="float:none !important">
+                                    <a href="#">
+                                        
+                                        <div class="entry-title" style="width:100% !important">
+                                            <h5>Reification — Fallacy of Misplaced Concreteness in the world of Start-ups
+                                            </h5>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="entry-details">
+                                    <div class="entry-meta">
+                                    </div>
+                                    <div class="tags">
+                                    </div>
+                                </div>
+                                <div class="entry-content" style="width:100% ; padding: 0% 5% 0% 28px !important">
+                                   Recently I started reading a book called “Phantoms in the Brain” written by Dr. VS Ramachandran where there was a reference to the Fallacy of Misplaced Concreteness. To humorously explain this phenomenon, a visitor to the Dinosaur exhibit in the museum was speculating about the age of the specimen when the janitor told him that he knew that it was exactly 60 million and 3 years old! The visitor was stunned with the answer and asked for an explanation to which the janitor said that when he joined the museum three years ago, somebody had told him that the specimen was 60 million years old!
+                                    
+                                </div>
+                                <div class="dt-sc-toggle-frame">
+                                    <a href="#" class="dt-sc-toggle">Read more  </a>
+                                    <div class="dt-sc-toggle-content">
+                                        <div class="block">
+                                          <p>
+                                         This got me thinking about the function of concreteness in ideas for entrepreneurs or in other words, the importance of the ability to pivot a business depending on various circumstances (external and internal). The intuitive expectation for most people is to have stability of vision, strategy and tactics to achieve success. This could apply when the rules of the game have been established and competition is within fairly defined parameters. This does not apply when the game itself is getting created along with the players. This is usually the scenario most Indian entrepreneurs find themselves in, especially in high growth, innovative segments. There is rarely a body of knowledge to help guide them along the way and the path of discovery often entails significant revamp of fundamental ideas.
+                                            </p>
+                                      
+                                            <p>
+                                            We have seen numerous examples of well pivoted companies like Snapdeal (discounting/couponing to ecommerce marketplace) and Collectabillia (celebrity memorabilia to brand commerce) among others. For entrepreneurs, the important thing to keep in mind is that the core idea with which a business is started need not be the winning formula. I am not advocating pivoting as a frequent strategy as that is not a positive indication about the team in its inherent ability to understand their field of work. However, being wedded to a core concept which has benefits of intense focus and a burning passion to make it work should also be tempered with an appropriate evaluation framework. How long should one give a core concept before the product-market fit is established and validated externally? If the initial discovery phase is taking longer than 18 months, it often makes it difficult for further recovery as the initial fuel in the tank would have been consumed by then.
+                                            </p>
+                                            <p>
+                                              The identity of a business is important to maintain especially when technology product companies are trying to make the leap into providing a SaaS (Software as a service) offering or a B2B enterprise attempting to transform into a B2C provider. These are fundamental changes which require the appropriate modification to the DNA of the start-up as well. The outlook needs to be different, methodology of assessment varies and all stakeholders need to be aligned with such massive transformation. It is not about dedicating a few sales resources to a small project but evaluating a core strategic shift which will impact valuation and overall success of the enterprise. Sometimes, investors guide companies into such avenues if the current path is not fulfilling its potential or if there is an inherent challenge in market adoption. For example a tech product company selling to bulge bracket clients requires the appropriate sales force with heavyweights having the capability of opening the right doors. This also entails a period of cash burn before revenues catch up with costs and implies that investors need to be supportive of such measures. Without this support, it may be better for the company to focus on lower hanging fruit with smaller revenues per client and also necessitating a lighter version of the product which may in turn make it possible for the company to provide a platform as a service instead of licensing the product with a protracted implementation phase.
+
+                                            </p>
+                                            <p>
+                                               Founders need to be malleable to change but there still needs to be a very high level of conviction in whatever strategy is being adopted. The key is to have a reasonable and precise evaluation timeframe wherein the founders will take stock along with investors (if any) and decide whether the path is working. The difficulty in retaining objectivity in these situations sometimes makes it necessary to seek relevant external counsel to understand if the idea and progress till date is creating value. This value is across all stakeholders — investors need to believe there is a strong future for the company as well as the employees and clients who have to resonate with the confidence that the product or service really works. Typically, this gets established when companies raise follow on rounds with external participation as the best proof is one that can be encashed! Clearly, pivoting is not aspirational but is an important weapon in the founder’s armoury to be used only if absolutely necessary. Success is often an outcome of overcoming adversity and recognition of the extent of change required is as important as the ability to change.
+                                            </p>
+                                            <p>
+                                                There are some challenges that one needs to be wary about. FinTech start-ups tend to spend a lot of resources in marketing efforts and convincing prospective customers about the product. Instead, identifying pain areas and developing customised solutions for specific consumer groups would be a more logical solution. The research may be time-consuming, but is crucial for successful adoption. Many FinTech start-ups are self-funded. Angel or early stage investors are scarce in the financial services industry and hence there is a need for industry experts to promote and encourage them. 
+
+                                            </p>
+                                            <p>By Vinod Murali</p>
+                                            <p>Venture debt provider with @InnoVenCap_IN. Love to engage with startups. It's the next best thing.</p>
+                                        </div>
+                                    </div>
+                            </article>
+                        </div>
                     </div>
                     <div class="dt-sc-hr-invisible-medium"></div>
                 </section>
                 <section id="contact" class="content">
                     <footer>
-
                         <div id="dt-contact-content">
                             <div class="container">
                                 <div class="dt-sc-one-third column first">
@@ -1429,11 +1919,11 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
                                             Mumbai 400076
                                         </p>
                                     </div>
-                                    <div class="dt-sc-contact-info">
+                                    <%-- <div class="dt-sc-contact-info">
                                         <h5 class="sub-title alignleft">Call Us </h5>
                                         <i class="fa fa-map-marker"></i>
                                         <p>(00) 123 456 7890 </p>
-                                    </div>
+                                    </div>--%>
                                     <div class="dt-sc-contact-info">
                                         <h5 class="sub-title alignleft">Mail Us </h5>
                                         <i class="fa fa-envelope"></i>
@@ -1443,12 +1933,10 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
                                 <div class="dt-sc-two-third column">
                                     <div class="dt-sc-contact-form">
                                         <div id="ajax_contact_msg"></div>
-                                        <form method="post" action="php/send.php" class="dt-sc-enquiry-form" name="enqform">
-                                            <input type="text" required="" name="txtname" title="Please enter your name" placeholder="YOUR NAME">
-                                            <input type="email" required="" autocomplete="off" name="txtemail" title="Please enter your valid email_id" placeholder="YOUR EMAIL">
-                                            <textarea required="" rows="3" cols="5" name="txtmessage" title=" Please enter your message" placeholder="YOUR SUGGESTIONS HERE"></textarea>
-                                            <input type="submit" value="Send it Now" name="submit" class="submit">
-                                        </form>
+                                        <input id="txtCName" type="text" runat="server" required="" name="txtname" title="Please enter your name" placeholder="YOUR NAME">
+                                        <input id="txtCEmail" type="email" runat="server" required="" autocomplete="off" name="txtemail" title="Please enter your valid email_id" placeholder="YOUR EMAIL">
+                                        <textarea id="txtCComment" runat="server" required="" rows="3" cols="5" name="txtmessage" title=" Please enter your message" placeholder="YOUR SUGGESTIONS HERE"></textarea>
+                                        <input id="btnCSubmit" type="submit" runat="server" value="Submit" class="submit" />
                                     </div>
                                 </div>
                             </div>
@@ -1469,117 +1957,120 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
                 </div>
 
             </div>
+            <form id="from1" runat="server">
+                <div id="Login" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#">X</a>
+                        <div class="content">
+                            <div class="login-box">
+                                <div class="lb-header">
+                                    <a href="#" class="active" id="login-box-link">Login Here</a>
+                                </div>
+                                <asp:Label ID="lblLoginMsg" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
+                                <asp:Panel ID="pnlLogin" runat="server">
+                                    <div class="email-login">
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtuserid" runat="server" placeholder="User Id" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtpassword" runat="server" TextMode="Password" placeholder="Password" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:DropDownList ID="ddlLoginType" runat="server" CssClass="selectdrop">
+                                            </asp:DropDownList>
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:Button ID="btnsubmit" runat="server" Text="Submit" OnClick="btnlogin_Click" />
+
+                                            <asp:Button ID="btnnidden" runat="server" Text="Submit" Style="visibility: hidden; display: none;" OnClick="btnlogin_Click" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <a href="#ForGetPassword" class="forgot-password">Forgot password?</a>
+                                        </div>
+                                    </div>
+                                </asp:Panel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="SignUp" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#">X</a>
+                        <div class="content">
+                            <div class="login-box">
+                                <div class="lb-header">
+                                    <a href="#" class="active" id="A1">Register Here</a>
+                                </div>
+                                <asp:Label ID="lblMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
+                                <asp:Panel ID="pnlReg" runat="server">
+                                    <div class="email-login">
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtfname" runat="server" placeholder="First Name" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtlname" runat="server" placeholder="Last Name" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtEmailID" runat="server" placeholder="Email ID" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtSignupUserId" runat="server" placeholder="User ID" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtSignupPwd" runat="server" placeholder="Password" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtConfirmPassword" runat="server" TextMode="Password" placeholder="Confirm Password" />
+                                        </div>
+
+                                        <div class="u-form-group">
+                                            <asp:TextBox ID="txtdob" runat="server" placeholder="Date Of Birth" />
+                                        </div>
+                                        <div class="u-form-group">
+                                            <asp:DropDownList ID="ddlinstitute" runat="server" placeholder="Institute" CssClass="selectdrop">
+                                            </asp:DropDownList>
+
+                                        </div>
+
+                                        <div class="u-form-group">
+                                            <asp:Button ID="btnRegister" runat="server" Text="SING UP" OnClientClick="return Validateall(this);" OnClick="btnRegister_Click" />
+                                        </div>
+
+                                    </div>
+                                </asp:Panel>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ForGetPassword" class="overlay">
+                    <div class="popup">
+                        <a class="close" href="#">X</a>
+                        <div class="content">
+                            <div class="login-box">
+                                <div class="lb-header">
+                                    <a href="#" class="active" id="A2">Forget Password</a>
+                                </div>
+                                <asp:Label ID="lblForgetMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
+                                <div class="email-login">
+                                    <div class="u-form-group">
+                                        <asp:TextBox ID="txtFPEmail" runat="server" placeholder="User Id" />
+                                    </div>
+                                    <div class="u-form-group">
+                                        <asp:Button ID="btnForgot" runat="server" Text="Submit" OnClientClick="return ForgotValidate(this);" OnClick="btnForgot_Click" />
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
-    <form id="from1" runat="server">
-        <div id="Login" class="overlay">
-            <div class="popup">
-                <a class="close" href="#">X</a>
-                <div class="content">
-                    <div class="login-box">
-                        <div class="lb-header">
-                            <a href="#" class="active" id="login-box-link">Login Here</a>
-                        </div>
-                        <asp:Label ID="lblLoginMsg" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
-                        <asp:Panel ID="pnlLogin" runat="server">
-                            <div class="email-login">
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtuserid" runat="server" placeholder="User Id" />
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtpassword" runat="server" TextMode="Password" placeholder="Password" />
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:DropDownList ID="ddlLoginType" runat="server" CssClass="selectdrop">
-                                    </asp:DropDownList>
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:Button ID="btnsubmit" runat="server" Text="Submit"  OnClick="btnlogin_Click" />
 
-                                    <asp:Button ID="btnnidden"  runat="server" Text="Submit" style="visibility: hidden; display: none;" OnClick="btnlogin_Click"  />
-                                </div>
-                                <div class="u-form-group">
-                                    <a href="#ForGetPassword" class="forgot-password">Forgot password?</a>
-                                </div>
-                            </div>
-                        </asp:Panel>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="SignUp" class="overlay">
-            <div class="popup">
-                <a class="close" href="#">X</a>
-                <div class="content">
-                    <div class="login-box">
-                        <div class="lb-header">
-                            <a href="#" class="active" id="A1">Register Here</a>
-                        </div>
-                        <asp:Label ID="lblMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
-                        <asp:Panel ID="pnlReg" runat="server">
-                            <div class="email-login">
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtfname" runat="server" placeholder="First Name" />
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtlname" runat="server" placeholder="Last Name" />
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtEmailID" runat="server" placeholder="Email ID" />
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtSignupUserId" runat="server" placeholder="User ID" />
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtSignupPwd" runat="server" placeholder="Password" />
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtConfirmPassword" runat="server" TextMode="Password" placeholder="Confirm Password" />
-                                </div>
 
-                                <div class="u-form-group">
-                                    <asp:TextBox ID="txtdob" runat="server" placeholder="Date Of Birth" />
-                                </div>
-                                <div class="u-form-group">
-                                    <asp:DropDownList ID="ddlinstitute" runat="server" placeholder="Institute" CssClass="selectdrop">
-                                    </asp:DropDownList>
 
-                                </div>
-
-                                <div class="u-form-group">
-                                    <asp:Button ID="btnRegister" runat="server" Text="SING UP" OnClientClick="return Validateall(this);" OnClick="btnRegister_Click" />
-                                </div>
-
-                            </div>
-                        </asp:Panel>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="ForGetPassword" class="overlay">
-            <div class="popup">
-                <a class="close" href="#">X</a>
-                <div class="content">
-                    <div class="login-box">
-                        <div class="lb-header">
-                            <a href="#" class="active" id="A2">Forget Password</a>
-                        </div>
-                        <asp:Label ID="lblForgetMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
-                        <div class="email-login">
-                            <div class="u-form-group">
-                                <asp:TextBox ID="txtFPEmail" runat="server" placeholder="User Id" />
-                            </div>
-                            <div class="u-form-group">
-                                <asp:Button ID="btnForgot" runat="server" Text="Submit" OnClientClick="return ForgotValidate(this);" OnClick="btnForgot_Click" />
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </form>
 
     <%--<script src="DashBoard/Jscripts/jquery-1.12.4.js"></script>
     <script src="DashBoard/Jscripts/jquery-ui-1.12.1.js"></script>
@@ -1588,7 +2079,7 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
 
 
     <script type="text/javascript">
-       
+
         function ForgotValidate(btnsubmit) {
             debugger;
             var UserEmail = document.getElementById("<%=txtFPEmail.ClientID%>");
@@ -1600,10 +2091,10 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
         }
 
         jQuery(document).ready(function () {
-          
+
             jQuery("#btnsubmit").click(function () {
-                
-                                var UserEmail = document.getElementById("<%=txtuserid.ClientID%>");
+
+                var UserEmail = document.getElementById("<%=txtuserid.ClientID%>");
                 var UserPassword = document.getElementById("<%=txtpassword.ClientID%>");
                 var ddlLoginType = document.getElementById("<%=ddlLoginType.ClientID%>");
                 if (UserEmail.value == "") {
@@ -1638,16 +2129,70 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
                             alert("UserID/Password incorrect.");
                             return false;
                         }
-                        else
-                        {
+                        else {
                             jQuery("#<%=btnnidden.ClientID%>").trigger("click");
-                            return true;
+                        return true;
 
-                        }
+                    }
 
                     },
                     error: function (XMLHttpRequest, textStatus, errorThrown) {
                         debugger;
+                        return false;
+                    }
+                });
+                return false;
+            });
+
+            jQuery("#btnCSubmit").click(function () {
+                var txtCName = document.getElementById("<%=txtCName.ClientID%>");
+                var txtCEmail = document.getElementById("<%=txtCEmail.ClientID%>");
+                var txtCComment = document.getElementById("<%=txtCComment.ClientID%>");
+                if (txtCName.value == "") {
+                    alert("Please enter Name.");
+                    txtCName.focus();
+                    return false;
+                }
+                if (txtCEmail.value == "") {
+                    alert("Please enter Email.");
+                    txtCEmail.focus();
+                    return false;
+                }
+                if (txtCEmail != "") {
+                    var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                    if (!filter.test(txtCEmail.value)) {
+                        alert("Please enter valid Email ID");
+                        txtCEmail.focus();
+                        return false;
+                    }
+                }
+                if (txtCComment.value == "") {
+                    alert("Please enter Comment.");
+                    txtCComment.focus();
+                    return false;
+                }
+                jQuery.ajax({
+                    type: "POST",
+                    url: "/FullertonService.asmx/SaveContactUs",
+                    contentType: "application/json; charset=utf-8",
+                    type: 'POST',
+                    dataType: 'JSON',
+                    async: false,
+                    data: JSON.stringify({ CUserName: txtCName.value, CEmail: txtCEmail.value, CCommentsss: txtCComment.value }),
+                    success: function (data) {
+                        if (data.d == false) {
+                            alert("Data not saved.");
+                            return false;
+                        }
+                        else {
+                            alert("Thanks for Contact Us.We will get back to you.");
+                            txtCName.value = "";
+                            txtCEmail.value = "";
+                            txtCComment.value = "";
+                            return true;
+                        }
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
                         return false;
                     }
                 });

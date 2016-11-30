@@ -249,5 +249,28 @@ namespace FullertonDAL
                 if (dbcon != null) dbcon.closeDBConnection();
             }
         }
+        public bool SaveContactUs(UserBo objbo)
+        {
+            DBConnection dbcon = new DBConnection();
+            try
+            {
+                string strQuery = "SaveContactUs";
+                SqlCommand cmd = dbcon.setCommandProperties(strQuery);
+                cmd.Parameters.AddWithValue("@UserName", objbo.UserName);
+                cmd.Parameters.AddWithValue("@EmailId", objbo.EmailId);
+                cmd.Parameters.AddWithValue("@Comments", objbo.Comments);
+                cmd.ExecuteNonQuery();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+            finally
+            {
+                if (dbcon != null) dbcon.closeDBConnection();
+            }
+             
+        }
     }
 }

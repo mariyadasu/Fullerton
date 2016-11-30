@@ -37,8 +37,8 @@ namespace Fullerton.DashBoard
                             break;
                     }
                 }
-                //else
-                //    Response.Redirect("~/Home.aspx");
+                else
+                    Response.Redirect("~/Home.aspx");
             }
         }
 

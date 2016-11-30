@@ -144,6 +144,7 @@
     <Content Include="DashBoard\Pages\Admin\StudentDetails.aspx" />
     <Content Include="DashBoard\Pages\Admin\TeamDetails.aspx" />
     <Content Include="DashBoard\Pages\Admin\UpdateTeam.aspx" />
+    <Content Include="DashBoard\Pages\Admin\ViewConceptDetails.aspx" />
     <Content Include="DashBoard\Pages\EnentsCallender.aspx" />
     <Content Include="DashBoard\Pages\IC\EnentsCallender.aspx" />
     <Content Include="DashBoard\Pages\IC\ICDashBoard.aspx" />
@@ -153,7 +154,12 @@
     <Content Include="DashBoard\Pages\TC\Profile.aspx" />
     <Content Include="DashBoard\Pages\TC\StudentRegistration.aspx" />
     <Content Include="DashBoard\Pages\TC\TcDashBoard.aspx" />
+    <Content Include="DashBoard\Pages\TC\UploadConceptNotes.aspx" />
+    <Content Include="DashBoard\Pages\TC\UploadPresentation.aspx" />
     <Content Include="DashBoard\Pages\TM\EnentsCallender.aspx" />
+    <Content Include="DashBoard\Pages\TM\TMDashBoard.aspx" />
+    <Content Include="DashBoard\Pages\TM\ViewConceptNotes.aspx" />
+    <Content Include="DashBoard\Pages\TM\ViewPresentation.aspx" />
     <Content Include="DashBoard\Pages\TM\TMDashBoard.aspx" />
     <Content Include="DashBoard\Pages\TM\TmProfile.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
@@ -163,6 +169,12 @@
     <Content Include="FullCallender\jquery.min.js" />
     <Content Include="FullCallender\moment.min.js" />
     <Content Include="FullertonService.asmx" />
+    <Content Include="images\0-3CYZn_TBNMHywH71.jpg" />
+    <Content Include="images\0-GyNikxkYXM0Dpwci.jpg" />
+    <Content Include="images\0-Xdsen948H0P3K66R.gif" />
+    <Content Include="images\0-Xdsen948H0P3K66R.png" />
+    <Content Include="images\1-Cd4Zb2UUDuAeyFe_0X8kOg.png" />
+    <Content Include="images\1-ZPUldyAPO0kOIPKJ-JCHmg.jpeg" />
     <Content Include="images\1473231473-7827.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\jquery-1.11.1.js" />
@@ -389,6 +401,13 @@
     <Compile Include="DashBoard\Pages\Admin\UpdateTeam.aspx.designer.cs">
       <DependentUpon>UpdateTeam.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DashBoard\Pages\Admin\ViewConceptDetails.aspx.cs">
+      <DependentUpon>ViewConceptDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\Admin\ViewConceptDetails.aspx.designer.cs">
+      <DependentUpon>ViewConceptDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DashBoard\Pages\EnentsCallender.aspx.cs">
       <DependentUpon>EnentsCallender.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -452,12 +471,47 @@
     <Compile Include="DashBoard\Pages\TC\TcDashBoard.aspx.designer.cs">
       <DependentUpon>TcDashBoard.aspx</DependentUpon>
     </Compile>
+    <Compile Include="DashBoard\Pages\TC\UploadConceptNotes.aspx.cs">
+      <DependentUpon>UploadConceptNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\UploadConceptNotes.aspx.designer.cs">
+      <DependentUpon>UploadConceptNotes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\UploadPresentation.aspx.cs">
+      <DependentUpon>UploadPresentation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TC\UploadPresentation.aspx.designer.cs">
+      <DependentUpon>UploadPresentation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="DashBoard\Pages\TM\EnentsCallender.aspx.cs">
       <DependentUpon>EnentsCallender.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="DashBoard\Pages\TM\EnentsCallender.aspx.designer.cs">
       <DependentUpon>EnentsCallender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\TMDashBoard.aspx.cs">
+      <DependentUpon>TMDashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\TMDashBoard.aspx.designer.cs">
+      <DependentUpon>TMDashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\ViewConceptNotes.aspx.cs">
+      <DependentUpon>ViewConceptNotes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\ViewConceptNotes.aspx.designer.cs">
+      <DependentUpon>ViewConceptNotes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\ViewPresentation.aspx.cs">
+      <DependentUpon>ViewPresentation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard\Pages\TM\ViewPresentation.aspx.designer.cs">
+      <DependentUpon>ViewPresentation.aspx</DependentUpon>
     </Compile>
     <Compile Include="DashBoard\Pages\TM\TMDashBoard.aspx.cs">
       <DependentUpon>TMDashBoard.aspx</DependentUpon>
