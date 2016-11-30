@@ -160,7 +160,6 @@
     <Content Include="DashBoard\Pages\TM\TMDashBoard.aspx" />
     <Content Include="DashBoard\Pages\TM\ViewConceptNotes.aspx" />
     <Content Include="DashBoard\Pages\TM\ViewPresentation.aspx" />
-    <Content Include="DashBoard\Pages\TM\TMDashBoard.aspx" />
     <Content Include="DashBoard\Pages\TM\TmProfile.aspx" />
     <Content Include="DashBoard\TeamCoordinatorDashBoard.aspx" />
     <Content Include="FullCallender\fullcalendar.css" />
@@ -512,13 +511,6 @@
     </Compile>
     <Compile Include="DashBoard\Pages\TM\ViewPresentation.aspx.designer.cs">
       <DependentUpon>ViewPresentation.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TM\TMDashBoard.aspx.cs">
-      <DependentUpon>TMDashBoard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="DashBoard\Pages\TM\TMDashBoard.aspx.designer.cs">
-      <DependentUpon>TMDashBoard.aspx</DependentUpon>
     </Compile>
     <Compile Include="DashBoard\Pages\TM\TmProfile.aspx.cs">
       <DependentUpon>TmProfile.aspx</DependentUpon>
