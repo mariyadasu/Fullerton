@@ -10,6 +10,8 @@ using FullertonDAL;
 using FullertonBO;
 using System.Net.Mail;
 using System.Web.Services;
+using Fullerton.Utility;
+
 namespace Fullerton
 {
     public partial class Home : System.Web.UI.Page
@@ -127,46 +129,6 @@ namespace Fullerton
         }
         protected void btnForgot_Click(object sender, EventArgs e)
         {
-            try
-            {
-                string stremail = txtFPEmail.Text.Trim();
-                DataSet dsinstitute = objreg.GetStudentbyEmail(stremail);
-                if (dsinstitute.Tables[0].Rows.Count > 0)
-                {
-                    MailMessage Msg = new MailMessage();
-                    // Sender e-mail address.
-                    Msg.From = new MailAddress(stremail);
-                    // Recipient e-mail address.
-                    Msg.To.Add(stremail);
-                    Msg.Subject = "Your Password Details";
-                    Msg.Body = "Dear " + dsinstitute.Tables[0].Rows[0]["StudentName"] + ", <br/>Please check your Login Detailss<br/><br/>Your UserID: " + stremail + "<br/><br/>Your Password: " + dsinstitute.Tables[0].Rows[0]["Password"] + "<br/><br/>";
-                    Msg.IsBodyHtml = true;
-                    // your remote SMTP server IP.
-                    SmtpClient smtp = new SmtpClient();
-                    smtp.Host = "smtp.gmail.com";
-                    smtp.Port = 587;
-                    smtp.Credentials = new System.Net.NetworkCredential("ganapathi.power@gmail.com", "ganasahithi");
-                    smtp.EnableSsl = true;
-                    smtp.Send(Msg);
-                    //Msg = null;
-                    lblForgetMessage.Text = "Your Password Details Sent to your mail";
-                    // Clear the textbox valuess
-                    txtFPEmail.Text = "";
-                    
-                }
-                else
-                {
-                    lblForgetMessage.Text = "The Email you entered not exists.";
-                    txtFPEmail.Focus();
-                }
-
-                
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
             
         }
         private void clearControls(Panel PanelID)
@@ -188,7 +150,21 @@ namespace Fullerton
                 }
             }
         }
-        
-        
+
+        protected void btnForgotPwd_Click(object sender, EventArgs e)
+        {
+           DataSet ds= objreg.GetStudentbyEmail(txtFPEmailMobile.Text);
+
+            if (ds.Tables[0].Rows.Count < 1)
+                Response.Redirect("~/Home.aspx");
+
+            string FullName = ds.Tables[0].Rows[0]["FullName"].ToString();
+            string Pwd = ds.Tables[0].Rows[0]["Password"].ToString();
+
+            SendMails.SendAnEmail(txtFPEmailMobile.Text, SendMails.FORGOTPASSWORD_SUB,
+                string.Format(SendMails.FORGOTPASSWORD_BODY, FullName,txtFPEmailMobile.Text, Pwd));
+
+            Response.Redirect("~/Home.aspx");
+        }
     }
 }

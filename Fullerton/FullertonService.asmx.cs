@@ -1,4 +1,5 @@
-﻿using FullertonBO;
+﻿using Fullerton.Utility;
+using FullertonBO;
 using FullertonDAL;
 using System;
 using System.Collections.Generic;
@@ -32,7 +33,7 @@ namespace Fullerton
             var teams = _regDal.GetTeamsByInstitute(id);
 
             return GenerateOpetions(teams);
-            
+
         }
 
         private string GenerateOpetions(List<Team> teams)
@@ -54,7 +55,7 @@ namespace Fullerton
             return result;
         }
         [WebMethod]
-        public bool IsValidUser(string email,string password,string role)
+        public bool IsValidUser(string email, string password, string role)
         {
             UserBo objbo = new UserBo();
             objbo.EmailId = email.Trim();
@@ -88,6 +89,44 @@ namespace Fullerton
             objbo.Comments = CCommentsss.Trim();
             bool flag = _regDal.SaveContactUs(objbo);
             return flag;
+        }
+
+        [WebMethod]
+        public string SendOTP(string emailMobile, string isEmail, string existOTP)
+        {
+            if(string.IsNullOrEmpty(existOTP))
+            {
+                DataSet ds = _regDal.GetStudentbyEmail(emailMobile);
+                if (ds.Tables[0].Rows.Count < 1)
+                    return string.Empty;
+            }
+            
+            string OTP =  string.IsNullOrEmpty(existOTP)? RandomOTP(): existOTP;
+
+            if (string.IsNullOrEmpty(isEmail))
+                SendMails.SendAnEmail(emailMobile, SendMails.FORGOTPASSWORD_SUB_OTP,
+                    string.Format(SendMails.FORGOTPASSWORD_BODY_OTP, OTP));
+
+            return OTP;
+
+        }
+
+        private string RandomOTP()
+        {
+            char[] charArr = "0123456789".ToCharArray();
+            string strrandom = string.Empty;
+            Random objran = new Random();
+            int noofcharacters = Convert.ToInt32(5);
+            for (int i = 0; i < noofcharacters; i++)
+            {
+                int pos = objran.Next(1, charArr.Length);
+                if (!strrandom.Contains(charArr.GetValue(pos).ToString()))
+                    strrandom += charArr.GetValue(pos);
+                else
+                    i--;
+            }
+
+            return strrandom;
         }
     }
 }

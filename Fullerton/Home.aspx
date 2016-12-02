@@ -1417,9 +1417,9 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
                         <div class="dt-sc-hr-invisible-toosmall"></div>
                         <div class="dt-sc-one-half column first">
                             <article class="blog-entry animate" data-animation="fadeInLeft" data-delay="100">
-                                <div class="entry-thumb" style="float:none !important">
+                                <div class="entry-thumb" style="float: none !important">
                                     <a href="#">
-                                        <div class="entry-title" style="width:100% !important">
+                                        <div class="entry-title" style="width: 100% !important">
                                             <h5>ForIndianEntrepreneurs:Repechage is on
                                             </h5>
                                         </div>
@@ -1431,7 +1431,7 @@ File Specs: .ppt, .pptx or .pdf files only. Maximum File Size = 2 MB
                                     <div class="tags">
                                     </div>
                                 </div>
-                                <div class="entry-content" style="width:100% ; padding: 0% 5% 0% 28px !important">
+                                <div class="entry-content" style="width: 100%; padding: 0% 5% 0% 28px !important">
                                     <p>
                                         The word Repechage has French roots and literally translated, it means
 
@@ -1441,7 +1441,7 @@ contact sports primarily to provide a second chance to athletes who may
 
 have lost to eventual finalists due to random draws.
                                     </p>
-                                   <p>
+                                    <p>
                                         Though the concept of ‘repechage’ exists across various sports, Indians
 
 identify it the most with the sport of wrestling as repechage has helped
@@ -1452,15 +1452,15 @@ Kumar, Beijing, 2008 ; Yogeshwar Dutt, London, 2012 and Sakshi
 
 Malik, Rio, 2016).
                                     </p>
-                                     
+
                                 </div>
 
                                 <div class="dt-sc-toggle-frame">
                                     <a href="#" class="dt-sc-toggle">Read more  </a>
                                     <div class="dt-sc-toggle-content">
                                         <div class="block">
-                                             <p>
-                                               The whole concept of ‘repechage’ was introduced across sports where
+                                            <p>
+                                                The whole concept of ‘repechage’ was introduced across sports where
 
 random draws were made i.e. draws weren’t taken out basis the
 
@@ -1474,21 +1474,24 @@ prove his/her worth provided his ‘defeater’ reaches the finals of the
 
 competition.
                                             </p>
-                                      <p>
+                                            <p>
                                                 Extending the definition of ‘repechage’ to the generally accepted
 meaning of ‘second chance’, I find an eerie resemblance of this concept
 to today’s Indian start up ecosystem as well where highly capable
 founders leading competent companies are looking for their own
-version of repechage to prove their worth. </p>
-                                           <p> These founders and
+version of repechage to prove their worth.
+                                            </p>
+                                            <p>
+                                                These founders and
 companies are performing well but still need help in surviving because
 the hysteria of 2015 fund-raises led them to make a few mistakes and
 they need some time and money (largely to buy the time) to get back to
-basics and get their businesses back on track.
+basics and get their businesses back on track.
+
 
                                             </p>
                                             <p>
-                                              On one hand, a lot of successful Indian startups have been created
+                                                On one hand, a lot of successful Indian startups have been created
 through pivots which were nothing short of second chances; be it
 Flipkart (from a books e-tailer to an e-commerce player), Snapdeal
 (from a deals platform to an e-commerce marketplace), Freecharge
@@ -1496,18 +1499,20 @@ Flipkart (from a books e-tailer to an e-commerce player), Snapdeal
 Myntra (From on-demand gift personalization to the largest online
 apparel player). But on the other hand, I am also aware of quite a few
 companies that weren’t able to survive in spite of second (and in some
-cases, third) chances as well.
+cases, third) chances as well.
+
 
                                             </p>
                                             <p>
-                                               I thought through various situations where Companies have been able
+                                                I thought through various situations where Companies have been able
 to get this second chance and make it count as also of scenarios I was
 privy to where people couldn’t make it count. In my assessment, there
 were a few key ingredients that led to successes and have tried to list
-four key ingredients for such successes:
+four key ingredients for such successes:
+
                                             </p>
                                             <p>
-                                             - Potential and Opportunity: Though one could argue that both
+                                                - Potential and Opportunity: Though one could argue that both
 potential and a large opportunity are needed to get the first chance
 itself; but I think these two attributes take a very different dimension
 when a founder is looking to have that second chance at the business.
@@ -1523,7 +1528,8 @@ for companies that need rescuing) has become very sharp. This also
 stems from the fact that the young, untested, smart individuals now
 need to prove that they are capable entrepreneurs backed by strong
 teams and high execution abilities basis which they deserve the
-support.
+support.
+
                                             </p>
                                             <p>
                                                 - Sense of Timing: One of the most impressive things for me about
@@ -1544,7 +1550,8 @@ A’s and B’s as well as use avenues like Venture Debt as and when
 available to ensure the capital buffer is as strong as it can be. To me,
 planning ahead of what is immediately visible is a hallmark of a highquality
 entrepreneur which is why those are the founders who deserve
-the second chance (if they need it) more than others.
+the second chance (if they need it) more than others.
+
                                             </p>
                                             <p>
                                                 - Mental strength: Typically an Olympic wrestling competition in a
@@ -1562,7 +1569,8 @@ of founder friends who have undergone such a change in business idea
 and they strongly felt that being a founder is a very lonely place and
 when a founder needs to adapt his/her business to sync it with some
 external realities, it is a very difficult process mentally and people who
-are able to follow this process should certainly get one more chance.
+are able to follow this process should certainly get one more chance.
+
                                             </p>
                                             <p>
                                                 - Support System: One of the biggest factors that play a role in going
@@ -1586,7 +1594,8 @@ skills come to the fore at times like these because you need to walk the
 tight rope of managing difficult funding environment, keep employee
 morale high and stay engaged with investors in addition to ensuring
 that your dream stays solvent and lives longer while enduring a whole
-lot of heart burn and trouble.
+lot of heart burn and trouble.
+
                                             </p>
                                             <p>
                                                 With a mat-side view (using a wrestling parallel) to the Indian startup
@@ -1597,13 +1606,13 @@ many more successful companies to talk of over the next 12–15
 months. Wishing all the best to all the enterprising founders and look
 forward to many more successes.
                                             </p>
-                                             <p>
-                                               Anshu Prasher
+                                            <p>
+                                                Anshu Prasher
                                                 <br />
                                                 <img src="images/0-3CYZn_TBNMHywH71.jpg" width="150px" height="150px" />
                                             </p>
                                             <p>
-                                               Working with interesting Indian entrepreneurs as a venture debt provider with @InnoVenCap_IN ; Spend free time travelling, reading and listening to music
+                                                Working with interesting Indian entrepreneurs as a venture debt provider with @InnoVenCap_IN ; Spend free time travelling, reading and listening to music
                                             </p>
                                         </div>
                                     </div>
@@ -1612,9 +1621,9 @@ forward to many more successes.
                         </div>
                         <div class="dt-sc-one-half column">
                             <article class="blog-entry animate" data-animation="fadeInRight" data-delay="100">
-                                <div class="entry-thumb" style="float:none !important">
+                                <div class="entry-thumb" style="float: none !important">
                                     <a href="#">
-                                        <div class="entry-title" style="width:100% !important">
+                                        <div class="entry-title" style="width: 100% !important">
                                             <h5>How Startups can help Corporates battle the new Goliath
                                             </h5>
                                         </div>
@@ -1626,10 +1635,10 @@ forward to many more successes.
                                     <div class="tags">
                                     </div>
                                 </div>
-                                <div class="entry-content" style="width:100% ; padding: 0% 5% 0% 28px !important">
-                                  <p>Ajay Hattangdi</p>
+                                <div class="entry-content" style="width: 100%; padding: 0% 5% 0% 28px !important">
+                                    <p>Ajay Hattangdi</p>
                                     <p>
-                                      The Peter Principle was formulated by Canadian educator Laurence
+                                        The Peter Principle was formulated by Canadian educator Laurence
 Johnson Peter in the late 60s. The book by the same name was on the
 best seller list in 1969. Simply put, the Peter Principle explained that
 “managers tends to rise to their level of incompetence.” Peter not only
@@ -1637,20 +1646,23 @@ confirmed what everyone suspected—that bosses are dolts but also
 provided the rationale for it. Essentially, when someone excels at a job,
 that person gets promoted. And keeps getting promoted until the
 person attains a job that he or she is not very good at. Then the
-promotions stop. 
+promotions stop. 
+
                                     </p>
-                                  
+
                                 </div>
                                 <div class="dt-sc-toggle-frame">
                                     <a href="#" class="dt-sc-toggle">Read more  </a>
                                     <div class="dt-sc-toggle-content">
                                         <div class="block">
-                                            <p>That person has found his or her level of
-incompetence and stays there. Frustrating those that report to that
-person with his or her incompetence. Forever after…</p>
-                                             <img src="images/0-Xdsen948H0P3K66R.png" width="250px" height="250px" />
                                             <p>
-                                              Most elegant theories tend to be applicable to more areas than just its
+                                                That person has found his or her level of
+incompetence and stays there. Frustrating those that report to that
+person with his or her incompetence. Forever after…
+                                            </p>
+                                            <img src="images/0-Xdsen948H0P3K66R.png" width="250px" height="250px" />
+                                            <p>
+                                                Most elegant theories tend to be applicable to more areas than just its
 immediate field of application. In this regard, the Peter Principle seems
 to apply to companies just as it does to people. Take a look at the slide
 below produced recently by visualcapitalist.com. Notice how the
@@ -1659,16 +1671,17 @@ over the past 15 years. The difference between the current list and the
 older one gets more dramatic the further back we go.
                                             </p>
                                             <p>
-                                              At some point almost every one of the so called successful companies in
+                                                At some point almost every one of the so called successful companies in
 the past reached the level of their incompetence and stagnated at that
 level. They were then surpassed by other companies that have been
 more competitive or relevant to their environment. Similarly, the odds
 overwhelmingly suggest that most of the companies that we consider to
 be the superstars of today are destined to wither away at some point in
-the future.
+the future.
+
                                             </p>
                                             <p>
-                                              That the Peter Principle applies to companies as it does to individuals,
+                                                That the Peter Principle applies to companies as it does to individuals,
 all of whom seem destined to stare stagnation in the face at some point
 in their careers, is clear. But why a company as an “artificial person
 with perpetual succession” should have the same susceptibility to choke
@@ -1676,16 +1689,18 @@ as Peter’s unfortunate manager is less clear. In theory, a ‘company’ is
 the perfect survival machine capable of hiring new competent
 managers when the old ones reach their maximum level of
 competence. But there’s clearly something going on inside companies
-that makes them vulnerable to the same limitation as Peter’s manager.
-                                            </p>
-                                            <p>
-                                             Could it be that a company (unlike Peter’s manager) is locked into a
-specific industry in which it operates and its future is therefore tied to
-the fortunes of that industry?
+that makes them vulnerable to the same limitation as Peter’s manager.
 
                                             </p>
                                             <p>
-                                              The author of the article above for example, suggests that oil
+                                                Could it be that a company (unlike Peter’s manager) is locked into a
+specific industry in which it operates and its future is therefore tied to
+the fortunes of that industry?
+
+
+                                            </p>
+                                            <p>
+                                                The author of the article above for example, suggests that oil
 companies have fallen out in favour of tech companies due to a
 comparative difference in their industry dynamics. The oil industry has
 been pummelled by volatile prices as oil has moved from $30/bbl in
@@ -1694,36 +1709,41 @@ other hand have an inherent advantage in being able to achieve scale
 more quickly and economically and also gain competitive advantages
 through intellectual property that are difficult to supplant. So a
 company stuck in an industry with bleak prospects is pretty much
-doomed.
+doomed.
+
                                             </p>
                                             <p>
-                                              Could it also be that CEOs and Boards that run and manage companies
+                                                Could it also be that CEOs and Boards that run and manage companies
 are subject to the same human imperfections as Peter’s manager?
 Incompetent CEOs and Board Members drive their companies into the
-path of eventual decay before they get replaced.
+path of eventual decay before they get replaced.
+
                                             </p>
                                             <p>
-                                              Whatever the reason, it is somewhat harder to understand why
+                                                Whatever the reason, it is somewhat harder to understand why
 companies are not spurred into action more quickly when it is so much
 easier to determine when a company is beginning to fade. Falling stock
 prices in publicly held companies and declining valuations of privately
 held companies, at least the type that we deal with in the venture
 capital world, are much more obvious signs than those apparent to
 Peter’s manager who can live in denial of the less obvious signs of
-career decay.
+career decay.
+
                                             </p>
                                             <p>
-                                             But once the problem is diagnosed and accepted, whether by the
+                                                But once the problem is diagnosed and accepted, whether by the
 company in question or Peter’s manager, what course of action can be
-taken to remedy the situation?
+taken to remedy the situation?
+
                                             </p>
                                             <p>
-                                             At an individual level, Peter’s manager could begin to work on her skills
+                                                At an individual level, Peter’s manager could begin to work on her skills
 and take any number of skill improvement courses to up-tier her
 toolkit. Alternatively, she might choose to move to another company
 where her skills are more in synch with the requirements of the job. Or
 she might simply throw in the towel, declare victory, and take that long
-awaited world cruise that she has dreamt about her entire life.
+awaited world cruise that she has dreamt about her entire life.
+
                                             </p>
                                             <p>
                                                 Throwing in the towel is generally not an option for a company.
@@ -1736,20 +1756,23 @@ the towel
                                                 What about a company investing in improving the skill set of its people?
 After all, a company is simply a collection of people. Large companies
 have fairly extensive employee training programs but the numbers
-show that that clearly isn’t working.
+show that that clearly isn’t working.
+
                                             </p>
                                             <p>
                                                 One way could be changing tracks to move towards better prospects as
 Peter’s manager did by changing companies where her existing skills
 were more relevant. What if companies saw better prospects in new
 areas and changed tracks or acquired new skills and capabilities
-through acquisitions?
+through acquisitions?
+
                                             </p>
                                             <p>
                                                 Take a look at the table again. It isn’t by accident that many of the tech
 companies in the 2016 list ended up looking very different than how
 they initially started out. Amazon started out as an online bookstore for
-example. This, however, is not unique to tech companies.
+example. This, however, is not unique to tech companies.
+
                                             </p>
                                             <p>
                                                 Berkshire Hathaway was a textile manufacturing company when
@@ -1761,7 +1784,8 @@ businesses activities including confectionaries, property and casualty
 insurance, utilities and energy, freight rail transportation, finance,
 manufacturing, retailing and jewellery sales. The reward? Berkshire
 Hathaway continues to remain in the top 10 list of the most valuable
-global companies in 2016.
+global companies in 2016.
+
                                             </p>
                                             <p>
                                                 Another way to improve a company’s capacity to react to changes in the
@@ -1770,7 +1794,8 @@ through acquisitions. Berkshire Hathaway and many of the tech
 companies in the 2016 list flourished not only by being nimble in
 spotting and pivoting towards new opportunities but also keeping their
 skill repertoire current by acquiring new businesses and reinventing
-themselves constantly.
+themselves constantly.
+
                                             </p>
                                             <p>
                                                 This is where it comes home for us at InnoVen Capital. Our work has us
@@ -1781,7 +1806,8 @@ hopefully go on to fuel innovation and trigger fresh perspectives as part
 of other companies. Closer home, Snapdeal buying FreeCharge and
 Myntra being acquired by Flipkart, are both examples of companies
 taking the acquisition route to acquire new capabilities. Forward, up
-and to the right. Never standing in the same place.
+and to the right. Never standing in the same place.
+
                                             </p>
                                             <p>
                                                 We are privileged to have a ringside view into how companies are
@@ -1792,13 +1818,13 @@ up!
                                     </div>
                             </article>
                         </div>
-                          <div class="dt-sc-hr-invisible-toosmall"></div>
+                        <div class="dt-sc-hr-invisible-toosmall"></div>
                         <div class="dt-sc-one-half column first">
                             <article class="blog-entry animate" data-animation="fadeInLeft" data-delay="100">
-                                <div class="entry-thumb" style="float:none !important">
+                                <div class="entry-thumb" style="float: none !important">
                                     <a href="#">
-    
-                                        <div class="entry-title" style="width:100% !important">
+
+                                        <div class="entry-title" style="width: 100% !important">
                                             <h5>If you meet a (failing) Startup on the road, KILL IT!
                                             </h5>
                                         </div>
@@ -1810,10 +1836,11 @@ up!
                                     <div class="tags">
                                     </div>
                                 </div>
-                                <div class="entry-content" style="width:100% ; padding: 0% 5% 0% 28px !important">
+                                <div class="entry-content" style="width: 100%; padding: 0% 5% 0% 28px !important">
                                     <p>
-                                      Evolution by means of selection is one of the most elegant explanations in science. Organisms with inherited characteristics that are best suited to the environment are more likely to survive and have successors that in turn possess those same characteristics that favor their odds of survival. This is a virtuous cycle and these “favorable” characteristics accumulate over time. In short, those that are best adapted to the environment will thrive, and those that are not adaptable do not survive. It accounts for all of the designs of the natural world around us. With due apologies to Mr. Churchill, never was so much owed by so many to one explanation.</p>
-                                   
+                                        Evolution by means of selection is one of the most elegant explanations in science. Organisms with inherited characteristics that are best suited to the environment are more likely to survive and have successors that in turn possess those same characteristics that favor their odds of survival. This is a virtuous cycle and these “favorable” characteristics accumulate over time. In short, those that are best adapted to the environment will thrive, and those that are not adaptable do not survive. It accounts for all of the designs of the natural world around us. With due apologies to Mr. Churchill, never was so much owed by so many to one explanation.
+                                    </p>
+
                                 </div>
 
                                 <div class="dt-sc-toggle-frame">
@@ -1821,33 +1848,33 @@ up!
                                     <div class="dt-sc-toggle-content">
                                         <div class="block">
                                             <p>
-                                        But for Evolution to work its magic, the inefficient must be taken out of the gene pool.
-                                    </p>
-                                     <p>
-                                               Using this same logic, inefficient companies need to be weeded out to make way for better variants. Founders that learn from their mistakes go on to start new companies that are, hopefully, improvements over the failed ones. They have different skills and fresh approaches. If these refinements work, the new company is well on its way to achieving success. Those that don’t…lather, rinse and repeat. Better luck the next time around!
+                                                But for Evolution to work its magic, the inefficient must be taken out of the gene pool.
                                             </p>
                                             <p>
-                                               This process of killing the inefficient company is easy in countries like the US where it takes just a few days to shut down a company that has failed. In India however, the process of shutting down a company can take up several years. In fact, it takes multiples more of time, cost and effort to shut a company in India than it does to start one.
+                                                Using this same logic, inefficient companies need to be weeded out to make way for better variants. Founders that learn from their mistakes go on to start new companies that are, hopefully, improvements over the failed ones. They have different skills and fresh approaches. If these refinements work, the new company is well on its way to achieving success. Those that don’t…lather, rinse and repeat. Better luck the next time around!
+                                            </p>
+                                            <p>
+                                                This process of killing the inefficient company is easy in countries like the US where it takes just a few days to shut down a company that has failed. In India however, the process of shutting down a company can take up several years. In fact, it takes multiples more of time, cost and effort to shut a company in India than it does to start one.
 
                                             </p>
                                             <p>
-                                               One problem is bureaucracy. Think of all the paperwork to be filed, the tax and court clearances to be obtained before a company can be dissolved.
+                                                One problem is bureaucracy. Think of all the paperwork to be filed, the tax and court clearances to be obtained before a company can be dissolved.
 
                                             </p>
                                             <p>
-                                             Another problem is culture. It is considered a shameful admission of failure for an Indian entrepreneur to shut down her company. The Architect from the Hollywood movie The Matrix could almost be referring to promoters of failed Indian startups as he says in a grave voice “there are levels of survival that we are prepared to accept”. Whatever the reason, companies that should have no business (pardon the pun) staying alive quietly morph into the living dead. Inefficient companies are a drain on resources and India should have a low tolerance for companies that squander precious innovation capital and intellectual bandwidth.
+                                                Another problem is culture. It is considered a shameful admission of failure for an Indian entrepreneur to shut down her company. The Architect from the Hollywood movie The Matrix could almost be referring to promoters of failed Indian startups as he says in a grave voice “there are levels of survival that we are prepared to accept”. Whatever the reason, companies that should have no business (pardon the pun) staying alive quietly morph into the living dead. Inefficient companies are a drain on resources and India should have a low tolerance for companies that squander precious innovation capital and intellectual bandwidth.
                                             </p>
                                             <p>
-                                              Legislation can change the first problem. But who and what will change the attitude?
+                                                Legislation can change the first problem. But who and what will change the attitude?
                                             </p>
                                             <p>
                                                 Best Regards,
                                                 <br />
-                                             Ajay Hattangdi
+                                                Ajay Hattangdi
                                                 <br />
                                                 <img src="images/0-GyNikxkYXM0Dpwci.jpg" width="150px" height="150px" />
                                             </p>
-                                           
+
                                         </div>
                                     </div>
                                 </div>
@@ -1855,10 +1882,10 @@ up!
                         </div>
                         <div class="dt-sc-one-half column">
                             <article class="blog-entry animate" data-animation="fadeInRight" data-delay="100">
-                                <div class="entry-thumb" style="float:none !important">
+                                <div class="entry-thumb" style="float: none !important">
                                     <a href="#">
-                                        
-                                        <div class="entry-title" style="width:100% !important">
+
+                                        <div class="entry-title" style="width: 100% !important">
                                             <h5>Reification — Fallacy of Misplaced Concreteness in the world of Start-ups
                                             </h5>
                                         </div>
@@ -1870,27 +1897,27 @@ up!
                                     <div class="tags">
                                     </div>
                                 </div>
-                                <div class="entry-content" style="width:100% ; padding: 0% 5% 0% 28px !important">
-                                   Recently I started reading a book called “Phantoms in the Brain” written by Dr. VS Ramachandran where there was a reference to the Fallacy of Misplaced Concreteness. To humorously explain this phenomenon, a visitor to the Dinosaur exhibit in the museum was speculating about the age of the specimen when the janitor told him that he knew that it was exactly 60 million and 3 years old! The visitor was stunned with the answer and asked for an explanation to which the janitor said that when he joined the museum three years ago, somebody had told him that the specimen was 60 million years old!
+                                <div class="entry-content" style="width: 100%; padding: 0% 5% 0% 28px !important">
+                                    Recently I started reading a book called “Phantoms in the Brain” written by Dr. VS Ramachandran where there was a reference to the Fallacy of Misplaced Concreteness. To humorously explain this phenomenon, a visitor to the Dinosaur exhibit in the museum was speculating about the age of the specimen when the janitor told him that he knew that it was exactly 60 million and 3 years old! The visitor was stunned with the answer and asked for an explanation to which the janitor said that when he joined the museum three years ago, somebody had told him that the specimen was 60 million years old!
                                     
                                 </div>
                                 <div class="dt-sc-toggle-frame">
                                     <a href="#" class="dt-sc-toggle">Read more  </a>
                                     <div class="dt-sc-toggle-content">
                                         <div class="block">
-                                          <p>
-                                         This got me thinking about the function of concreteness in ideas for entrepreneurs or in other words, the importance of the ability to pivot a business depending on various circumstances (external and internal). The intuitive expectation for most people is to have stability of vision, strategy and tactics to achieve success. This could apply when the rules of the game have been established and competition is within fairly defined parameters. This does not apply when the game itself is getting created along with the players. This is usually the scenario most Indian entrepreneurs find themselves in, especially in high growth, innovative segments. There is rarely a body of knowledge to help guide them along the way and the path of discovery often entails significant revamp of fundamental ideas.
-                                            </p>
-                                      
                                             <p>
-                                            We have seen numerous examples of well pivoted companies like Snapdeal (discounting/couponing to ecommerce marketplace) and Collectabillia (celebrity memorabilia to brand commerce) among others. For entrepreneurs, the important thing to keep in mind is that the core idea with which a business is started need not be the winning formula. I am not advocating pivoting as a frequent strategy as that is not a positive indication about the team in its inherent ability to understand their field of work. However, being wedded to a core concept which has benefits of intense focus and a burning passion to make it work should also be tempered with an appropriate evaluation framework. How long should one give a core concept before the product-market fit is established and validated externally? If the initial discovery phase is taking longer than 18 months, it often makes it difficult for further recovery as the initial fuel in the tank would have been consumed by then.
+                                                This got me thinking about the function of concreteness in ideas for entrepreneurs or in other words, the importance of the ability to pivot a business depending on various circumstances (external and internal). The intuitive expectation for most people is to have stability of vision, strategy and tactics to achieve success. This could apply when the rules of the game have been established and competition is within fairly defined parameters. This does not apply when the game itself is getting created along with the players. This is usually the scenario most Indian entrepreneurs find themselves in, especially in high growth, innovative segments. There is rarely a body of knowledge to help guide them along the way and the path of discovery often entails significant revamp of fundamental ideas.
+                                            </p>
+
+                                            <p>
+                                                We have seen numerous examples of well pivoted companies like Snapdeal (discounting/couponing to ecommerce marketplace) and Collectabillia (celebrity memorabilia to brand commerce) among others. For entrepreneurs, the important thing to keep in mind is that the core idea with which a business is started need not be the winning formula. I am not advocating pivoting as a frequent strategy as that is not a positive indication about the team in its inherent ability to understand their field of work. However, being wedded to a core concept which has benefits of intense focus and a burning passion to make it work should also be tempered with an appropriate evaluation framework. How long should one give a core concept before the product-market fit is established and validated externally? If the initial discovery phase is taking longer than 18 months, it often makes it difficult for further recovery as the initial fuel in the tank would have been consumed by then.
                                             </p>
                                             <p>
-                                              The identity of a business is important to maintain especially when technology product companies are trying to make the leap into providing a SaaS (Software as a service) offering or a B2B enterprise attempting to transform into a B2C provider. These are fundamental changes which require the appropriate modification to the DNA of the start-up as well. The outlook needs to be different, methodology of assessment varies and all stakeholders need to be aligned with such massive transformation. It is not about dedicating a few sales resources to a small project but evaluating a core strategic shift which will impact valuation and overall success of the enterprise. Sometimes, investors guide companies into such avenues if the current path is not fulfilling its potential or if there is an inherent challenge in market adoption. For example a tech product company selling to bulge bracket clients requires the appropriate sales force with heavyweights having the capability of opening the right doors. This also entails a period of cash burn before revenues catch up with costs and implies that investors need to be supportive of such measures. Without this support, it may be better for the company to focus on lower hanging fruit with smaller revenues per client and also necessitating a lighter version of the product which may in turn make it possible for the company to provide a platform as a service instead of licensing the product with a protracted implementation phase.
+                                                The identity of a business is important to maintain especially when technology product companies are trying to make the leap into providing a SaaS (Software as a service) offering or a B2B enterprise attempting to transform into a B2C provider. These are fundamental changes which require the appropriate modification to the DNA of the start-up as well. The outlook needs to be different, methodology of assessment varies and all stakeholders need to be aligned with such massive transformation. It is not about dedicating a few sales resources to a small project but evaluating a core strategic shift which will impact valuation and overall success of the enterprise. Sometimes, investors guide companies into such avenues if the current path is not fulfilling its potential or if there is an inherent challenge in market adoption. For example a tech product company selling to bulge bracket clients requires the appropriate sales force with heavyweights having the capability of opening the right doors. This also entails a period of cash burn before revenues catch up with costs and implies that investors need to be supportive of such measures. Without this support, it may be better for the company to focus on lower hanging fruit with smaller revenues per client and also necessitating a lighter version of the product which may in turn make it possible for the company to provide a platform as a service instead of licensing the product with a protracted implementation phase.
 
                                             </p>
                                             <p>
-                                               Founders need to be malleable to change but there still needs to be a very high level of conviction in whatever strategy is being adopted. The key is to have a reasonable and precise evaluation timeframe wherein the founders will take stock along with investors (if any) and decide whether the path is working. The difficulty in retaining objectivity in these situations sometimes makes it necessary to seek relevant external counsel to understand if the idea and progress till date is creating value. This value is across all stakeholders — investors need to believe there is a strong future for the company as well as the employees and clients who have to resonate with the confidence that the product or service really works. Typically, this gets established when companies raise follow on rounds with external participation as the best proof is one that can be encashed! Clearly, pivoting is not aspirational but is an important weapon in the founder’s armoury to be used only if absolutely necessary. Success is often an outcome of overcoming adversity and recognition of the extent of change required is as important as the ability to change.
+                                                Founders need to be malleable to change but there still needs to be a very high level of conviction in whatever strategy is being adopted. The key is to have a reasonable and precise evaluation timeframe wherein the founders will take stock along with investors (if any) and decide whether the path is working. The difficulty in retaining objectivity in these situations sometimes makes it necessary to seek relevant external counsel to understand if the idea and progress till date is creating value. This value is across all stakeholders — investors need to believe there is a strong future for the company as well as the employees and clients who have to resonate with the confidence that the product or service really works. Typically, this gets established when companies raise follow on rounds with external participation as the best proof is one that can be encashed! Clearly, pivoting is not aspirational but is an important weapon in the founder’s armoury to be used only if absolutely necessary. Success is often an outcome of overcoming adversity and recognition of the extent of change required is as important as the ability to change.
                                             </p>
                                             <p>
                                                 There are some challenges that one needs to be wary about. FinTech start-ups tend to spend a lot of resources in marketing efforts and convincing prospective customers about the product. Instead, identifying pain areas and developing customised solutions for specific consumer groups would be a more logical solution. The research may be time-consuming, but is crucial for successful adoption. Many FinTech start-ups are self-funded. Angel or early stage investors are scarce in the financial services industry and hence there is a need for industry experts to promote and encourage them. 
@@ -2052,11 +2079,18 @@ up!
                                 </div>
                                 <asp:Label ID="lblForgetMessage" runat="server" Font-Bold="true" ForeColor="Green"></asp:Label>
                                 <div class="email-login">
-                                    <div class="u-form-group">
-                                        <asp:TextBox ID="txtFPEmail" runat="server" placeholder="User Id" />
+                                    <div class="form-group forgot-popup">
+                                        <asp:TextBox ID="txtFPEmailMobile" CssClass="form-control-forgot" runat="server" placeholder="Email or Mobile" />
+                                        <asp:TextBox ID="txtOtp" CssClass="form-control-forgot"  runat="server" placeholder="OTP" />
+                                        <asp:Label ID="lblMsg" runat="server" Style="color: red"></asp:Label>
+                                        <asp:HiddenField ID="hdnOTP" runat="server" Value=""></asp:HiddenField>
                                     </div>
-                                    <div class="u-form-group">
-                                        <asp:Button ID="btnForgot" runat="server" Text="Submit" OnClientClick="return ForgotValidate(this);" OnClick="btnForgot_Click" />
+                                    <div class="form-group forgot-popup">
+                                        <asp:Button ID="btnForgot" CssClass="button-control-forgot" runat="server" Text="Reset Password" />
+                                        <asp:Button ID="btnVerify" CssClass="button-control-forgot" runat="server" Text="Verify" OnClick="btnForgotPwd_Click" />
+                                       
+                                        <asp:Button ID="btnResend" CssClass="button-control-forgot" runat="server" Text="Resend" /> 
+                                        <asp:Button ID="btnForgotPwd" runat="server" Text="Submit" Style="visibility: hidden; display: none;" OnClick="btnForgotPwd_Click" />
                                     </div>
 
                                 </div>
@@ -2069,28 +2103,159 @@ up!
         </div>
     </div>
 
+    <style>
+        .form-control-forgot {
+            height: 34px;
+            line-height: 1.42857143;
+            border: #ddd 1px solid !important;
+        }
 
+        .button-control-forgot {
+            background: #fcdb34;
+            border: #fcdb34;
+            margin:5px 1px !important;
+        }
 
-
-    <%--<script src="DashBoard/Jscripts/jquery-1.12.4.js"></script>
-    <script src="DashBoard/Jscripts/jquery-ui-1.12.1.js"></script>
-    <script src="DashBoard/Jscripts/bootstrap.min-3.3.7.js"></script>--%>
-
-
+        .forgot-popup{
+            margin: 0px 70px !important;
+        }
+    </style>
 
     <script type="text/javascript">
 
-        function ForgotValidate(btnsubmit) {
-            debugger;
-            var UserEmail = document.getElementById("<%=txtFPEmail.ClientID%>");
-            if (UserEmail.value == "") {
-                alert("Please enter Email.");
-                UserEmail.focus();
-                return false;
-            }
-        }
 
         jQuery(document).ready(function () {
+
+            jQuery('.forgot-password').click(function () {
+                jQuery("#txtFPEmailMobile").attr("style", "display:block");
+                jQuery("#btnForgot").attr("style", "display:block");
+                jQuery("#btnVerify").attr("style", "display:none");
+                jQuery("#btnResend").attr("style", "display:none");
+                jQuery("#txtOtp").attr("style", "display:none");
+                jQuery("#lblMsg")[0].innerText = "";
+                jQuery("#hdnOTP").val("");
+                jQuery("#txtFPEmailMobile").val("");
+            });
+
+            jQuery('#btnForgot').click(function () {
+                debugger;
+                var emaimobile = jQuery("#txtFPEmailMobile").val();
+
+                if (emaimobile == "") {
+                    jQuery("#lblMsg")[0].innerText = "Please enter email/mobile";
+                    return false;
+                }
+
+                jQuery.ajax({
+                    type: "POST",
+                    url: "/FullertonService.asmx/SendOTP",
+                    contentType: "application/json; charset=utf-8",
+                    type: 'POST',
+                    dataType: 'JSON',
+                    async: false,
+                    data: JSON.stringify({ emailMobile: emaimobile, isEmail: "", existOTP: "" }),
+                    success: function (data) {
+                        debugger;
+
+                        if (data.d == "") {
+                            jQuery("#lblMsg")[0].innerText = "Invalid email/mobile";
+
+                            return false;
+                        }
+                        else {
+
+                            jQuery("#btnResend").attr("style", "display:none");
+                            setTimeout(function () {
+                                jQuery("#btnResend").attr("style", "display:block");
+                                jQuery("#btnResend").prop('disabled', false);
+                            }, 10000);
+
+                            jQuery("#hdnOTP").val(data.d)
+
+                            jQuery("#txtFPEmailMobile").attr("style", "display:none");
+                            jQuery("#btnForgot").attr("style", "display:none");
+                            jQuery("#btnVerify").attr("style", "display:block");
+                            //jQuery("#btnResend").attr("style", "display:block");
+                            jQuery("#txtOtp").attr("style", "display:block");
+                            jQuery("#lblMsg")[0].innerText = "";
+                            jQuery("#txtOtp").val("");
+
+                            return false;
+                        }
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        debugger;
+                        return false;
+                    }
+                });
+                return false;
+            });
+
+
+            jQuery('#btnResend').click(function () {
+                debugger;
+                var emaimobile = jQuery("#txtFPEmailMobile").val();
+                var existOTP = jQuery("#hdnOTP").val();
+
+                jQuery.ajax({
+                    type: "POST",
+                    url: "/FullertonService.asmx/SendOTP",
+                    contentType: "application/json; charset=utf-8",
+                    type: 'POST',
+                    dataType: 'JSON',
+                    async: false,
+                    data: JSON.stringify({ emailMobile: emaimobile, isEmail: "", existOTP: existOTP }),
+                    success: function (data) {
+                        debugger;
+                        jQuery("#btnResend").attr("style", "display:none");
+                        setTimeout(function () {
+                            jQuery("#btnResend").attr("style", "display:block");
+
+                        }, 10000);
+
+                        jQuery("#hdnOTP").val(data.d)
+                        jQuery("#txtFPEmailMobile").attr("style", "display:none");
+                        jQuery("#btnForgot").attr("style", "display:none");
+                        jQuery("#btnVerify").attr("style", "display:block");
+                        //jQuery("#btnResend").attr("style", "display:block");
+                        jQuery("#txtOtp").attr("style", "display:block");
+                        jQuery("#lblMsg")[0].innerText = "";
+                        jQuery("#txtOtp").val("");
+
+                        return false;
+                    },
+                    error: function (XMLHttpRequest, textStatus, errorThrown) {
+                        debugger;
+                        return false;
+                    }
+                });
+                return false;
+
+            });
+
+
+            jQuery('#btnVerify').click(function () {
+                var txtOtp = jQuery("#txtOtp").val();
+                var hdnOTP = jQuery("#hdnOTP").val();
+                debugger;
+
+                if (txtOtp == "") {
+                    jQuery("#lblMsg")[0].innerText = "Please enter OTP";
+
+                    return false;
+                }
+                if (txtOtp != hdnOTP) {
+                    jQuery("#lblMsg")[0].innerText = "Invalid OTP";
+
+                    return false;
+                }
+
+
+                alert("Please check email for password");
+                jQuery("#<%=btnForgotPwd.ClientID%>").trigger("click");
+                return true;
+            });
+
 
             jQuery("#btnsubmit").click(function () {
 
@@ -2130,11 +2295,10 @@ up!
                             return false;
                         }
                         else {
+
                             jQuery("#<%=btnnidden.ClientID%>").trigger("click");
                         return true;
-
                     }
-
                     },
                     error: function (XMLHttpRequest, textStatus, errorThrown) {
                         debugger;
@@ -2200,15 +2364,6 @@ up!
             });
         });
     </script>
-    <script type="text/javascript">
-        //$('#main-menu').onePageNav({
-        //    currentClass: 'current_page_item',
-        //    filter: ':not(.external)',
-        //    scrollSpeed: 750,
-        //    scrollOffset: 73
-        //});
-    </script>
-
 
 </body>
 </html>

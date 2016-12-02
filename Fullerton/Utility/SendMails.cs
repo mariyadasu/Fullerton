@@ -17,6 +17,13 @@ namespace Fullerton.Utility
 
         public static string REGISTRATION_SUB_IC = ":: New User Registration ::";
         public static string REGISTRATION_BODY_IC = "Dear {0}, \n\n {1} {2} has registered your institute please activate.";
+
+        public static string FORGOTPASSWORD_SUB_OTP = ":: Request for forgot password OTP ::";
+        public static string FORGOTPASSWORD_BODY_OTP = "Dear Member, \n\n {0} is your OTP";
+
+        public static string FORGOTPASSWORD_SUB = ":: Request for credentials ::";
+        public static string FORGOTPASSWORD_BODY = "Dear {0}, \n\n please find the below mentioned credentials. \n\n Email Id: {1} \n\nPassword: {2}";
+
         public static void SendAnEmail(string toEmail, string subject, string body)
         {
             try
