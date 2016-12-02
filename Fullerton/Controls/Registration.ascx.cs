@@ -8,7 +8,7 @@ using System.Web;
 using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using static FullertonBO.UserBo;
+using FullertonBO;
 
 namespace Fullerton.Controls
 {
